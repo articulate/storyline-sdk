@@ -1,0 +1,54 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="components/buttons/ButtonBackground Up" itemID="50a572f5-0000164c" scaleGridLeft="10.9" scaleGridRight="58.55" scaleGridTop="6.15" scaleGridBottom="24.55" lastModified="1380065059">
+  <timeline>
+    <DOMTimeline name="ButtonBackground Up">
+      <layers>
+        <DOMLayer name="Border" color="#4FFF4F" locked="true" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal" pixelHinting="true">
+                        <fill>
+                          <SolidColor color="#B0B0B0"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge strokeStyle="1" edges="!1400 116S4[1400 0 1282 0!1282 0|118 0!118 0[0 0 0 116!0 116|0 484!0 484[0 600 118 600!118 600|1282 600!1282 600[1400 600 1400 484!1400 484|1400 116"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Fill" color="#9933CC" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <LinearGradient>
+                        <matrix>
+                          <Matrix a="0" b="-0.018310546875" c="0.0186614990234375" d="0" tx="35" ty="15"/>
+                        </matrix>
+                        <GradientEntry color="#C7C7C7" ratio="0"/>
+                        <GradientEntry color="#F5F5F5" ratio="1"/>
+                      </LinearGradient>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle0="1" edges="!1400 484S1|1400 116!1400 116[1400 0 1282 0!1282 0|118 0!118 0[0 0 0 116!0 116|0 484!0 484[0 600 118 600!118 600|1282 600!1282 600[1400 600 1400 484"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

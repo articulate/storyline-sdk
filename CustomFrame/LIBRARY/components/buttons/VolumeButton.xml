@@ -1,0 +1,228 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="components/buttons/VolumeButton" itemID="52432205-00000422" linkageExportForAS="true" linkageClassName="customframe.components.buttons.VolumeButton" lastModified="1381172678" lastUniqueIdentifier="22">
+  <timeline>
+    <DOMTimeline name="VolumeButton" currentFrame="2">
+      <layers>
+        <DOMLayer name="Labels" color="#FF800A" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" name="Up" labelType="name" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="1" name="Over" labelType="name" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="2" name="Down" labelType="name" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="AS" color="#9933CC" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <Actionscript>
+                <script><![CDATA[stop();]]></script>
+              </Actionscript>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="1" keyMode="9728">
+              <Actionscript>
+                <script><![CDATA[stop();]]></script>
+              </Actionscript>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="2" keyMode="9728">
+              <Actionscript>
+                <script><![CDATA[stop();]]></script>
+              </Actionscript>
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Icon Max" color="#808080" locked="true" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="3" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="assets/icons/icon_volume_max" name="iconMax" centerPoint3DX="13.5" centerPoint3DY="13">
+                  <matrix>
+                    <Matrix tx="10" ty="8"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="3.5" y="5"/>
+                  </transformationPoint>
+                  <filters>
+                    <DropShadowFilter angle="90" blurX="0" blurY="0" color="#FFFFFF" distance="1"/>
+                  </filters>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Icon High" color="#4FFFFF" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="3" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="assets/icons/icon_volume_high" name="iconHigh" centerPoint3DX="13.5" centerPoint3DY="13">
+                  <matrix>
+                    <Matrix tx="10" ty="8"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="3.5" y="5"/>
+                  </transformationPoint>
+                  <filters>
+                    <DropShadowFilter angle="90" blurX="0" blurY="0" color="#FFFFFF" distance="1"/>
+                  </filters>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Icon Low" color="#FF4FFF" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="3" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="assets/icons/icon_volume_low" name="iconLow" centerPoint3DX="13.5" centerPoint3DY="13">
+                  <matrix>
+                    <Matrix tx="10" ty="8"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="3.5" y="5"/>
+                  </transformationPoint>
+                  <filters>
+                    <DropShadowFilter angle="90" blurX="0" blurY="0" color="#FFFFFF" distance="1"/>
+                  </filters>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Icon Min" color="#9933CC" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="3" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="assets/icons/icon_volume_min" name="iconMin" centerPoint3DX="13.5" centerPoint3DY="13">
+                  <matrix>
+                    <Matrix tx="10" ty="8"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="3.5" y="5"/>
+                  </transformationPoint>
+                  <filters>
+                    <DropShadowFilter angle="90" blurX="0" blurY="0" color="#FFFFFF" distance="1"/>
+                  </filters>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Slider Button" color="#4FFF4F" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="3" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="components/buttons/VolumeSliderButton" name="sliderButton" centerPoint3DX="39.35" centerPoint3DY="-30.1">
+                  <matrix>
+                    <Matrix tx="6.5" ty="-59"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="31.4" y="28.9"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Slider Track" color="#FF4F4F" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="3" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="components/buttons/VolumeSliderTrack" name="sliderTrack" centerPoint3DX="14.95" centerPoint3DY="-30.1">
+                  <matrix>
+                    <Matrix tx="12" ty="-59"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="2.95" y="28.9"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Extended Background" color="#9933CC" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="2" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="2" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal" pixelHinting="true">
+                        <fill>
+                          <SolidColor color="#B0B0B0"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge strokeStyle="1" edges="!480 -1412|117 -1412!117 -1412[-3 -1412 -3 -1292!-3 -1292|-3 480!-3 480[-3 600 117 600!117 600|480 600!480 600[600 600 600 480!600 480|600 -1292!600 -1292[600 -1412 480 -1412"/>
+                    <Edge cubics="!600 -1292(;600,-1372 560,-1412 480,-1412q600 -1292Q600 -1412q480 -1412);"/>
+                    <Edge cubics="!480 -1412(;480,-1412 117,-1412 117,-1412q480 -1412 117 -1412);"/>
+                    <Edge cubics="!117 600(;117,600 480,600 480,600q117 600 480 600);"/>
+                    <Edge cubics="!600 480(;600,480 600,-1292 600,-1292q600 480 600 -1292);"/>
+                    <Edge cubics="!-3 -1292(;-3,-1292 -3,480 -3,480q-3 -1292 -3 480);"/>
+                    <Edge cubics="!117 -1412(;37,-1412 -3,-1372 -3,-1292q117 -1412Q-3 -1412q-3 -1292);"/>
+                    <Edge cubics="!480 600(;560,600 600,560 600,480q480 600Q600 600q600 480);"/>
+                    <Edge cubics="!-3 480(;-3,560 37,600 117,600q-3 480Q-3 600q117 600);"/>
+                  </edges>
+                </DOMShape>
+                <DOMSymbolInstance libraryItemName="components/buttons/VolumeButton Expanded border" centerPoint3DX="14.9" centerPoint3DY="-20.3">
+                  <matrix>
+                    <Matrix tx="-0.15" ty="-70.6"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="15.05" y="50.3"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="components/buttons/VolumeButton Expanded background" centerPoint3DX="14.9" centerPoint3DY="-20.3">
+                  <matrix>
+                    <Matrix tx="-0.15" ty="-70.6"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="15.05" y="50.3"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Background" color="#4FFF4F" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="2" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="components/buttons/ButtonBackground Up" name="backgroundUp" centerPoint3DX="15" centerPoint3DY="15">
+                  <matrix>
+                    <Matrix a="0.428756713867188"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="35.45" y="15.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="2" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="components/buttons/ButtonBackground Over" name="BackgroundUp" centerPoint3DX="15" centerPoint3DY="15">
+                  <matrix>
+                    <Matrix a="0.428756713867188"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="35.45" y="15.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

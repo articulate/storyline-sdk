@@ -1,0 +1,21 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="components/scrollbar/Scrollbar" itemID="5243229d-0000042b" linkageExportForAS="true" linkageClassName="customframe.components.scrollbar.CustomScrollbar" lastModified="1381942155" lastUniqueIdentifier="5" isSpriteSubclass="true">
+  <timeline>
+    <DOMTimeline name="Scrollbar">
+      <layers>
+        <DOMLayer name="Track" color="#FF800A" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="components/scrollbar/ScrollTrack" name="track" centerPoint3DX="7.5" centerPoint3DY="100">
+                  <transformationPoint>
+                    <Point x="7.5" y="100"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

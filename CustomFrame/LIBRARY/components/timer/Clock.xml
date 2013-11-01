@@ -1,0 +1,601 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="components/timer/Clock" itemID="524322dc-00000433" linkageExportForAS="true" linkageClassName="customframe.components.timer.Clock" lastModified="1381872282" lastUniqueIdentifier="34">
+  <timeline>
+    <DOMTimeline name="Clock">
+      <layers>
+        <DOMLayer name="1-15" color="#FF800A" locked="true" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="components/timer/MinuteSlice" name="Minute1" centerPoint3DX="5.2" centerPoint3DY="50">
+                  <transformationPoint>
+                    <Point x="5.2" y="50"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="components/timer/MinuteSlice" name="Minute2" centerPoint3DX="-0.1" centerPoint3DY="50.3">
+                  <matrix>
+                    <Matrix a="0.9945068359375" b="0.104522705078125" c="-0.104522705078125" d="0.9945068359375"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="5.15" y="50.05"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="components/timer/MinuteSlice" name="Minute3" centerPoint3DX="-5.3" centerPoint3DY="50">
+                  <matrix>
+                    <Matrix a="0.9781494140625" b="0.207916259765625" c="-0.207916259765625" d="0.9781494140625"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="5.2" y="50"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="components/timer/MinuteSlice" name="Minute4" centerPoint3DX="-10.5" centerPoint3DY="49.15">
+                  <matrix>
+                    <Matrix a="0.9510498046875" b="0.30902099609375" c="-0.30902099609375" d="0.9510498046875"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="5.2" y="50"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="components/timer/MinuteSlice" name="Minute5" centerPoint3DX="-15.55" centerPoint3DY="47.75">
+                  <matrix>
+                    <Matrix a="0.913543701171875" b="0.40673828125" c="-0.40673828125" d="0.913543701171875"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="5.2" y="49.95"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="components/timer/MinuteSlice" name="Minute7" centerPoint3DX="-25.2" centerPoint3DY="43.5">
+                  <matrix>
+                    <Matrix a="0.80902099609375" b="0.5877685546875" c="-0.5877685546875" d="0.80902099609375"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="5.2" y="50"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="components/timer/MinuteSlice" name="Minute8" centerPoint3DX="-29.65" centerPoint3DY="40.65">
+                  <matrix>
+                    <Matrix a="0.743148803710938" b="0.66912841796875" c="-0.66912841796875" d="0.743148803710938"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="5.15" y="50.05"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="components/timer/MinuteSlice" name="Minute9" centerPoint3DX="-33.7" centerPoint3DY="37.35">
+                  <matrix>
+                    <Matrix a="0.66912841796875" b="0.743148803710938" c="-0.743148803710938" d="0.66912841796875"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="5.2" y="50.05"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="components/timer/MinuteSlice" name="Minute10" selected="true" centerPoint3DX="-37.4" centerPoint3DY="33.6">
+                  <matrix>
+                    <Matrix a="0.5877685546875" b="0.80902099609375" c="-0.80902099609375" d="0.5877685546875"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="5.2" y="50"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="components/timer/MinuteSlice" name="Minute11" centerPoint3DX="-40.65" centerPoint3DY="29.45">
+                  <matrix>
+                    <Matrix a="0.5" b="0.86602783203125" c="-0.86602783203125" d="0.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="5.2" y="49.95"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="components/timer/MinuteSlice" name="Minute6" centerPoint3DX="-20.45" centerPoint3DY="45.85">
+                  <matrix>
+                    <Matrix a="0.86602783203125" b="0.5" c="-0.5" d="0.86602783203125"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="5.25" y="50"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="components/timer/MinuteSlice" name="Minute13" centerPoint3DX="-46" centerPoint3DY="20.35">
+                  <matrix>
+                    <Matrix a="0.30902099609375" b="0.9510498046875" c="-0.9510498046875" d="0.30902099609375"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="5.15" y="50.05"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="components/timer/MinuteSlice" name="Minute14" centerPoint3DX="-47.85" centerPoint3DY="15.45">
+                  <matrix>
+                    <Matrix a="0.207916259765625" b="0.9781494140625" c="-0.9781494140625" d="0.207916259765625"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="5.15" y="50"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="components/timer/MinuteSlice" name="Minute15" centerPoint3DX="-49.2" centerPoint3DY="10.45">
+                  <matrix>
+                    <Matrix a="0.104522705078125" b="0.9945068359375" c="-0.9945068359375" d="0.104522705078125"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="5.25" y="50"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="components/timer/MinuteSlice" name="Minute12" centerPoint3DX="-43.4" centerPoint3DY="25.05">
+                  <matrix>
+                    <Matrix a="0.40673828125" b="0.913543701171875" c="-0.913543701171875" d="0.40673828125"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="5.3" y="49.9"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="16-30" color="#9933CC" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="components/timer/MinuteSlice" name="Minute16" centerPoint3DX="-50" centerPoint3DY="5.2">
+                  <matrix>
+                    <Matrix a="0" b="1" c="-1" d="0"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="5.2" y="50"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="components/timer/MinuteSlice" name="Minute19" centerPoint3DX="-49.2" centerPoint3DY="-10.55">
+                  <matrix>
+                    <Matrix a="-0.30902099609375" b="0.9510498046875" c="-0.9510498046875" d="-0.30902099609375"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="5.15" y="50.05"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="components/timer/MinuteSlice" name="Minute20" centerPoint3DX="-47.8" centerPoint3DY="-15.6">
+                  <matrix>
+                    <Matrix a="-0.40673828125" b="0.913543701171875" c="-0.913543701171875" d="-0.40673828125"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="5.2" y="50"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="components/timer/MinuteSlice" name="Minute21" centerPoint3DX="-45.95" centerPoint3DY="-20.45">
+                  <matrix>
+                    <Matrix a="-0.5" b="0.86602783203125" c="-0.86602783203125" d="-0.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="5.25" y="50"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="components/timer/MinuteSlice" name="Minute22" centerPoint3DX="-43.5" centerPoint3DY="-25.2">
+                  <matrix>
+                    <Matrix a="-0.5877685546875" b="0.80902099609375" c="-0.80902099609375" d="-0.5877685546875"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="5.2" y="50"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="components/timer/MinuteSlice" name="Minute23" centerPoint3DX="-40.4" centerPoint3DY="-29.5">
+                  <matrix>
+                    <Matrix a="-0.66912841796875" b="0.743148803710938" c="-0.743148803710938" d="-0.66912841796875"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="5.2" y="49.8"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="components/timer/MinuteSlice" name="Minute18" centerPoint3DX="-49.85" centerPoint3DY="-5.2">
+                  <matrix>
+                    <Matrix a="-0.207916259765625" b="0.9781494140625" c="-0.9781494140625" d="-0.207916259765625"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="5.35" y="50"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="components/timer/MinuteSlice" name="Minute17" centerPoint3DX="-50.1" centerPoint3DY="-0.1">
+                  <matrix>
+                    <Matrix a="-0.104522705078125" b="0.9945068359375" c="-0.9945068359375" d="-0.104522705078125"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="5.2" y="49.85"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="components/timer/MinuteSlice" name="Minute24" centerPoint3DX="-37.1" centerPoint3DY="-33.55">
+                  <matrix>
+                    <Matrix a="-0.743148803710938" b="0.66912841796875" c="-0.66912841796875" d="-0.743148803710938"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="5.2" y="49.8"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="components/timer/MinuteSlice" name="Minute25" centerPoint3DX="-33.4" centerPoint3DY="-37.15">
+                  <matrix>
+                    <Matrix a="-0.80902099609375" b="0.5877685546875" c="-0.5877685546875" d="-0.80902099609375"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="5.25" y="49.75"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="components/timer/MinuteSlice" name="Minute26" centerPoint3DX="-29.35" centerPoint3DY="-40.45">
+                  <matrix>
+                    <Matrix a="-0.86602783203125" b="0.5" c="-0.5" d="-0.86602783203125"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="5.25" y="49.75"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="components/timer/MinuteSlice" name="Minute27" centerPoint3DX="-25" centerPoint3DY="-43.35">
+                  <matrix>
+                    <Matrix a="-0.913543701171875" b="0.40673828125" c="-0.40673828125" d="-0.913543701171875"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="5.25" y="49.8"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="components/timer/MinuteSlice" name="Minute28" centerPoint3DX="-20.35" centerPoint3DY="-45.7">
+                  <matrix>
+                    <Matrix a="-0.9510498046875" b="0.30902099609375" c="-0.30902099609375" d="-0.9510498046875"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="5.25" y="49.8"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="components/timer/MinuteSlice" name="Minute29" centerPoint3DX="-15.5" centerPoint3DY="-47.5">
+                  <matrix>
+                    <Matrix a="-0.9781494140625" b="0.207916259765625" c="-0.207916259765625" d="-0.9781494140625"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="5.3" y="49.8"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="components/timer/MinuteSlice" name="Minute30" centerPoint3DX="-10.5" centerPoint3DY="-48.85">
+                  <matrix>
+                    <Matrix a="-0.9945068359375" b="0.104522705078125" c="-0.104522705078125" d="-0.9945068359375"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="5.25" y="49.8"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="31-45" color="#FF800A" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="components/timer/MinuteSlice" name="Minute31" centerPoint3DX="-5.2" centerPoint3DY="-50">
+                  <matrix>
+                    <Matrix a="-1" d="-1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="5.2" y="50"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="components/timer/MinuteSlice" name="Minute32" centerPoint3DX="0.1" centerPoint3DY="-50.3">
+                  <matrix>
+                    <Matrix a="-0.9945068359375" b="-0.104522705078125" c="0.104522705078125" d="-0.9945068359375"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="5.15" y="50.05"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="components/timer/MinuteSlice" name="Minute33" centerPoint3DX="5.3" centerPoint3DY="-50">
+                  <matrix>
+                    <Matrix a="-0.9781494140625" b="-0.207916259765625" c="0.207916259765625" d="-0.9781494140625"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="5.2" y="50"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="components/timer/MinuteSlice" name="Minute34" centerPoint3DX="10.5" centerPoint3DY="-49.15">
+                  <matrix>
+                    <Matrix a="-0.9510498046875" b="-0.30902099609375" c="0.30902099609375" d="-0.9510498046875"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="5.2" y="50"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="components/timer/MinuteSlice" name="Minute35" centerPoint3DX="15.55" centerPoint3DY="-47.75">
+                  <matrix>
+                    <Matrix a="-0.913543701171875" b="-0.40673828125" c="0.40673828125" d="-0.913543701171875"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="5.2" y="49.95"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="components/timer/MinuteSlice" name="Minute37" centerPoint3DX="25.2" centerPoint3DY="-43.5">
+                  <matrix>
+                    <Matrix a="-0.80902099609375" b="-0.5877685546875" c="0.5877685546875" d="-0.80902099609375"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="5.2" y="50"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="components/timer/MinuteSlice" name="Minute38" centerPoint3DX="29.65" centerPoint3DY="-40.65">
+                  <matrix>
+                    <Matrix a="-0.743148803710938" b="-0.66912841796875" c="0.66912841796875" d="-0.743148803710938"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="5.15" y="50.05"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="components/timer/MinuteSlice" name="Minute39" centerPoint3DX="33.7" centerPoint3DY="-37.35">
+                  <matrix>
+                    <Matrix a="-0.66912841796875" b="-0.743148803710938" c="0.743148803710938" d="-0.66912841796875"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="5.2" y="50.05"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="components/timer/MinuteSlice" name="Minute40" centerPoint3DX="37.4" centerPoint3DY="-33.6">
+                  <matrix>
+                    <Matrix a="-0.5877685546875" b="-0.80902099609375" c="0.80902099609375" d="-0.5877685546875"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="5.2" y="50"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="components/timer/MinuteSlice" name="Minute41" centerPoint3DX="40.65" centerPoint3DY="-29.45">
+                  <matrix>
+                    <Matrix a="-0.5" b="-0.86602783203125" c="0.86602783203125" d="-0.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="5.2" y="49.95"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="components/timer/MinuteSlice" name="Minute36" centerPoint3DX="20.45" centerPoint3DY="-45.85">
+                  <matrix>
+                    <Matrix a="-0.86602783203125" b="-0.5" c="0.5" d="-0.86602783203125"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="5.25" y="50"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="components/timer/MinuteSlice" name="Minute43" centerPoint3DX="46" centerPoint3DY="-20.35">
+                  <matrix>
+                    <Matrix a="-0.30902099609375" b="-0.9510498046875" c="0.9510498046875" d="-0.30902099609375"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="5.15" y="50.05"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="components/timer/MinuteSlice" name="Minute44" centerPoint3DX="47.85" centerPoint3DY="-15.45">
+                  <matrix>
+                    <Matrix a="-0.207916259765625" b="-0.9781494140625" c="0.9781494140625" d="-0.207916259765625"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="5.15" y="50"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="components/timer/MinuteSlice" name="Minute45" centerPoint3DX="49.2" centerPoint3DY="-10.45">
+                  <matrix>
+                    <Matrix a="-0.104522705078125" b="-0.9945068359375" c="0.9945068359375" d="-0.104522705078125"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="5.25" y="50"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="components/timer/MinuteSlice" name="Minute42" centerPoint3DX="43.4" centerPoint3DY="-25.05">
+                  <matrix>
+                    <Matrix a="-0.40673828125" b="-0.913543701171875" c="0.913543701171875" d="-0.40673828125"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="5.3" y="49.9"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="46-60" color="#FF4FFF" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="components/timer/MinuteSlice" name="Minute46" centerPoint3DX="50" centerPoint3DY="-5.2">
+                  <matrix>
+                    <Matrix a="0" b="-1" c="1" d="0"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="5.2" y="50"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="components/timer/MinuteSlice" name="Minute49" centerPoint3DX="49.2" centerPoint3DY="10.55">
+                  <matrix>
+                    <Matrix a="0.30902099609375" b="-0.9510498046875" c="0.9510498046875" d="0.30902099609375"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="5.15" y="50.05"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="components/timer/MinuteSlice" name="Minute50" centerPoint3DX="47.8" centerPoint3DY="15.6">
+                  <matrix>
+                    <Matrix a="0.40673828125" b="-0.913543701171875" c="0.913543701171875" d="0.40673828125"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="5.2" y="50"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="components/timer/MinuteSlice" name="Minute51" centerPoint3DX="45.95" centerPoint3DY="20.45">
+                  <matrix>
+                    <Matrix a="0.5" b="-0.86602783203125" c="0.86602783203125" d="0.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="5.25" y="50"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="components/timer/MinuteSlice" name="Minute52" centerPoint3DX="43.5" centerPoint3DY="25.2">
+                  <matrix>
+                    <Matrix a="0.5877685546875" b="-0.80902099609375" c="0.80902099609375" d="0.5877685546875"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="5.2" y="50"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="components/timer/MinuteSlice" name="Minute53" centerPoint3DX="40.4" centerPoint3DY="29.5">
+                  <matrix>
+                    <Matrix a="0.66912841796875" b="-0.743148803710938" c="0.743148803710938" d="0.66912841796875"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="5.2" y="49.8"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="components/timer/MinuteSlice" name="Minute48" centerPoint3DX="49.85" centerPoint3DY="5.2">
+                  <matrix>
+                    <Matrix a="0.207916259765625" b="-0.9781494140625" c="0.9781494140625" d="0.207916259765625"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="5.35" y="50"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="components/timer/MinuteSlice" name="Minute47" centerPoint3DX="50.1" centerPoint3DY="0.1">
+                  <matrix>
+                    <Matrix a="0.104522705078125" b="-0.9945068359375" c="0.9945068359375" d="0.104522705078125"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="5.2" y="49.85"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="components/timer/MinuteSlice" name="Minute54" centerPoint3DX="37.1" centerPoint3DY="33.55">
+                  <matrix>
+                    <Matrix a="0.743148803710938" b="-0.66912841796875" c="0.66912841796875" d="0.743148803710938"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="5.2" y="49.8"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="components/timer/MinuteSlice" name="Minute55" centerPoint3DX="33.4" centerPoint3DY="37.15">
+                  <matrix>
+                    <Matrix a="0.80902099609375" b="-0.5877685546875" c="0.5877685546875" d="0.80902099609375"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="5.25" y="49.75"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="components/timer/MinuteSlice" name="Minute56" centerPoint3DX="29.35" centerPoint3DY="40.45">
+                  <matrix>
+                    <Matrix a="0.86602783203125" b="-0.5" c="0.5" d="0.86602783203125"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="5.25" y="49.75"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="components/timer/MinuteSlice" name="Minute57" centerPoint3DX="25" centerPoint3DY="43.35">
+                  <matrix>
+                    <Matrix a="0.913543701171875" b="-0.40673828125" c="0.40673828125" d="0.913543701171875"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="5.25" y="49.8"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="components/timer/MinuteSlice" name="Minute58" centerPoint3DX="20.35" centerPoint3DY="45.7">
+                  <matrix>
+                    <Matrix a="0.9510498046875" b="-0.30902099609375" c="0.30902099609375" d="0.9510498046875"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="5.25" y="49.8"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="components/timer/MinuteSlice" name="Minute59" centerPoint3DX="15.5" centerPoint3DY="47.5">
+                  <matrix>
+                    <Matrix a="0.9781494140625" b="-0.207916259765625" c="0.207916259765625" d="0.9781494140625"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="5.3" y="49.8"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="components/timer/MinuteSlice" name="Minute60" centerPoint3DX="10.5" centerPoint3DY="48.85">
+                  <matrix>
+                    <Matrix a="0.9945068359375" b="-0.104522705078125" c="0.104522705078125" d="0.9945068359375"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="5.25" y="49.8"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Background Fill" color="#4FFFFF" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <LinearGradient>
+                        <matrix>
+                          <Matrix a="0" b="0.1220703125" c="-0.1220703125" d="0"/>
+                        </matrix>
+                        <GradientEntry color="#00D7FF" ratio="0"/>
+                        <GradientEntry color="#00ABFF" ratio="1"/>
+                      </LinearGradient>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!1414 -1414S2[2000 -828 2000 0!2000 0[2000 828 1414 1414!1414 1414[828 2000 0 2000!0 2000[-828 2000 -1414 1414!-1414 1414[-2000 828 -2000 0!-2000 0[-2000 -828 -1414 -1414!-1414 -1414[-828 -2000 0 -2000!0 -2000[828 -2000 1414 -1414"/>
+                    <Edge cubics="!0 -2000(;552,-2000 1023,-1805 1414,-1414q0 -2000Q828 -2000q1414 -1414);"/>
+                    <Edge cubics="!1414 1414(;1023,1805 552,2000 0,2000q1414 1414Q828 2000q0 2000);"/>
+                    <Edge cubics="!2000 0(;2000,552 1805,1023 1414,1414q2000 0Q2000 828q1414 1414);"/>
+                    <Edge cubics="!1414 -1414(;1805,-1023 2000,-552 2000,0q1414 -1414Q2000 -828q2000 0);"/>
+                    <Edge cubics="!-1414 1414(;-1805,1023 -2000,552 -2000,0q-1414 1414Q-2000 828q-2000 0);"/>
+                    <Edge cubics="!-2000 0(;-2000,-552 -1805,-1023 -1414,-1414q-2000 0Q-2000 -828q-1414 -1414);"/>
+                    <Edge cubics="!-1414 -1414(;-1023,-1805 -552,-2000 0,-2000q-1414 -1414Q-828 -2000q0 -2000);"/>
+                    <Edge cubics="!0 2000(;-552,2000 -1023,1805 -1414,1414q0 2000Q-828 2000q-1414 1414);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Background Inner Stroke" color="#4FFFFF" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#FFFFFF"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!1555 -1555S2[2200 -911 2200 0!2200 0[2200 911 1555 1555!1555 1555[911 2200 0 2200!0 2200[-911 2200 -1555 1555!-1555 1555[-2200 911 -2200 0!-2200 0[-2200 -911 -1555 -1555!-1555 -1555[-911 -2200 0 -2200!0 -2200[911 -2200 1555 -1555"/>
+                    <Edge cubics="!0 -2200(;607,-2200 1125,-1985 1555,-1555q0 -2200Q911 -2200q1555 -1555);"/>
+                    <Edge cubics="!1555 1555(;1125,1985 607,2200 0,2200q1555 1555Q911 2200q0 2200);"/>
+                    <Edge cubics="!2200 0(;2200,607 1985,1125 1555,1555q2200 0Q2200 911q1555 1555);"/>
+                    <Edge cubics="!1555 -1555(;1985,-1125 2200,-607 2200,0q1555 -1555Q2200 -911q2200 0);"/>
+                    <Edge cubics="!-1555 1555(;-1985,1125 -2200,607 -2200,0q-1555 1555Q-2200 911q-2200 0);"/>
+                    <Edge cubics="!-2200 0(;-2200,-607 -1985,-1125 -1555,-1555q-2200 0Q-2200 -911q-1555 -1555);"/>
+                    <Edge cubics="!-1555 -1555(;-1125,-1985 -607,-2200 0,-2200q-1555 -1555Q-911 -2200q0 -2200);"/>
+                    <Edge cubics="!0 2200(;-607,2200 -1125,1985 -1555,1555q0 2200Q-911 2200q-1555 1555);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Background Outer Stroke" color="#4FFFFF" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#C7C7C7"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!1697 -1697S2[2400 -994 2400 0!2400 0[2400 994 1697 1697!1697 1697[994 2400 0 2400!0 2400[-994 2400 -1697 1697!-1697 1697[-2400 994 -2400 0!-2400 0[-2400 -994 -1697 -1697!-1697 -1697[-994 -2400 0 -2400!0 -2400[994 -2400 1697 -1697"/>
+                    <Edge cubics="!0 -2400(;662,-2400 1228,-2166 1697,-1697q0 -2400Q994 -2400q1697 -1697);"/>
+                    <Edge cubics="!1697 1697(;1228,2166 662,2400 0,2400q1697 1697Q994 2400q0 2400);"/>
+                    <Edge cubics="!2400 0(;2400,662 2166,1228 1697,1697q2400 0Q2400 994q1697 1697);"/>
+                    <Edge cubics="!1697 -1697(;2166,-1228 2400,-662 2400,0q1697 -1697Q2400 -994q2400 0);"/>
+                    <Edge cubics="!-1697 1697(;-2166,1228 -2400,662 -2400,0q-1697 1697Q-2400 994q-2400 0);"/>
+                    <Edge cubics="!-2400 0(;-2400,-662 -2166,-1228 -1697,-1697q-2400 0Q-2400 -994q-1697 -1697);"/>
+                    <Edge cubics="!-1697 -1697(;-1228,-2166 -662,-2400 0,-2400q-1697 -1697Q-994 -2400q0 -2400);"/>
+                    <Edge cubics="!0 2400(;-662,2400 -1228,2166 -1697,1697q0 2400Q-994 2400q-1697 1697);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

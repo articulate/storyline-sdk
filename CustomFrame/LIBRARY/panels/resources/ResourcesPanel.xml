@@ -1,0 +1,96 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="panels/resources/ResourcesPanel" itemID="525de968-00000f79" linkageExportForAS="true" linkageClassName="customframe.panels.resources.ResourcesPanel" scaleGridLeft="13.5" scaleGridRight="229" scaleGridTop="76" scaleGridBottom="423" lastModified="1381886315" lastUniqueIdentifier="4" isSpriteSubclass="true">
+  <timeline>
+    <DOMTimeline name="ResourcesPanel">
+      <layers>
+        <DOMLayer name="Headline" color="#4FFF4F" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMDynamicText name="headline" selected="true" width="280" height="15" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="14" ty="28"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Here are some useful links and documents:</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" bitmapSize="240" face="Articulate Bold*"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Line" color="#FF800A" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal">
+                        <fill>
+                          <SolidColor color="#666666"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge strokeStyle="1" edges="!300 1160S4|5700 1160"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Tab" color="#FF4FFF" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="panels/tabs/PopUp Tab" name="tab" centerPoint3DX="267" centerPoint3DY="7.5">
+                  <matrix>
+                    <Matrix a="0.78564453125" tx="234" ty="-20"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="42" y="27.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="List" color="#9933CC" locked="true" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="components/list/List" name="list" centerPoint3DX="150" centerPoint3DY="74">
+                  <matrix>
+                    <Matrix tx="15" ty="64"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="135" y="50"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Background" color="#9933CC" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="panels/resources/Backgound" name="background" centerPoint3DX="150" centerPoint3DY="218.8">
+                  <transformationPoint>
+                    <Point x="150" y="218.8"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

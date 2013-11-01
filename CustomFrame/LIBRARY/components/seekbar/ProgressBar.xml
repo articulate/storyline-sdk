@@ -1,0 +1,54 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="components/seekbar/ProgressBar" itemID="50a5817a-000040b7" scaleGridLeft="15.75" scaleGridRight="423.2" scaleGridTop="4" scaleGridBottom="13" lastModified="1380063491">
+  <timeline>
+    <DOMTimeline name="ProgressBar">
+      <layers>
+        <DOMLayer name="Border" color="#FF800A" locked="true" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal" caps="square" pixelHinting="true" joints="miter">
+                        <fill>
+                          <LinearGradient>
+                            <matrix>
+                              <Matrix a="0" b="0.011016845703125" c="-0.011444091796875" d="0" tx="219.95" ty="8.95"/>
+                            </matrix>
+                            <GradientEntry color="#B8B8B8" ratio="0"/>
+                            <GradientEntry color="#EBEBEB" ratio="1"/>
+                          </LinearGradient>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge strokeStyle="1" edges="!8720 0S4|80 0!80 0[0 0 0 81!0 81|0 279!0 279[0 360 80 360!80 360|8720 360!8720 360[8800 360 8800 279!8800 279|8800 81!8800 81[8800 0 8720 0"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Fill" color="#FF800A" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#E7E7E7"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle0="1" edges="!75 -5S1[-5 -5 -5 75!-5 75|-5 270!-5 270[-5 350 75 350!75 350|8714 350!8714 350[8794 350 8794 270!8794 270|8794 75!8794 75[8794 -5 8714 -5!8714 -5|75 -5"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

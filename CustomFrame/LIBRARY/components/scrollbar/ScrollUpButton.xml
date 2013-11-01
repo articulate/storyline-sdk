@@ -1,0 +1,43 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="components/scrollbar/ScrollUpButton" itemID="5148a53e-00002901" linkageExportForAS="true" linkageClassName="ScrollUpButton" lastModified="1381870992" lastUniqueIdentifier="1" isSpriteSubclass="true">
+  <timeline>
+    <DOMTimeline name="ScrollUpButton">
+      <layers>
+        <DOMLayer name="Icon" color="#9933CC" locked="true" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="assets/icons/icon_scroll_up" name="upIcon" centerPoint3DX="7.5" centerPoint3DY="7">
+                  <matrix>
+                    <Matrix tx="4" ty="5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="3.5" y="2"/>
+                  </transformationPoint>
+                  <color>
+                    <Color tintMultiplier="1" tintColor="#555555"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Background" color="#4FFF4F" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="components/scrollbar/ScrollThumb" name="thumb" centerPoint3DX="7.5" centerPoint3DY="7.5">
+                  <matrix>
+                    <Matrix d="2.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="7.5" y="3"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

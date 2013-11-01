@@ -1,0 +1,31 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="assets/icons/icon_filter" itemID="497aa65f-00000256" sourceFlashFilepath="../../../Perforce/articulate/depot/Common/BridgeWater/1.0/player/player.fla" sourceLibraryItemHRef="icons/icon_filter" sourceLastModified="1256785873" lastModified="1353047367" sourceItemID="00000000-7fffffff">
+  <timeline>
+    <DOMTimeline name="icon_filter">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!213.5 196.5S2|174 173.5!174 173.5|197 213.5!197 213.5|162 233.5!162 233.5|140.5 196!140.5 196|140.5 240!140.5 240|100.5 240!100.5 240|100.5 192.5!100.5 192.5|77 233.5!77 233.5|41.5 213.5!41.5 213.5|63.5 176!63.5 176|25.5 198!25.5 198
+|5.5 163!5.5 163|46.5 139.5!46.5 139.5|0 139.5!0 139.5|0 99.5!0 99.5|45.5 99.5!45.5 99.5|5 76!5 76|25 41!25 41|63.5 63!63.5 63|42 26!42 26|77 6!77 6|100.5 47!100.5 47|100.5 0!100.5 0|140.5 0!140.5 0|140.5 43!140.5 43|162.5 5!162.5 5|197.5
+ 25.5!197.5 25.5|174 65.5!174 65.5|213 43!213 43|233 78!233 78|195.5 99.5!195.5 99.5|240 99.5!240 99.5|240 139.5!240 139.5|195.5 139.5!195.5 139.5|233.5 161.5!233.5 161.5|213.5 196.5"/>
+                    <Edge fillStyle0="1" edges="
+!163 120S1[#A2.F9 #89.A4 150 150!150 150|150 151!150 151[#89.63 #A3.BC 119.5 163.5!119.5 163.5[#65.95 #A3.C9 88.5 151!88.5 151[#4B.F5 #8A.29 76 120!76 120[#4C.1 #66.2 88.5 89!88.5 89[#65.9F #4C.9 119.5 76.5!119.5 76.5[#89.6A #4C.74 150
+ 89!150 89[#A3.07 #66.15 163 120"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

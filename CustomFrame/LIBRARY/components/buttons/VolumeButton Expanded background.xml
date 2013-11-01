@@ -1,0 +1,41 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="components/buttons/VolumeButton Expanded background" itemID="515f1143-000002fd" lastModified="1380064985">
+  <timeline>
+    <DOMTimeline name="VolumeButton Expanded background">
+      <layers>
+        <DOMLayer name="SHape" color="#4FFF4F" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <LinearGradient>
+                        <matrix>
+                          <Matrix a="0" b="0.018402099609375" c="-0.0614013671875" d="0" tx="15.05" ty="50.3"/>
+                        </matrix>
+                        <GradientEntry color="#F5F5F5" ratio="0"/>
+                        <GradientEntry color="#CFCFCF" ratio="1"/>
+                      </LinearGradient>
+                    </FillStyle>
+                  </fills>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal" pixelHinting="true">
+                        <fill>
+                          <SolidColor color="#B0B0B0"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge fillStyle0="1" strokeStyle="1" edges="!0 120|0 1892!0 1892[0 2012 120 2012!120 2012|483 2012!483 2012[603 2012 603 1892!603 1892|603 120!603 120[603 0 483 0!483 0|120 0!120 0[0 0 0 120"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

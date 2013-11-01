@@ -1,0 +1,36 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="assets/icons/icon_play" itemID="4989b8ef-00001e26" sourceFlashFilepath="../../../Perforce/articulate/depot/Common/BridgeWater/1.0/player/player.fla" sourceLibraryItemHRef="icons/icon_play" sourceLastModified="1256785885" lastModified="1353047367" sourceItemID="00000000-7fffffff">
+  <timeline>
+    <DOMTimeline name="icon_play">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor/>
+                    </FillStyle>
+                  </fills>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal">
+                        <fill>
+                          <SolidColor/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge fillStyle0="1" strokeStyle="1" edges="!238 139[238 130 232 125!232 125[230 122 228 121!228 121|71 23!71 23[64 19 57 20!57 20[50 21 45 27!45 27[40 33 40 40!40 40|40 236!40 236[40 243 45 249!45 249[50 255 57 256!57 256[64 257 71 253!71 253|223 158!223 158[228 157 232 153!232
+ 153[238 147 238 139"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

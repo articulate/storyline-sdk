@@ -1,0 +1,57 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="components/buttons/ButtonBackground Down" itemID="50a57343-000016ae" scaleGridLeft="7.3" scaleGridRight="62.35" scaleGridTop="6.5" scaleGridBottom="23.4" lastModified="1380065089">
+  <timeline>
+    <DOMTimeline name="ButtonBackground Down">
+      <layers>
+        <DOMLayer name="Border" color="#4FFF4F" locked="true" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal" pixelHinting="true">
+                        <fill>
+                          <SolidColor color="#B0B0B0"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge strokeStyle="1" edges="!1400 484S4|1400 116!1400 116[1400 0 1282 0!1282 0|118 0!118 0[0 0 0 116!0 116|0 484!0 484[0 600 118 600!118 600|1282 600!1282 600[1400 600 1400 484"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Fill" color="#9933CC" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape isFloating="true">
+                  <matrix>
+                    <Matrix a="0.98590087890625" d="0.967742919921875"/>
+                  </matrix>
+                  <fills>
+                    <FillStyle index="1">
+                      <LinearGradient>
+                        <matrix>
+                          <Matrix a="0" b="-0.0189208984375" c="0.0189208984375" d="0" tx="35.5" ty="15.5"/>
+                        </matrix>
+                        <GradientEntry color="#F4F4F4" ratio="0"/>
+                        <GradientEntry color="#C7C7C7" ratio="1"/>
+                      </LinearGradient>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle0="1" edges="!1300 0S1|120 0!120 0[0 0 0 120!0 120|0 500!0 500[0 620 120 620!120 620|1300 620!1300 620[1420 620 1420 500!1420 500|1420 120!1420 120[1420 0 1300 0"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

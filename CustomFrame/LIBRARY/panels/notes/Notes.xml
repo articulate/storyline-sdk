@@ -1,0 +1,75 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="panels/notes/Notes" itemID="525302e9-000002ff" linkageExportForAS="true" linkageClassName="customframe.panels.notes.Notes" lastModified="1381942214" lastUniqueIdentifier="3">
+  <timeline>
+    <DOMTimeline name="Notes">
+      <layers>
+        <DOMLayer name="Title" color="#9933CC" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="components/text/ScrollingTextField" name="title" centerPoint3DX="102" centerPoint3DY="301">
+                  <matrix>
+                    <Matrix a="0.940902709960938" tx="7" ty="6"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="100.95" y="295"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Line" color="#FF800A" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="assets/CustomLine" name="line" centerPoint3DX="110" centerPoint3DY="33">
+                  <matrix>
+                    <Matrix a="0.77777099609375" tx="5" ty="33"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="135"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Text" color="#FF4FFF" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="components/text/ScrollingTextField" name="content" centerPoint3DX="103.5" centerPoint3DY="339">
+                  <matrix>
+                    <Matrix a="0.9454345703125" tx="8" ty="44"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="101" y="295"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Background" color="#9933CC" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="assets/WhiteSquare" name="background" selected="true" centerPoint3DX="110" centerPoint3DY="10">
+                  <matrix>
+                    <Matrix a="11"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="10" y="10"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.01171875"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

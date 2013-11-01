@@ -1,0 +1,37 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="windows/Background" itemID="524321e8-0000041f" linkageExportForAS="true" linkageClassName="customframe.windows.Background" lastModified="1381870633" lastUniqueIdentifier="1" isSpriteSubclass="true">
+  <timeline>
+    <DOMTimeline name="Background">
+      <layers>
+        <DOMLayer name="Rounded Half Rectangle" color="#9933CC" locked="true" outline="true" useOutlineView="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="assets/Gradient Half Rounded Rectangle" name="sidebarBackground" centerPoint3DX="120" centerPoint3DY="329">
+                  <matrix>
+                    <Matrix a="1.004150390625"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="119.5" y="329"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Big Rounded Rectangle" color="#4FFF4F" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="assets/Gradient Rounded Rectangle" centerPoint3DX="489.6" centerPoint3DY="327.2">
+                  <transformationPoint>
+                    <Point x="489.6" y="327.2"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

@@ -1,0 +1,120 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="components/scrollbar/ScrollThumbGrippers" itemID="5149f311-00005463" linkageExportForAS="true" linkageBaseClass="flash.display.Sprite" linkageClassName="customframe.components.scrollbar.ScrollThumbGrippers" lastModified="1381886270" lastUniqueIdentifier="21" isSpriteSubclass="true">
+  <timeline>
+    <DOMTimeline name="ScrollThumbGrippers">
+      <layers>
+        <DOMLayer name="gripper1" color="#4FFF4F" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="components/scrollbar/ScrollThumbGripper" name="gripper1" selected="true" centerPoint3DX="7.5" centerPoint3DY="1">
+                  <matrix>
+                    <Matrix tx="4"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="3.5" y="1"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="gripper2" color="#9933CC" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="components/scrollbar/ScrollThumbGripper" name="gripper2" selected="true" centerPoint3DX="7.5" centerPoint3DY="7">
+                  <matrix>
+                    <Matrix tx="4" ty="6"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="3.5" y="1"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="gripper3" color="#FF800A" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="components/scrollbar/ScrollThumbGripper" name="gripper3" selected="true" centerPoint3DX="7.5" centerPoint3DY="13">
+                  <matrix>
+                    <Matrix tx="4" ty="12"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="3.5" y="1"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="gripper4" color="#FF4FFF" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="components/scrollbar/ScrollThumbGripper" name="gripper4" selected="true" centerPoint3DX="7.5" centerPoint3DY="19">
+                  <matrix>
+                    <Matrix tx="4" ty="18"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="3.5" y="1"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="gripper5" color="#4FFFFF" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="components/scrollbar/ScrollThumbGripper" name="gripper5" selected="true" centerPoint3DX="7.5" centerPoint3DY="25">
+                  <matrix>
+                    <Matrix tx="4" ty="24"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="3.5" y="1"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="gripper6" color="#808080" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="components/scrollbar/ScrollThumbGripper" name="gripper6" selected="true" centerPoint3DX="7.5" centerPoint3DY="31">
+                  <matrix>
+                    <Matrix tx="4" ty="30"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="3.5" y="1"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="gripper7" color="#4F80FF" locked="true" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="components/scrollbar/ScrollThumbGripper" name="gripper7" selected="true" centerPoint3DX="7.5" centerPoint3DY="37">
+                  <matrix>
+                    <Matrix tx="4" ty="36"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="3.5" y="1"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

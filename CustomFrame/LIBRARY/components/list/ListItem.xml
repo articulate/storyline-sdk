@@ -1,0 +1,48 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="components/list/ListItem" itemID="52432251-00000424" linkageExportForAS="true" linkageClassName="customframe.components.list.ListItem" lastModified="1381943275" lastUniqueIdentifier="1" isSpriteSubclass="true">
+  <timeline>
+    <DOMTimeline name="ListItem">
+      <layers>
+        <DOMLayer name="TextField" color="#9933CC" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMDynamicText name="textField" selected="true" width="86" height="16.2" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="12" ty="5"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Text</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" size="11" bitmapSize="220" face="_sans" fillColor="#353535"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Background" color="#4FFF4F" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="assets/WhiteSquare" name="background" selected="true" symbolType="button">
+                  <matrix>
+                    <Matrix a="5" d="1.29998779296875"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="50" y="13"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.01171875"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

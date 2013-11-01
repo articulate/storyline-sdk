@@ -1,0 +1,28 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="assets/icons/icon_clear" itemID="497a6144-000000eb" sourceFlashFilepath="../../../Perforce/articulate/depot/Common/BridgeWater/1.0/player/player.fla" sourceLibraryItemHRef="icons/icon_clear" sourceLastModified="1256785869" lastModified="1353047367" sourceItemID="00000000-7fffffff">
+  <timeline>
+    <DOMTimeline name="icon_clear">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle0="1" edges="!204.5 34.5S1[#A8.BE #FFFFFF.C3 120 0!120 0[#46.01 #0.04 35 35!35 35[#0.04 #46.01 0 120!0 120[#0.04 #A9.BE 35 204.5!35 204.5[#46.01 #EF.BB 120 240!120 240[#A8.BE #EF.FB 204.5 205!204.5 205|204.5 204.5!204.5 204.5[#EF.BB #A9.BE 240 120
+!240 120[#EF.BB #46.01 204.5 35!204.5 35|204.5 34.5!164 46.5|46 164.5!46 164.5[#21.FC #90.E4 34 120!34 120[#21.FB #54.23 59 59!59 59[#54.23 #21.FB 120 34!120 34[#90.47 #22.29 164 46.5!120 205.5[#5E.96 #CD.83 74.5 193!74.5 193|193 74.5
+!193 74.5[#CD.83 #5E.96 205.5 120!205.5 120[#CD.84 #9B.9C 180.5 180.5!180.5 180.5[#9A.E4 #CD.83 120 205.5"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

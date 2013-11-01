@@ -1,0 +1,26 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="windows/prompt/PromptWindowRectangle" itemID="514ceafe-00002c81" scaleGridLeft="80" scaleGridRight="240" scaleGridTop="42.25" scaleGridBottom="126.75" lastModified="1380064336">
+  <timeline>
+    <DOMTimeline name="PromptWindowRectangle">
+      <layers>
+        <DOMLayer name="Shape" color="#4FFF4F" locked="true" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#FFFFFF"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle0="1" edges="!6140 0S1|260 0!260 0[0 0 0 260!0 260|0 3120!0 3120[0 3380 260 3380!260 3380|6140 3380!6140 3380[6400 3380 6400 3120!6400 3120|6400 260!6400 260[6400 0 6140 0"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

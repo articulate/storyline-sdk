@@ -1,0 +1,26 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="components/seekbar/ProgressMask" itemID="5175ac75-000002ef" lastModified="1380063465">
+  <timeline>
+    <DOMTimeline name="ProgressMask">
+      <layers>
+        <DOMLayer name="Shape" color="#4FFF4F" locked="true" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#FF0000"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle0="1" edges="!8780 77S1[8780 0 8700 0!8700 0|80 0!80 0[0 0 0 77!0 77|0 264!0 264[0 340 80 340!80 340|8700 340!8700 340[8780 340 8780 264!8780 264|8780 77"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

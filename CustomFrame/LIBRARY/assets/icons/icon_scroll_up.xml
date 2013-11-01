@@ -1,0 +1,26 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="assets/icons/icon_scroll_up" itemID="497738f2-000005c3" sourceFlashFilepath="../../../Perforce/articulate/depot/Common/BridgeWater/1.0/player/player.fla" sourceLibraryItemHRef="icons/icon_scroll_up" sourceLastModified="1256785903" lastModified="1353047367" sourceItemID="00000000-7fffffff">
+  <timeline>
+    <DOMTimeline name="icon_scroll_up">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape selected="true" isFloating="true">
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!139.5 80S2|0 80!0 80|-0.5 79.5!-0.5 79.5|70 -0.5!70 -0.5|140 79.5!140 79.5|139.5 80"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

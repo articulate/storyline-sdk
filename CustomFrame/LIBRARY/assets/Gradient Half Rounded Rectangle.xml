@@ -1,0 +1,32 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="assets/Gradient Half Rounded Rectangle" itemID="50beb1bc-000003e4" scaleGridLeft="21" scaleGridRight="232" scaleGridTop="22" scaleGridBottom="638.95" lastModified="1380065128">
+  <timeline>
+    <DOMTimeline name="Gradient Half Rounded Rectangle">
+      <layers>
+        <DOMLayer name="Shape" color="#4FFF4F" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <LinearGradient>
+                        <matrix>
+                          <Matrix a="0" b="-0.401611328125" c="0.401611328125" d="0" tx="119.5" ty="329"/>
+                        </matrix>
+                        <GradientEntry color="#C2C2C2" ratio="0"/>
+                        <GradientEntry color="#DBDBDB" ratio="1"/>
+                      </LinearGradient>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle0="1" edges="!0 295|0 12865!0 12865[0 13160 332 13160!332 13160|4780 13160!4780 13160|4780 0!4780 0|332 0!332 0[0 0 0 295"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

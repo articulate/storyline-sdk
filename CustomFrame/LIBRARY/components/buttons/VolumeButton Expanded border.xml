@@ -1,0 +1,40 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="components/buttons/VolumeButton Expanded border" itemID="515f114e-000002fe" lastModified="1380064961">
+  <timeline>
+    <DOMTimeline name="VolumeButton Expanded border">
+      <layers>
+        <DOMLayer name="Shape" color="#4FFF4F" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal" weight="3" pixelHinting="true">
+                        <fill>
+                          <SolidColor color="#CFCFCF"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge strokeStyle="1" edges="!0 120|0 1892!0 1892[0 1997 91 2010!91 2010[105 2012 120 2012!120 2012|483 2012!483 2012[498 2012 512 2010!512 2010[603 1997 603 1892!603 1892|603 120!603 120[603 0 483 0!483 0|120 0!120 0[0 0 0 120"/>
+                    <Edge cubics="!603 120(;603,40 563,0 483,0q603 120Q603 0q483 0);"/>
+                    <Edge cubics="!483 0(;483,0 120,0 120,0q483 0 120 0);"/>
+                    <Edge cubics="!512 2010(;573,2001 603,1962 603,1892q512 2010Q603 1997q603 1892);"/>
+                    <Edge cubics="!483 2012(;493,2012 503,2011 512,2010q483 2012Q498 2012q512 2010);"/>
+                    <Edge cubics="!120 2012(;120,2012 483,2012 483,2012q120 2012 483 2012);"/>
+                    <Edge cubics="!91 2010(;100,2011 110,2012 120,2012q91 2010Q105 2012q120 2012);"/>
+                    <Edge cubics="!603 1892(;603,1892 603,120 603,120q603 1892 603 120);"/>
+                    <Edge cubics="!0 120(;0,120 0,1892 0,1892q0 120 0 1892);"/>
+                    <Edge cubics="!0 1892(;0,1962 30,2001 91,2010q0 1892Q0 1997q91 2010);"/>
+                    <Edge cubics="!120 0(;40,0 0,40 0,120q120 0Q0 0q0 120);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

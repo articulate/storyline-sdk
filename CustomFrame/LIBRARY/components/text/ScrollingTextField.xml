@@ -1,0 +1,45 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="components/text/ScrollingTextField" itemID="52535382-00000325" linkageExportForAS="true" linkageClassName="customframe.components.text.ScrollingTextField" lastModified="1381261220" lastUniqueIdentifier="1">
+  <timeline>
+    <DOMTimeline name="ScrollingTextField">
+      <layers>
+        <DOMLayer name="Scrollbar" color="#9933CC" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="components/scrollbar/Scrollbar" name="scrollbar" centerPoint3DX="212.5" centerPoint3DY="100">
+                  <matrix>
+                    <Matrix tx="205"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="7.5" y="100"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Textfield" color="#4FFF4F" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMDynamicText name="field" width="196" height="15.15" isSelectable="false" lineType="multiline">
+                  <matrix>
+                    <Matrix tx="2" ty="2"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Text</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" lineSpacing="0" bitmapSize="240" face="Articulate*"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

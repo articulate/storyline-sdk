@@ -1,0 +1,29 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="components/timer/MinuteSlice" itemID="525300fe-000002f3" lastModified="1381171454">
+  <timeline>
+    <DOMTimeline name="MinuteSlice">
+      <layers>
+        <DOMLayer name="Shape" color="#4FFF4F" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#FCCC2A"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!220 -1991|1 0!1 0|0 -2000!0 -2000[112 -2000 220 -1991"/>
+                    <Edge cubics="!0 -2000(;75,-2000 148,-1997 220,-1991q0 -2000Q112 -2000q220 -1991);"/>
+                    <Edge cubics="!1 0(;1,0 0,-2000 0,-2000q1 0 0 -2000);"/>
+                    <Edge cubics="!1 0(;1,0 220,-1991 220,-1991q1 0 220 -1991);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

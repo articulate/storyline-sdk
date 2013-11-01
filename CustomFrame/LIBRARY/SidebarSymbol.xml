@@ -1,0 +1,329 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="SideBarSymbol" itemID="5148bc47-000040a1" linkageExportForAS="true" linkageClassName="Sidebar" scaleGridLeft="55" scaleGridRight="206" scaleGridTop="28" scaleGridBottom="32" lastModified="1363800452" lastUniqueIdentifier="17" isSpriteSubclass="true">
+  <timeline>
+    <DOMTimeline name="SideBarSymbol">
+      <layers>
+        <DOMLayer name="Tabs" color="#808080" autoNamed="false" layerType="folder"/>
+        <DOMLayer name="Notes Label" color="#9933CC" parentLayerIndex="0" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Tabs/NotesTabLabel" name="NotesTabLabel" symbolType="button">
+                  <matrix>
+                    <Matrix tx="146"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="36.75" y="15"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Notes Tab" color="#4FFFFF" parentLayerIndex="0" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Tabs/Tab" name="NotesTab" centerPoint3DX="183" centerPoint3DY="15" isVisible="false">
+                  <matrix>
+                    <Matrix a="1.00680541992188" tx="146"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="36.75" y="15"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Glossary Label" color="#4FFF4F" parentLayerIndex="0" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Tabs/GlossaryTabLabel" name="GlossaryTabLabel" symbolType="button">
+                  <matrix>
+                    <Matrix tx="64"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="36.75" y="15"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Glossary Tab" color="#FF4FFF" parentLayerIndex="0" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Tabs/Tab" name="GlossaryTab" centerPoint3DX="105" centerPoint3DY="15" isVisible="false">
+                  <matrix>
+                    <Matrix a="1.11564636230469" tx="64"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="36.75" y="15"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Menu Label" color="#FF4FFF" parentLayerIndex="0" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Tabs/MenuTabLabel" name="MenuTabLabel" symbolType="button">
+                  <transformationPoint>
+                    <Point x="36.75" y="15"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Menu Tab" color="#FF800A" parentLayerIndex="0" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Tabs/Tab" name="MenuTab" centerPoint3DX="32" centerPoint3DY="15">
+                  <matrix>
+                    <Matrix a="0.8707275390625"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="36.75" y="15"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Menu" color="#9933CC" autoNamed="false" visible="false" layerType="folder"/>
+        <DOMLayer name="Tree" color="#4FFFFF" parentLayerIndex="7" autoNamed="false" visible="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Glossary" color="#4F80FF" autoNamed="false" visible="false" layerType="folder"/>
+        <DOMLayer name="Terms Label" color="#4FFF4F" parentLayerIndex="9" autoNamed="false" visible="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMDynamicText name="TermsLabel" width="187.25" height="15.05" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="11" ty="196"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Terms</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" size="13" bitmapSize="260" face="Articulate Bold*"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Terms Scrollbar" color="#808080" parentLayerIndex="9" autoNamed="false" visible="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Scrollbar/ScrollbarSymbol" name="TermsScrollbar" centerPoint3DX="212.5" centerPoint3DY="325">
+                  <matrix>
+                    <Matrix d="0.999984741210938" tx="205" ty="225"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="7.5" y="100"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Terms Text" color="#9933CC" parentLayerIndex="9" autoNamed="false" visible="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMDynamicText name="TermsText" width="198" height="180" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="11" ty="227"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters></characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" size="13" bitmapSize="260" face="Articulate"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Terms Rectangle" color="#FF4F4F" parentLayerIndex="9" autoNamed="false" visible="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Rectangle" name="TermsRectangle" centerPoint3DX="110" centerPoint3DY="318">
+                  <matrix>
+                    <Matrix ty="223"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="110" y="95"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Definition Label" color="#FF4F4F" parentLayerIndex="9" outline="true" useOutlineView="true" autoNamed="false" visible="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMDynamicText name="DefinitionLabel" width="187.25" height="15.05" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="11" ty="424"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Definition</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" size="13" bitmapSize="260" face="Articulate Bold*"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Definition Scrollbar" color="#4F80FF" parentLayerIndex="9" autoNamed="false" visible="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Scrollbar/ScrollbarSymbol" name="DefinitionScrollbar" selected="true" centerPoint3DX="212.5" centerPoint3DY="549">
+                  <matrix>
+                    <Matrix tx="205" ty="449"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="7.5" y="100"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Definition Text" color="#FF800A" parentLayerIndex="9" outline="true" useOutlineView="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMDynamicText name="NotesTextField" width="198" height="180" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="11" ty="451"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters></characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" size="13" bitmapSize="260" face="Articulate"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+                <DOMDynamicText name="DefinitionText" width="198" height="180" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="11" ty="451"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters></characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" size="13" bitmapSize="260" face="Articulate"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Definition Rectangle" color="#808080" parentLayerIndex="9" autoNamed="false" visible="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Rectangle with Rounded Bottoms" name="DefinitionRectangle" centerPoint3DX="110" centerPoint3DY="544">
+                  <matrix>
+                    <Matrix d="0.31341552734375" ty="448"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="110" y="306.3"/>
+                  </transformationPoint>
+                  <color>
+                    <Color tintMultiplier="1" tintColor="#E7E7E7"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Notes" color="#FF800A" autoNamed="false" visible="false" layerType="folder"/>
+        <DOMLayer name="Scrollbar" color="#4FFFFF" parentLayerIndex="18" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Scrollbar/ScrollbarSymbol" name="NotesScrollbar" centerPoint3DX="212.5" centerPoint3DY="138">
+                  <matrix>
+                    <Matrix d="1.00001525878906" tx="205" ty="38"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="7.5" y="100"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Text" color="#FF4FFF" parentLayerIndex="18" autoNamed="false" visible="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMDynamicText name="NotesText" width="198" height="586" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="11" ty="40"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters></characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" size="13" bitmapSize="260" face="Articulate"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Background" color="#9933CC" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Rectangle with Rounded Bottoms" name="Background" centerPoint3DX="110" centerPoint3DY="334">
+                  <matrix>
+                    <Matrix d="0.998931884765625" ty="28"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="110" y="306.35"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

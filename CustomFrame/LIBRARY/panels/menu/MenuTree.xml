@@ -1,0 +1,27 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="panels/menu/MenuTree" itemID="52460b86-00000937" linkageExportForAS="true" linkageClassName="customframe.panels.menu.MenuTree" lastModified="1381951424" lastUniqueIdentifier="4">
+  <timeline>
+    <DOMTimeline name="MenuTree">
+      <layers>
+        <DOMLayer name="Background" color="#4FFF4F" locked="true" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="assets/WhiteSquare" name="background" selected="true" symbolType="button">
+                  <matrix>
+                    <Matrix a="5" d="1.29998779296875"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="50" y="13"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.01171875"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

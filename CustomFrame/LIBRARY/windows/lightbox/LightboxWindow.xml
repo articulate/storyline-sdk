@@ -1,0 +1,78 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="windows/lightbox/LightboxWindow" itemID="5252febf-000002db" linkageExportForAS="true" linkageClassName="customframe.windows.lightbox.Lightbox" lastModified="1381181478" lastUniqueIdentifier="4" isSpriteSubclass="true">
+  <timeline>
+    <DOMTimeline name="LightboxWindow">
+      <layers>
+        <DOMLayer name="Controls" color="#4FFFFF" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="components/buttons/ControlButtons" name="controlButtons" centerPoint3DX="621.95" centerPoint3DY="502.95">
+                  <matrix>
+                    <Matrix tx="547.95" ty="487.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="74" y="15"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Close Button" color="#9933CC" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="components/buttons/CloseButton" name="closeButton" centerPoint3DX="720">
+                  <matrix>
+                    <Matrix tx="720"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Slide Container" color="#FF4FFF" locked="true" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="windows/SlideContainer" name="slideContainer" centerPoint3DX="360" centerPoint3DY="270">
+                  <transformationPoint>
+                    <Point x="360" y="270"/>
+                  </transformationPoint>
+                  <color>
+                    <Color tintMultiplier="1" tintColor="#DDDDDD"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Background" color="#4FFF4F" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="assets/WhiteSquare" name="background" centerPoint3DX="360" centerPoint3DY="270">
+                  <matrix>
+                    <Matrix a="35.9999237060547" d="27.0000457763672"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="10" y="10"/>
+                  </transformationPoint>
+                  <filters>
+                    <DropShadowFilter alpha="0.498039215686275" angle="269.999993169811" blurX="0" blurY="0" color="#669901" distance="0.5" strength="0.01"/>
+                  </filters>
+                  <color>
+                    <Color alphaMultiplier="0.3984375" redMultiplier="0" blueMultiplier="0" greenMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

@@ -1,0 +1,31 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="components/scrollbar/ScrollThumbGripper" itemID="5148acb6-00003741" linkageExportForAS="true" linkageClassName="ScrollThumbGripper" lastModified="1381874198" isSpriteSubclass="true">
+  <timeline>
+    <DOMTimeline name="ScrollThumbGripper">
+      <layers>
+        <DOMLayer name="Shape" color="#4FFF4F" locked="true" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#A7A7A7"/>
+                    </FillStyle>
+                    <FillStyle index="2">
+                      <SolidColor color="#CFCFCF"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle0="1" fillStyle1="2" edges="!0 20|140 20"/>
+                    <Edge fillStyle0="1" edges="!140 20|140 0!140 0|0 0!0 0|0 20"/>
+                    <Edge fillStyle1="2" edges="!140 20|140 40!140 40|0 40!0 40|0 20"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

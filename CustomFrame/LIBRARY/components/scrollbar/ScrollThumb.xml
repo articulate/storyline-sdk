@@ -1,0 +1,58 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="components/scrollbar/ScrollThumb" itemID="5148a81c-00002e0f" linkageExportForAS="true" linkageBaseClass="flash.display.Sprite" linkageClassName="ScrollThumb" scaleGridLeft="3.75" scaleGridRight="11.25" scaleGridTop="2.1" scaleGridBottom="4" lastModified="1381870699" isSpriteSubclass="true">
+  <timeline>
+    <DOMTimeline name="ScrollThumb">
+      <layers>
+        <DOMLayer name="Shape" color="#4FFF4F" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#B8B8B8"/>
+                    </FillStyle>
+                    <FillStyle index="2">
+                      <LinearGradient>
+                        <matrix>
+                          <Matrix a="0" b="0.0067138671875" c="-0.001220703125" d="0" tx="7.5" ty="3"/>
+                        </matrix>
+                        <GradientEntry color="#B2B2B2" ratio="0"/>
+                        <GradientEntry color="#C4C4C4" ratio="1"/>
+                      </LinearGradient>
+                    </FillStyle>
+                    <FillStyle index="3">
+                      <LinearGradient>
+                        <matrix>
+                          <Matrix a="0" b="0.0079345703125" c="-0.00244140625" d="0" tx="7.5" ty="3"/>
+                        </matrix>
+                        <GradientEntry color="#BABABA" ratio="0"/>
+                        <GradientEntry color="#CBCBCB" ratio="1"/>
+                      </LinearGradient>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!300 120|0 120!0 120|0 0!0 0|300 0!300 0|300 120"/>
+                    <Edge fillStyle0="1" fillStyle1="3" edges="!280 100|20 100!20 100|20 20!20 20|280 20!280 20|280 100"/>
+                    <Edge fillStyle0="3" fillStyle1="2" edges="!260 80|40 80!40 80|40 40!40 40|260 40!260 40|260 80"/>
+                    <Edge cubics="!280 20(;280,20 280,100 280,100q280 20 280 100);"/>
+                    <Edge cubics="!260 40(;260,40 260,80 260,80q260 40 260 80);"/>
+                    <Edge cubics="!300 0(;300,0 300,120 300,120q300 0 300 120);"/>
+                    <Edge cubics="!20 20(;20,20 20,100 20,100q20 20 20 100);"/>
+                    <Edge cubics="!40 40(;40,40 40,80 40,80q40 40 40 80);"/>
+                    <Edge cubics="!0 120(;0,120 0,0 0,0q0 120 0 0);"/>
+                    <Edge cubics="!300 120(;300,120 0,120 0,120q300 120 0 120);"/>
+                    <Edge cubics="!20 100(;20,100 280,100 280,100q20 100 280 100);"/>
+                    <Edge cubics="!40 80(;40,80 260,80 260,80q40 80 260 80);"/>
+                    <Edge cubics="!0 0(;0,0 300,0 300,0q0 0 300 0);"/>
+                    <Edge cubics="!20 20(;20,20 280,20 280,20q20 20 280 20);"/>
+                    <Edge cubics="!40 40(;40,40 260,40 260,40q40 40 260 40);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

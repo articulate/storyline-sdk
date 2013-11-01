@@ -1,0 +1,40 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="assets/Gradient Rounded Rectangle" itemID="50beb0ee-00000368" scaleGridLeft="40" scaleGridRight="946.2" scaleGridTop="28" scaleGridBottom="624.15" lastModified="1380065117">
+  <timeline>
+    <DOMTimeline name="Gradient Rounded Rectangle">
+      <layers>
+        <DOMLayer name="Shape" color="#4FFF4F" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <LinearGradient>
+                        <matrix>
+                          <Matrix a="0.00018310546875" b="-0.401611328125" c="0.399322509765625" d="0.0001983642578125" tx="490" ty="329"/>
+                        </matrix>
+                        <GradientEntry color="#CFCFCF" ratio="0"/>
+                        <GradientEntry color="#E8E8E8" ratio="1"/>
+                      </LinearGradient>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle0="1" edges="!19600 12959|19600 201!19600 201[19600 0 19400 0!19400 0|200 0!200 0[0 0 0 201!0 201|0 12959!0 12959[0 13160 200 13160!200 13160|19400 13160!19400 13160[19600 13160 19600 12959"/>
+                    <Edge cubics="!19600 201(;19600,67 19533,0 19400,0q19600 201Q19600 0q19400 0);"/>
+                    <Edge cubics="!19600 12959(;19600,12959 19600,201 19600,201q19600 12959 19600 201);"/>
+                    <Edge cubics="!19400 13160(;19533,13160 19600,13093 19600,12959q19400 13160Q19600 13160q19600 12959);"/>
+                    <Edge cubics="!200 0(;67,0 0,67 0,201q200 0Q0 0q0 201);"/>
+                    <Edge cubics="!0 12959(;0,13093 67,13160 200,13160q0 12959Q0 13160q200 13160);"/>
+                    <Edge cubics="!0 201(;0,201 0,12959 0,12959q0 201 0 12959);"/>
+                    <Edge cubics="!19400 0(;19400,0 200,0 200,0q19400 0 200 0);"/>
+                    <Edge cubics="!200 13160(;200,13160 19400,13160 19400,13160q200 13160 19400 13160);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

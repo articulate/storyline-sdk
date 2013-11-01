@@ -1,0 +1,26 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="assets/Rectangle with Rounded Bottoms" itemID="50bfef29-000004e9" scaleGridLeft="17" scaleGridRight="201" scaleGridTop="5" scaleGridBottom="592.95" lastModified="1380063003">
+  <timeline>
+    <DOMTimeline name="Rectangle with Rounded Bottoms">
+      <layers>
+        <DOMLayer name="Shape" color="#4FFF4F" locked="true" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#F3F3F3"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle0="1" edges="!0 0|0 12054!0 12054[0 12253 195 12253!195 12253|4205 12253!4205 12253[4400 12253 4400 12054!4400 12054|4400 0!4400 0|0 0"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

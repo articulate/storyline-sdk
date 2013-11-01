@@ -1,0 +1,157 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="panels/sidebar/SideBar" itemID="524322bc-00000431" linkageExportForAS="true" linkageClassName="customframe.panels.sidebar.Sidebar" scaleGridLeft="55" scaleGridRight="206" scaleGridTop="28" scaleGridBottom="32" lastModified="1381866682" lastUniqueIdentifier="21" isSpriteSubclass="true">
+  <timeline>
+    <DOMTimeline name="SideBar">
+      <layers>
+        <DOMLayer name="Tabs" color="#808080" locked="true" autoNamed="false" layerType="folder"/>
+        <DOMLayer name="Notes Label" color="#9933CC" parentLayerIndex="0" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="panels/tabs/NotesTabLabel" name="notesTabLabel" selected="true" symbolType="button">
+                  <matrix>
+                    <Matrix tx="146"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="36.75" y="15"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Notes Tab" color="#4FFFFF" parentLayerIndex="0" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="panels/tabs/Tab" name="notesTab" selected="true" centerPoint3DX="183" centerPoint3DY="15" isVisible="false">
+                  <matrix>
+                    <Matrix a="1.00680541992188" tx="146"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="36.75" y="15"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Glossary Label" color="#4FFF4F" parentLayerIndex="0" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="panels/tabs/GlossaryTabLabel" name="glossaryTabLabel" symbolType="button">
+                  <matrix>
+                    <Matrix tx="64"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="36.75" y="15"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Glossary Tab" color="#FF4FFF" parentLayerIndex="0" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="panels/tabs/Tab" name="glossaryTab" centerPoint3DX="105" centerPoint3DY="15" isVisible="false">
+                  <matrix>
+                    <Matrix a="1.11564636230469" tx="64"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="36.75" y="15"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Menu Label" color="#FF4FFF" parentLayerIndex="0" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="panels/tabs/MenuTabLabel" name="menuTabLabel" symbolType="button">
+                  <transformationPoint>
+                    <Point x="36.75" y="15"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Menu Tab" color="#FF800A" parentLayerIndex="0" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="panels/tabs/Tab" name="menuTab" centerPoint3DX="32" centerPoint3DY="15">
+                  <matrix>
+                    <Matrix a="0.8707275390625"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="36.75" y="15"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Menu" color="#4FFFFF" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="panels/menu/Menu" name="menu" centerPoint3DX="137.5" centerPoint3DY="6.3">
+                  <transformationPoint>
+                    <Point x="137.75" y="47.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Glossary" color="#FF4F4F" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="panels/glossary/Glossary" name="glossary" centerPoint3DX="110" centerPoint3DY="417">
+                  <transformationPoint>
+                    <Point x="110" y="417"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Notes" color="#4FFF4F" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="panels/notes/Notes" name="notes" centerPoint3DX="114.5" centerPoint3DY="333">
+                  <transformationPoint>
+                    <Point x="114.5" y="333"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Background" color="#9933CC" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="assets/Rectangle with Rounded Bottoms" name="background" centerPoint3DX="110" centerPoint3DY="334">
+                  <matrix>
+                    <Matrix d="0.998931884765625" ty="28"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="110" y="306.35"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

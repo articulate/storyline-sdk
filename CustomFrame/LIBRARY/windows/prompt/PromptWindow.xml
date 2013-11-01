@@ -1,0 +1,83 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="windows/prompt/PromptWindow" itemID="5243228b-00000429" linkageExportForAS="true" linkageClassName="customframe.windows.prompt.PromptWindow" scaleGridLeft="80" scaleGridRight="240" scaleGridTop="55" scaleGridBottom="126.75" lastModified="1381951442" lastUniqueIdentifier="4">
+  <timeline>
+    <DOMTimeline name="PromptWindow">
+      <layers>
+        <DOMLayer name="Title" color="#FF4FFF" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMDynamicText name="titleField" width="284.45" height="21.15" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="17" ty="17"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Title</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" size="18" bitmapSize="360" face="Articulate-Bold" fillColor="#616161"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Title Line" color="#FF800A" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke pixelHinting="true">
+                        <fill>
+                          <SolidColor color="#D3D3D3"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge strokeStyle="1" edges="!319 1040S4|6079 1040"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Border" color="#9933CC" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="windows/prompt/PromptWindowBorder" name="border" centerPoint3DX="159.7" centerPoint3DY="84.5">
+                  <matrix>
+                    <Matrix tx="1.95" ty="2"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="157.75" y="82.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Background" color="#4FFF4F" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="windows/prompt/PromptWindowRectangle" name="background" centerPoint3DX="160" centerPoint3DY="84.5">
+                  <transformationPoint>
+                    <Point x="160" y="84.5"/>
+                  </transformationPoint>
+                  <filters>
+                    <DropShadowFilter angle="90" blurX="10" blurY="10" distance="10" strength="0.1"/>
+                  </filters>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

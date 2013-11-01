@@ -1,0 +1,119 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="panels/glossary/Glossary" itemID="525302dc-000002fc" linkageExportForAS="true" linkageClassName="customframe.panels.glossary.Glossary" lastModified="1381942192" lastUniqueIdentifier="10">
+  <timeline>
+    <DOMTimeline name="Glossary">
+      <layers>
+        <DOMLayer name="Terms" color="#4F80FF" locked="true" autoNamed="false" layerType="folder"/>
+        <DOMLayer name="Terms Label" color="#4FFF4F" parentLayerIndex="0" locked="true" outline="true" useOutlineView="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMDynamicText name="termsLabel" width="187.25" height="15.05" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="11" ty="196"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Terms</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" size="13" bitmapSize="260" face="Articulate Bold*"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Terms List" color="#FF800A" parentLayerIndex="0" locked="true" outline="true" useOutlineView="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="components/list/List" name="termsList" centerPoint3DX="144" centerPoint3DY="243">
+                  <matrix>
+                    <Matrix tx="9" ty="233"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="135" y="50"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Terms Rectangle" color="#FF4F4F" parentLayerIndex="0" locked="true" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="assets/Rectangle" name="termsRectangle" selected="true" centerPoint3DX="110" centerPoint3DY="318">
+                  <matrix>
+                    <Matrix ty="223"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="110" y="95"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Definition" color="#9933CC" locked="true" autoNamed="false" layerType="folder"/>
+        <DOMLayer name="Definition Label" color="#FF4F4F" parentLayerIndex="4" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMDynamicText name="definitionLabel" width="187.25" height="15.05" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="11" ty="424"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Definition</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" size="13" bitmapSize="260" face="Articulate Bold*"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Definition Text" color="#4F80FF" parentLayerIndex="4" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="components/text/ScrollingTextField" name="definitionText" centerPoint3DX="124" centerPoint3DY="752">
+                  <matrix>
+                    <Matrix a="1.04545593261719" tx="9" ty="457"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="110" y="295"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Definition Rectangle" color="#808080" parentLayerIndex="4" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="assets/Rectangle with Rounded Bottoms" name="definitionRectangle" centerPoint3DX="110" centerPoint3DY="544">
+                  <matrix>
+                    <Matrix d="0.31341552734375" ty="448"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="110" y="306.3"/>
+                  </transformationPoint>
+                  <color>
+                    <Color tintMultiplier="1" tintColor="#E7E7E7"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

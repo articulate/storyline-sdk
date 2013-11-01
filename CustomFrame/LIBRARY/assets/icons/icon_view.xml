@@ -1,0 +1,33 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="assets/icons/icon_view" itemID="49734fc1-00000889" sourceFlashFilepath="../../../Perforce/articulate/depot/Common/BridgeWater/1.0/player/player.fla" sourceLibraryItemHRef="icons/icon_view" sourceLastModified="1256785922" lastModified="1353047367" sourceItemID="00000000-7fffffff">
+  <timeline>
+    <DOMTimeline name="icon_view">
+      <layers>
+        <DOMLayer name="Layer 2" color="#9933CC" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle0="1" edges="!420 0|310 0!310 0|420 110!420 110|420 0"/>
+                    <Edge fillStyle1="1" edges="!420 380|310 380!310 380|420 270!420 270|420 380"/>
+                    <Edge fillStyle0="1" edges="!300.5 180[#12C.6F #93.06 276.5 123!276.5 123[#FD.78 #64.1 220.5 100!220.5 100|200 100!200 100[#A7.06 #64.1 143 123!143 123[#78.5 #93.06 120.5 180!120.5 180|120.5 200.5!120.5 200.5[#78.5 #E9.79 143 256.5!143 256.5[#A7.06 #118.2F 200 280
+!200 280|220.5 280!220.5 280[#FD.78 #118.2F 276.5 256.5!276.5 256.5[#12C.6F #E9.79 300.5 200.5!300.5 200.5|300.5 180"/>
+                    <Edge fillStyle1="1" edges="
+!110 0|0 110!0 110|0 0!0 0|110 0"/>
+                    <Edge fillStyle0="1" edges="
+!110 380|0 270!0 270|0 380!0 380|110 380"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

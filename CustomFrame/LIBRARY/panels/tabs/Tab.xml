@@ -1,0 +1,26 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="panels/tabs/Tab" itemID="50bfa0cd-000004a7" scaleGridLeft="9.4" scaleGridRight="64.4" scaleGridTop="7.5" scaleGridBottom="28.6" lastModified="1381192305">
+  <timeline>
+    <DOMTimeline name="Tab">
+      <layers>
+        <DOMLayer name="Background" color="#4FFF4F" locked="true" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#F3F3F3"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle0="1" edges="!1470 200S1[1470 0 1270 0!1270 0|200 0!200 0[0 0 0 200!0 200|0 600!0 600|1470 600!1470 600|1470 200"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

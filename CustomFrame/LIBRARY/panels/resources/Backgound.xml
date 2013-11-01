@@ -1,0 +1,26 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="panels/resources/Backgound" itemID="52530156-000002f5" scaleGridLeft="75" scaleGridRight="225" scaleGridTop="109.4" scaleGridBottom="328.2" lastModified="1381871261">
+  <timeline>
+    <DOMTimeline name="Backgound">
+      <layers>
+        <DOMLayer name="Shape" color="#4FFF4F" locked="true" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#F3F3F3"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle0="1" edges="!5880 0|120 0!120 0[0 0 0 120!0 120|0 8632!0 8632[0 8752 120 8752!120 8752|5880 8752!5880 8752[6000 8752 6000 8632!6000 8632|6000 120!6000 120[6000 0 5880 0"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

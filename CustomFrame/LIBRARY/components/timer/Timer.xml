@@ -1,0 +1,45 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="components/timer/Timer" itemID="524322df-00000434" linkageExportForAS="true" linkageClassName="customframe.components.timer.CustomTimer" lastModified="1381942174" lastUniqueIdentifier="1" isSpriteSubclass="true">
+  <timeline>
+    <DOMTimeline name="Timer">
+      <layers>
+        <DOMLayer name="Text" color="#9933CC" locked="true" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMDynamicText name="timeField" selected="true" width="196" height="16" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="2" ty="2"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters></characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="right" aliasText="false" indent="6" lineSpacing="6" bitmapSize="240" face="_sans" fillColor="#555555"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Clock" color="#4FFF4F" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="components/timer/Clock" name="clock" centerPoint3DX="215" centerPoint3DY="10">
+                  <matrix>
+                    <Matrix a="0.0994110107421875" d="0.0994110107421875" tx="215" ty="10"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

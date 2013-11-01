@@ -1,0 +1,40 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="panels/resources/Resources" itemID="52432293-0000042a" linkageExportForAS="true" linkageClassName="customframe.panels.resources.Resources" scaleGridLeft="9.6" scaleGridRight="212.8" scaleGridTop="5.6" scaleGridBottom="428" lastModified="1381942107" lastUniqueIdentifier="1" isSpriteSubclass="true">
+  <timeline>
+    <DOMTimeline name="Resources">
+      <layers>
+        <DOMLayer name="Label" color="#FF800A" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="panels/tabs/ResourcesLabel" name="label" selected="true" symbolType="button">
+                  <matrix>
+                    <Matrix tx="235.45" ty="-19"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="30.9" y="9.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Panel" color="#FF4FFF" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="panels/resources/ResourcesPanel" name="panel" selected="true" centerPoint3DX="142.1" centerPoint3DY="20">
+                  <transformationPoint>
+                    <Point x="141.85" y="20.25"/>
+                  </transformationPoint>
+                  <filters>
+                    <DropShadowFilter blurX="10" blurY="10" distance="0" quality="3" strength="0.2"/>
+                  </filters>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

@@ -1,0 +1,98 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="components/buttons/CloseButton" itemID="524321f4-00000421" lastModified="1381171557">
+  <timeline>
+    <DOMTimeline name="CloseButton">
+      <layers>
+        <DOMLayer name="X" color="#FF800A" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal" weight="2">
+                        <fill>
+                          <SolidColor color="#FFFFFF"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge strokeStyle="1" edges="!43 -41S4|1 1!1 1|43 43!1 1|-41 43!-42 -42|1 1"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Gradient" color="#4FFF4F" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <LinearGradient>
+                        <matrix>
+                          <Matrix a="0" b="0.00604248046875" c="-0.010955810546875" d="0" tx="-0.05"/>
+                        </matrix>
+                        <GradientEntry color="#FFFFFF" alpha="0.501960784313725" ratio="0"/>
+                        <GradientEntry color="#FF0000" alpha="0" ratio="0.517647058823529"/>
+                        <GradientEntry alpha="0.250980392156863" ratio="1"/>
+                      </LinearGradient>
+                    </FillStyle>
+                  </fills>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal">
+                        <fill>
+                          <SolidColor color="#FF0000"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge fillStyle1="1" strokeStyle="1" edges="!127 -128S6[180 -75 180 0!180 0[180 75 127 127!127 127[75 180 0 180!0 180[-75 180 -128 127!-128 127[-180 75 -180 0!-180 0[-180 -75 -128 -128!-128 -128[-75 -180 0 -180!0 -180[75 -180 127 -128"/>
+                    <Edge cubics="!0 -180(;50,-180 92,-163 127,-128q0 -180Q75 -180q127 -128);"/>
+                    <Edge cubics="!-128 -128(;-93,-163 -50,-180 0,-180q-128 -128Q-75 -180q0 -180);"/>
+                    <Edge cubics="!-180 0(;-180,-50 -163,-93 -128,-128q-180 0Q-180 -75q-128 -128);"/>
+                    <Edge cubics="!-128 127(;-163,92 -180,50 -180,0q-128 127Q-180 75q-180 0);"/>
+                    <Edge cubics="!0 180(;-50,180 -93,162 -128,127q0 180Q-75 180q-128 127);"/>
+                    <Edge cubics="!127 127(;92,162 50,180 0,180q127 127Q75 180q0 180);"/>
+                    <Edge cubics="!180 0(;180,50 162,92 127,127q180 0Q180 75q127 127);"/>
+                    <Edge cubics="!127 -128(;162,-93 180,-50 180,0q127 -128Q180 -75q180 0);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Background" color="#9933CC" locked="true" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#FF0000"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!134 -135S2[190 -79 190 0!190 0[190 79 134 134!134 134[79 190 0 190!0 190[-79 190 -135 134!-135 134[-190 79 -190 0!-190 0[-190 -79 -135 -135!-135 -135[-79 -190 0 -190!0 -190[79 -190 134 -135"/>
+                    <Edge cubics="!-190 0(;-190,-52 -171,-97 -135,-135q-190 0Q-190 -79q-135 -135);"/>
+                    <Edge cubics="!-135 134(;-171,97 -190,52 -190,0q-135 134Q-190 79q-190 0);"/>
+                    <Edge cubics="!0 190(;-52,190 -97,171 -135,134q0 190Q-79 190q-135 134);"/>
+                    <Edge cubics="!-135 -135(;-97,-171 -52,-190 0,-190q-135 -135Q-79 -190q0 -190);"/>
+                    <Edge cubics="!134 -135(;171,-97 190,-52 190,0q134 -135Q190 -79q190 0);"/>
+                    <Edge cubics="!190 0(;190,52 171,97 134,134q190 0Q190 79q134 134);"/>
+                    <Edge cubics="!0 -190(;52,-190 97,-171 134,-135q0 -190Q79 -190q134 -135);"/>
+                    <Edge cubics="!134 134(;97,171 52,190 0,190q134 134Q79 190q0 190);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

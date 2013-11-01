@@ -1,0 +1,30 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="assets/icons/icon_search" itemID="497a197f-000010f9" sourceFlashFilepath="../../../Perforce/articulate/depot/Common/BridgeWater/1.0/player/player.fla" sourceLibraryItemHRef="icons/icon_search" sourceLastModified="1256785908" lastModified="1353047367" sourceItemID="00000000-7fffffff">
+  <timeline>
+    <DOMTimeline name="icon_search">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle0="1" edges="!220 109.5[#DA.F3 #40.C4 186 32!186 32|186.5 32!186.5 32[#9B.4A #FFFFFF.E9 110 0!110 0[#40.48 #FFFFFF.D3 31.5 31.5!31.5 31.5|31 32!31 32[#FFFFFF.3D #40.D8 0 109.5!0 109.5|0 110.5!0 110.5[#FFFFFF.6F #9C.6A 31.5 187.5!31.5 187.5|31.5 187
+!31.5 187[#3A.C8 #D6.49 95 219!95 219[#66.5 #DB.EC 110 220!110 220[#71.08 220 116 220!116 220[#93.7E #DA.4C 172 200!172 200|246 274!246 274[#FB.C9 #117.EE 260 280!260 280[#10C.37 #117.EE 274 274!274 274[#117.EE #10C.37 280 260!280 260
+[#117.EE #FB.C9 274 246!274 246|199.5 171.5!199.5 171.5[#DB.1D #91.7 220 110.5!220 110.5|220 109.5!162 56|162.5 56!162.5 56[#B9.5F #4F.14 186 110.5!186 110.5[#B9.42 #8D.CD 163 163!163 163[#A2.7C #A3.3D 162 163.5!162 163.5[#8E.E5 #B7.D4
+ 116 186!116 186[#71.0C #BA.01 110 186!110 186[#66.3A #BA.23 95 185!95 185[#48.7 #B4.B2 55 163.5!55 163.5|55 163!55 163[#21.2E #8D.E4 34 110.5!34 110.5|34 109.5!34 109.5[#21.58 #4E.F3 55 56.5!55 56.5|55.5 56!55.5 56[#4E.4E #22.0F 110
+ 34!110 34[#8C.CF #22.02 162 56"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

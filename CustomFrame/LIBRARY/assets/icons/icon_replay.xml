@@ -1,0 +1,46 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="assets/icons/icon_replay" itemID="49735521-00000892" sourceFlashFilepath="../../../Perforce/articulate/depot/Common/BridgeWater/1.0/player/player.fla" sourceLibraryItemHRef="icons/icon_replay" sourceLastModified="1256785894" lastModified="1353047367" sourceItemID="00000000-7fffffff">
+  <timeline>
+    <DOMTimeline name="icon_replay">
+      <layers>
+        <DOMLayer name="Layer 3" color="#FFFF4F">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!50 180|1 121!1 121|0 120!0 120|99.5 120!99.5 120|50 180"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 2" color="#9933CC" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!319.5 149.5[#13F.6E #D3.38 274.5 255!274.5 255[#E6.F8 #12B.AE 169.5 299.5!169.5 299.5[#6B.EA #12B.AE 63 255!63 255[#2E.D3 #EE.BD 36.5 220!36.5 220|85.5 220!85.5 220[#58.99 #DF.94 92 227!92 227[#7C.E4 #103.B4 170 259.5!170 259.5[#D7.14
+ #103.B4 247 227!247 227[#117.F3 #C2.D5 280 149.5!280 149.5[#117.F3 #68.63 247 71.5!247 71.5[#D7.14 #27.84 170 39.5!170 39.5[#7C.E4 #27.84 92 71.5!92 71.5[#46.FB #5D.1D 64 120!64 120|22 120!22 120[#1B.2C #5C.E1 42 69.5!42 69.5[#32.CD
+ #37.95 63 43!63 43[#6B.EA -0.546875 169.5 -0.5!169.5 -0.5[#E6.F8 -0.546875 274.5 43!274.5 43[#13F.6E #57.EA 319.5 149.5"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

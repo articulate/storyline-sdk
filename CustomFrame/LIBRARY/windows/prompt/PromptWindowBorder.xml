@@ -1,0 +1,30 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="windows/prompt/PromptWindowBorder" itemID="514cf953-000034c9" scaleGridLeft="78.6" scaleGridRight="236.9" scaleGridTop="41" scaleGridBottom="124" lastModified="1380064349">
+  <timeline>
+    <DOMTimeline name="PromptWindowBorder">
+      <layers>
+        <DOMLayer name="Shape" color="#4FFF4F" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke pixelHinting="true">
+                        <fill>
+                          <SolidColor color="#A7A7A7"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge strokeStyle="1" edges="!6061 0|250 0!250 0[0 0 0 247!0 247|0 3053!0 3053[0 3300 250 3300!250 3300|6061 3300!6061 3300[6310 3300 6310 3053!6310 3053|6310 247!6310 247[6310 0 6061 0"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>
