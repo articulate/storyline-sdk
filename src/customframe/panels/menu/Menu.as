@@ -119,11 +119,22 @@ package customframe.panels.menu
 				this.scrollbar.x = m_nWidth - this.scrollbar.width;
 				this.scrollbar.y = 0;
 				this.scrollbar.height = m_nHeight;
-				this.scrollbar.ContentHeight = this.tree.height + SCROLL_MARGIN;
-				var nWidth:int = (this.scrollbar.ContentHeight > this.scrollbar.height) ?
-								 this.scrollbar.x - this.tree.x - 1 : m_nWidth - MARGIN_TREE - this.tree.x - 1;
+				this.scrollbar.ContentHeight = this.tree.ExpandedHeight + SCROLL_MARGIN;
+
+				var nWidth:int = 0;
+				if (this.scrollbar.ContentHeight > m_nHeight)
+				{
+					nWidth = this.scrollbar.x - this.tree.x - 1;
+					this.scrollbar.visible = true;
+				}
+				else
+				{
+					nWidth = m_nWidth - MARGIN_TREE - this.tree.x - 1;
+					this.scrollbar.visible = false;
+				}
+
 				this.tree.width = nWidth;
-				this.tree.scrollRect = new Rectangle(0, this.scrollbar.Position, nWidth, this.scrollbar.height - 1);
+				this.tree.scrollRect = new Rectangle(0, this.scrollbar.Position, nWidth, this.scrollbar.height - SCROLL_MARGIN);
 			}
 		}
 

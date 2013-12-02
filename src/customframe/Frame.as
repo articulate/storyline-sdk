@@ -175,7 +175,10 @@ package customframe
 
 		public function SetTitle(strTitle:String):void
 		{
-			this.titleField.text = strTitle;
+			if (this.titleField.text != strTitle)
+			{
+				this.titleField.text = strTitle;
+			}
 		}
 
 		public function SetDataFilename(strFilename:String, strRemotePath:String):void
@@ -259,11 +262,11 @@ package customframe
 			{
 				this.logo.visible = true;
 				this.logo.FileName = m_oOptionManager.GetOptionAsString(OptionManager.OPTGROUP_SIDEBAR,
-									 OptionManager.OPTION_LOGO_URL);
+					OptionManager.OPTION_LOGO_URL);
 				this.logo.ImageWidth =  parseInt(m_oOptionManager.GetOptionProperty(OptionManager.OPTGROUP_SIDEBAR,
-										OptionManager.OPTION_LOGO_URL, WIDTH));
+					OptionManager.OPTION_LOGO_URL, WIDTH));
 				this.logo.ImageHeight =  parseInt(m_oOptionManager.GetOptionProperty(OptionManager.OPTGROUP_SIDEBAR,
-										 OptionManager.OPTION_LOGO_URL, HEIGHT));
+					OptionManager.OPTION_LOGO_URL, HEIGHT));
 				this.logo.Load();
 				this.logo.height = this.logo.ImageHeight + 16;
 				this.sidebar.y = this.logo.y + this.logo.height + 8;
@@ -283,10 +286,10 @@ package customframe
 				this.sidebar.visible = true;
 				this.background.SidebarBackgroundVisible = true;
 				this.slideContainer.x = this.background.SidebarBackgroundWidth +
-										(this.width - this.background.SidebarBackgroundWidth -
-											this.slideContainer.width) * 0.5;
+					(this.width - this.background.SidebarBackgroundWidth -
+						this.slideContainer.width) * 0.5;
 				this.titleField.x = this.slideContainer.x;
-
+				
 				(bShowNotes) ? this.sidebar.ShowNotes() : this.sidebar.HideNotes();
 				(bShowGlossary) ? this.sidebar.ShowGlossary() : this.sidebar.HideGlossary();
 				(bShowMenu) ? this.sidebar.ShowMenu() : this.sidebar.HideMenu();
@@ -306,7 +309,7 @@ package customframe
 			this.resourcesPopup.visible = m_oControlManager.IsControlEnabled(RESOURCES);
 
 			var strProjectTitle:String = m_oOptionManager.GetOptionAsString(OptionManager.OPTGROUP_SIDEBAR,
-																			OptionManager.OPTION_TITLE_TEXT);
+				OptionManager.OPTION_TITLE_TEXT);
 
 			if (strProjectTitle != null)
 			{

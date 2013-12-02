@@ -186,7 +186,7 @@ package customframe.panels.menu
 
 		protected function UpdateChildrenSizeAndPosition():void
 		{
-			UpdateChildrenFromPosAndHeight(this.textField.y + this.textField.TextHeight + MARGIN_BOTTOM, m_nHeight);
+			UpdateChildrenFromPosAndHeight(this.UnexpandedHeight, m_nHeight);
 		}
 
 		protected function UpdateChildrenFromPosAndHeight(nYPos:Number, nExpandedHeight:Number):void
@@ -211,12 +211,17 @@ package customframe.panels.menu
 
 		protected function AdjustLayout(oNode:MenuNode = null):void
 		{
-			m_nExpandedHeight = (oNode != null) ? oNode.y + oNode.height : 0;
+			m_nExpandedHeight = this.UnexpandedHeight;
 			for each (var oChild:MenuNode in m_vecChildNodes)
 			{
 				oChild.y = m_nExpandedHeight;
 				m_nExpandedHeight += oChild.height;
 			}
+		}
+		
+		protected function get UnexpandedHeight():Number
+		{
+			return 0;
 		}
 
 		override public function AdjustViewState():void

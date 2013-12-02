@@ -56,6 +56,11 @@ package customframe.panels.menu
 			}
 		}
 
+		override protected function get UnexpandedHeight():Number
+		{
+			return this.textField.y + this.textField.TextHeight + MARGIN_BOTTOM;
+		}
+
 		override public function set width(value:Number):void
 		{
 			if (m_nWidth != value)

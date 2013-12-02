@@ -25,6 +25,11 @@ package customframe.panels.menu
 			return 0;
 		}
 
+		public function get ExpandedHeight():Number
+		{
+			return m_nExpandedHeight;
+		}
+
 		override protected function CreateNode(xmlData:XML, nIndex:int):MenuNode
 		{
 			var oChildNode:MenuNode = super.CreateNode(xmlData, nIndex);
