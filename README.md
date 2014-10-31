@@ -1,11 +1,11 @@
-storyline-sdk
+Storyline 2 SDK
 =============
 
 ##Introduction
-The Storyline-sdk consists of documentation, interfaces, and sample code that demonstrate how to customize the player that surrounds your Storyline slide content, referred to as the frame.
+The Storyline 2 SDK consists of documentation, interfaces, and sample code that demonstrate how to customize the player that surrounds your Storyline slide content, referred to as the frame.
 
 ##Flash Document
-The included Flash® document was created in Adobe® Flash® Professional CS6 and saved as an uncompressed document (.xfl). It is located in the folder named [CustomFrame](https://github.com/articulate/storyline-sdk/tree/v1.0/CustomFrame).
+The included Flash® document was created in Adobe® Flash® Professional CS6 and saved as an uncompressed document (.xfl). It is located in the folder named [CustomFrame](https://github.com/articulate/storyline-sdk/tree/v2.0/CustomFrame).
 
 ###Document Library
 The library is divided into four main folders (assets, components, panels, and windows). All the graphical assets for the sample frame are contained within these folders.
@@ -23,16 +23,16 @@ Located within the panels folder are the containers used to display the Menu, Gl
 The window folder contains the windows used for displaying lightboxed slides, system messages (such as the resume prompt), as well as the slide container and background.
 
 ##ActionScript Source
-All ActionScript used in the sdk is located in the [src](https://github.com/articulate/storyline-sdk/tree/v1.0/src) folder. Here you will find two additional folders, [customframe](https://github.com/articulate/storyline-sdk/tree/v1.0/src/customframe) and [com/articulate/wg/v2_0](https://github.com/articulate/storyline-sdk/tree/v1.0/src/com/articulate/wg/v2_0). 
+All ActionScript used in the sdk is located in the [src](https://github.com/articulate/storyline-sdk/tree/v2.0/src) folder. Here you will find two additional folders, [customframe](https://github.com/articulate/storyline-sdk/tree/v2.0/src/customframe) and [com/articulate/wg/v3_0](https://github.com/articulate/storyline-sdk/tree/v2.0/src/com/articulate/wg/v3_0). 
 
 ####customframe
-The [customframe](https://github.com/articulate/storyline-sdk/tree/v1.0/src/customframe) folder contains the source files that provide the logic for the sample frame. The source files are organized into sub-folders and structured similarly to the library contained within CustomFrame.xfl.
+The [customframe](https://github.com/articulate/storyline-sdk/tree/v2.0/src/customframe) folder contains the source files that provide the logic for the sample frame. The source files are organized into sub-folders and structured similarly to the library contained within CustomFrame.xfl.
 
-####com/articulate/wg/v2_0
-The folder [com/articulate/wg/v2_0](https://github.com/articulate/storyline-sdk/tree/v1.0/src/com/articulate/wg/v2_0) contains the interface and event classes that define the interface used to communicate with Articulate Storyline flash runtime.
+####com/articulate/wg/v3_0
+The folder [com/articulate/wg/v3_0](https://github.com/articulate/storyline-sdk/tree/v2.0/src/com/articulate/wg/v3_0) contains the interface and event classes that define the interface used to communicate with Articulate Storyline flash runtime.
 
 ##Documentation
-Documentation for the interface and event classes is located in the [Documentation](https://github.com/articulate/storyline-sdk/tree/v1.0/Documentation) folder. The documentation can be viewed by opening [index.html](https://rawgithub.com/articulate/storyline-sdk/v1.0/Documentation/index.html) within your browser.
+Documentation for the interface and event classes is located in the [Documentation](https://github.com/articulate/storyline-sdk/tree/v2.0/Documentation) folder. The documentation can be viewed by opening [index.html](https://rawgithub.com/articulate/storyline-sdk/v2.0/Documentation/index.html) within your browser.
 
 ##Using Your Custom Frame
 To use your completed frame, rename your swf to frame.swf, navigate to the story_content folder located in your Storyline published output folder and replace the existing frame.swf in the story_content folder with your custom version.
