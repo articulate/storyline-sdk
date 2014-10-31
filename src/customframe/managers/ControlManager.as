@@ -12,6 +12,8 @@ package customframe.managers
 	public class ControlManager extends EventDispatcher
 	{
 		public static const CONTROL_LAYOUT_CHANGED:String = "controlLayoutChanged";
+		public static const STATE_ENABLED:int = 1;
+		public static const STATE_VISIBILE:int = 2;
 
 		private var m_strCurrentLayout:String = "default";
 
@@ -68,6 +70,7 @@ package customframe.managers
 		{
 			return m_bHiddenFrame;
 		}
+		
 		public function set HiddenFrameMode(value:Boolean)
 		{
 			if (m_bHiddenFrame != value)
@@ -158,55 +161,83 @@ package customframe.managers
 
 		public function EnableFrameControl(strControlName:String, bEnable:Boolean):void
 		{
-			m_bOverridden = true;
-
-			if (m_lOverrides[strControlName] == null || m_lOverrides[strControlName] != bEnable)
-			{
-				m_lOverrides[strControlName] = bEnable;
-				dispatchEvent(new Event(CONTROL_LAYOUT_CHANGED));
-			}
+			var nState:int = (this.IsControlEnabled(strControlName)) ? STATE_VISIBILE : 0;
+			nState += (bEnable) ? STATE_ENABLED : 0;
+			
+			SetControlState(strControlName, nState);
 		}
 
-		public function IsDisabledState(strControlId:String):Boolean
+		public function SetControlVisible(strControlName:String, bVisible:Boolean):void
 		{
-			return m_lOverrides[strControlId] == false;
+			var nState:int = (bVisible) ? STATE_VISIBILE : 0;
+			nState += (IsDisabledState(strControlName)) ? 0 : STATE_ENABLED;
+
+			SetControlState(strControlName, nState);
+		}
+
+		public function IsDisabledState(strControlName:String):Boolean
+		{
+			return (m_lOverrides[strControlName] != null && (m_lOverrides[strControlName] & STATE_ENABLED) == 0);
 		}
 
 		public function IsControlEnabled(strControlId:String):Boolean
 		{
-			var bEnabled:Boolean = !m_bHiddenFrame;
-
-			var arrPath:Array = strControlId.split(".");
-			var nIndex:int = 0;
-			var xmlControlLayout:XML = m_xmlData.control_layout.(@name == m_strCurrentLayout)[0];
-			var xmlControl:XML = xmlControlLayout;
-			var strCurId:String = arrPath[0];
-
-			while (bEnabled && nIndex < arrPath.length)
+			var bEnabled:Boolean = true;
+			
+			if (m_bHiddenFrame)
 			{
 				bEnabled = false;
-
-				if (xmlControl)
+			}
+			else
+			{
+				var arrPath:Array = strControlId.split(".");
+				var nIndex:int = 0;
+				var xmlControlLayout:XML = m_xmlData.control_layout.(@name == m_strCurrentLayout)[0];
+				var xmlControl:XML = xmlControlLayout;
+				var strCurId:String = arrPath[0];
+	
+				while (bEnabled && nIndex < arrPath.length)
 				{
-					xmlControl = xmlControl.children().(@name == arrPath[nIndex])[0];
-
+					bEnabled = false;
+	
 					if (xmlControl)
 					{
-						bEnabled = (xmlControl.@enabled == "true");
-						xmlControl = xmlControl.controls[0];
+						xmlControl = xmlControl.children().(@name == arrPath[nIndex])[0];
+	
+						if (xmlControl)
+						{
+							bEnabled = (xmlControl.@enabled == "true");
+							
+							if (m_lOverrides[strCurId] != null)
+							{
+								bEnabled = ((m_lOverrides[strCurId] & STATE_VISIBILE) > 0);
+							}
+							
+							xmlControl = xmlControl.controls[0];
+						}
 					}
+					else
+					{
+						trace("The Control '" + strControlId + "' does not exist");
+						break;
+					}
+	
+					nIndex ++;
+					strCurId += "." + arrPath[nIndex]
 				}
-				else
-				{
-					trace("The Control '" + strControlId + "' does not exist");
-					break;
-				}
-
-				nIndex ++;
-				strCurId += "." + arrPath[nIndex]
 			}
-
+			
 			return bEnabled;
+		}
+		
+		protected function SetControlState(strControlName:String, nState:int):void
+		{
+			if (m_lOverrides[strControlName] == null || m_lOverrides[strControlName] != nState)
+			{
+				m_lOverrides[strControlName] = nState;
+				
+				dispatchEvent(new Event(CONTROL_LAYOUT_CHANGED));
+			}
 		}
 	}
 }

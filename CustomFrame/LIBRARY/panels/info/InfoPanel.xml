@@ -1,0 +1,166 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="panels/info/InfoPanel" itemID="52695cc3-0000036d" linkageExportForAS="true" linkageClassName="customframe.panels.info.InfoPanel" lastModified="1411176431" lastUniqueIdentifier="6" isSpriteSubclass="true">
+  <timeline>
+    <DOMTimeline name="InfoPanel">
+      <layers>
+        <DOMLayer name="labels" color="#FF800A" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" name="image" labelType="name" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="1" name="video" labelType="name" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="name" color="#FF4FFF" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMDynamicText name="nameField" fontRenderingMode="standard" width="145.45" height="15.05" includeOutlines="true" isSelectable="false" lineType="multiline">
+                  <matrix>
+                    <Matrix tx="68.5" ty="7.9"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters></characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" size="13" bitmapSize="260" face="Articulate"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="1" keyMode="9728">
+              <elements>
+                <DOMDynamicText name="nameField" fontRenderingMode="standard" width="145.45" height="15.05" includeOutlines="true" isSelectable="false" lineType="multiline">
+                  <matrix>
+                    <Matrix tx="39.5" ty="107.5"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters></characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="center" aliasText="false" size="13" bitmapSize="260" face="Articulate*"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="title" color="#FF800A" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMDynamicText name="titleField" fontRenderingMode="standard" width="145.45" height="27.5" includeOutlines="true" isSelectable="false" lineType="multiline">
+                  <matrix>
+                    <Matrix tx="68.5" ty="27.45"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters></characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" size="11" bitmapSize="220" face="Articulate"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="1" keyMode="9728">
+              <elements>
+                <DOMDynamicText name="titleField" selected="true" fontRenderingMode="standard" width="145.45" height="27.5" includeOutlines="true" isSelectable="false" lineType="multiline">
+                  <matrix>
+                    <Matrix tx="39.5" ty="127.05"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters></characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="center" aliasText="false" size="11" bitmapSize="220" face="Articulate*"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="moreInfoLink" color="#9933CC" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="2" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="panels/info/Buttons" name="moreInfo" centerPoint3DX="142.2" centerPoint3DY="64.95">
+                  <matrix>
+                    <Matrix tx="66.5" ty="56.6"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="75.7" y="8.35"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Mask" color="#9933CC" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="panels/info/ImageMask" name="imageMask" centerPoint3DX="34" centerPoint3DY="33">
+                  <matrix>
+                    <Matrix tx="8" ty="10"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="26" y="23"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="1" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="panels/info/VideoMask" name="videoMask" centerPoint3DX="109.5" centerPoint3DY="52.95">
+                  <matrix>
+                    <Matrix tx="41" ty="10"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="68.5" y="42.95"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Background" color="#4FFF4F" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="panels/info/Backgroud" name="background" centerPoint3DX="110" centerPoint3DY="40.45">
+                  <matrix>
+                    <Matrix a="2.13592529296875"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="51.5" y="40.45"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="1" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="panels/info/Backgroud" name="background" centerPoint3DX="110" centerPoint3DY="86.4">
+                  <matrix>
+                    <Matrix a="2.13592529296875" d="2.13639831542969"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="51.5" y="40.45"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

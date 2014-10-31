@@ -1,11 +1,12 @@
 package customframe.components.timer
 {
-	import com.articulate.wg.v2_0.wgITimer;
+	import com.articulate.wg.v3_0.wgITimer;
 
 	import flash.events.Event;
 	import flash.text.TextField;
 
 	import customframe.base.CustomSprite;
+	import customframe.Utils;
 
 	/**
 	 * This is the logic for the CustomTimer symbol in the library (/components/timer/CustomTimer.)
@@ -94,17 +95,17 @@ package customframe.components.timer
 				{
 					case TIME_FORMAT_REMAINING:
 					{
-						strTime = GetTimeString(nDuration - nElapsed, false);
+						strTime = Utils.GetTimeString(nDuration - nElapsed, false);
 						break;
 					}
 					case TIME_FORMAT_TOTAL_ELAPSED:
 					{
-						strTime = GetTimeString(nElapsed) + " / " + GetTimeString(nDuration);
+						strTime = Utils.GetTimeString(nElapsed) + " / " + Utils.GetTimeString(nDuration);
 						break;
 					}
 					case TIME_FORMAT_ELAPSED:
 					{
-						strTime = GetTimeString(nElapsed);
+						strTime = Utils.GetTimeString(nElapsed);
 						break;
 					}
 				}
@@ -155,36 +156,6 @@ package customframe.components.timer
 				this.clock.Duration = oTimer.Duration;
 				SetTimeText(oTimer.ElapsedTime, oTimer.Duration);
 			}
-		}
-
-		protected function GetTimeString(nTicks:Number, bRoundDown:Boolean = true):String
-		{
-			var nTotalSeconds:int = (bRoundDown) ? Math.floor(nTicks / 1000) : Math.ceil(nTicks / 1000);
-			var nTotalMinutes:int = Math.floor(nTotalSeconds / 60);
-			var nHours:int = Math.floor(nTotalMinutes / 60);
-
-			var strHours:String = String(nHours);
-			var strMin:String = String(Math.floor(nTotalMinutes - nHours * 60));
-			var strSec:String = String(Math.floor(nTotalSeconds - nTotalMinutes * 60));
-
-			if (strMin.length < 2)
-			{
-				strMin = "0" + strMin;
-			}
-
-			if (strSec.length < 2)
-			{
-				strSec = "0" + strSec;
-			}
-
-			var strTime:String = strMin + ":" + strSec;
-
-			if (nHours > 0)
-			{
-				strTime = strHours + ":" + strTime;
-			}
-
-			return strTime;
 		}
 	}
 }

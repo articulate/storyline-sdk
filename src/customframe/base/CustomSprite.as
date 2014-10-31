@@ -4,7 +4,7 @@ package customframe.base
 	import flash.events.Event;
 	import flash.geom.Rectangle;
 
-	import com.articulate.wg.v2_0.wgIFocusObject;
+	import com.articulate.wg.v3_0.wgIFocusObject;
 
 	import customframe.managers.ControlManager;
 	import customframe.managers.OptionManager;

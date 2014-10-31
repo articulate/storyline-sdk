@@ -1,0 +1,53 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="panels/menu/MenuPanel" itemID="528e8aeb-0000030b" linkageExportForAS="true" linkageClassName="customframe.panels.menu.MenuPanel" scaleGridLeft="13.5" scaleGridRight="229" scaleGridTop="76" scaleGridBottom="423" lastModified="1385601267" lastUniqueIdentifier="4" isSpriteSubclass="true">
+  <timeline>
+    <DOMTimeline name="MenuPanel">
+      <layers>
+        <DOMLayer name="Menu" color="#9933CC" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="panels/menu/Menu" name="menu" centerPoint3DX="137.5" centerPoint3DY="6.3">
+                  <transformationPoint>
+                    <Point x="137.75" y="47.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Tab" color="#FF4FFF" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="panels/tabs/Quetion List Tab" name="tab" centerPoint3DX="33" centerPoint3DY="7.5">
+                  <matrix>
+                    <Matrix a="0.78564453125" ty="-20"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="42" y="27.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Background" color="#9933CC" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="panels/resources/Backgound" name="background" selected="true" centerPoint3DX="150" centerPoint3DY="218.8">
+                  <transformationPoint>
+                    <Point x="150" y="218.8"/>
+                  </transformationPoint>
+                  <filters>
+                    <DropShadowFilter blurX="10" blurY="10" quality="3" strength="0.2"/>
+                  </filters>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

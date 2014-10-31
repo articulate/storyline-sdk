@@ -1,7 +1,7 @@
 package customframe.panels.sidebar
 {
-	import com.articulate.wg.v2_0.wgISlide;
-	import com.articulate.wg.v2_0.wgPlayerEvent;
+	import com.articulate.wg.v3_0.wgISlide;
+	import com.articulate.wg.v3_0.wgPlayerEvent;
 
 	import flash.display.SimpleButton;
 	import flash.display.Sprite;

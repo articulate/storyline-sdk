@@ -1,36 +1,39 @@
-<DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" backgroundColor="#CCFFFF" gridColor="#C0C0C0" guidesColor="#00FF00" width="980" height="658" frameRate="30" currentTimeline="1" xflVersion="2.2" creatorInfo="Adobe Flash Professional CS6" platform="Macintosh" versionInfo="Saved by Adobe Flash Macintosh 12.0 build 537" majorVersion="12" buildNumber="537" gridSpacingX="18" gridSpacingY="18" snapAlignBorderSpacing="18" timelineHeight="136" timelineLabelWidth="236" viewAngle3D="70.6389271886709" vanishingPoint3DX="490" vanishingPoint3DY="329" nextSceneIdentifier="40" playOptionsPlayLoop="false" playOptionsPlayPages="false" playOptionsPlayFrameActions="false" autoSaveEnabled="true" autoSaveHasPrompted="true">
+<DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" backgroundColor="#CCFFFF" gridColor="#C0C0C0" guidesColor="#00FF00" width="980" height="658" frameRate="30" currentTimeline="1" xflVersion="2.4" creatorInfo="Adobe Flash Professional CC" platform="Windows" versionInfo="Saved by Adobe Flash Windows 13.1 build 226" majorVersion="13" minorVersion="1" buildNumber="226" gridSpacingX="18" gridSpacingY="18" snapAlignBorderSpacing="18" timelineHeight="136" timelineLabelWidth="236" viewAngle3D="70.6389271886709" vanishingPoint3DX="490" vanishingPoint3DY="329" nextSceneIdentifier="49" playOptionsPlayLoop="false" playOptionsPlayPages="false" playOptionsPlayFrameActions="false" autoSaveEnabled="true" autoSaveHasPrompted="true" filetypeGUID="DD0DDBBF-5BEF-45B2-9F24-A3048D2A676F">
      <folders>
           <DOMFolderItem name="assets" itemID="5252f5a2-000002b0"/>
           <DOMFolderItem name="assets/icons" itemID="52530037-000002e4"/>
-          <DOMFolderItem name="components" itemID="5252f5e4-000002b8"/>
+          <DOMFolderItem name="components" itemID="5252f5e4-000002b8" isExpanded="true"/>
           <DOMFolderItem name="components/buttons" itemID="5253056c-00000305"/>
-          <DOMFolderItem name="components/list" itemID="52530087-000002ea" isExpanded="true"/>
-          <DOMFolderItem name="components/logo" itemID="5253008c-000002eb"/>
+          <DOMFolderItem name="components/list" itemID="52530087-000002ea"/>
           <DOMFolderItem name="components/scrollbar" itemID="52530091-000002ec"/>
           <DOMFolderItem name="components/seekbar" itemID="52530097-000002ed"/>
           <DOMFolderItem name="components/text" itemID="5253009e-000002ee"/>
           <DOMFolderItem name="components/timer" itemID="525300a3-000002ef"/>
-          <DOMFolderItem name="panels" itemID="5252f61b-000002c3"/>
+          <DOMFolderItem name="panels" itemID="5252f61b-000002c3" isExpanded="true"/>
           <DOMFolderItem name="panels/glossary" itemID="525306bb-0000030a"/>
-          <DOMFolderItem name="panels/menu" itemID="5253000e-000002df" isExpanded="true"/>
+          <DOMFolderItem name="panels/info" itemID="541cc921-00000ef1" isExpanded="true"/>
+          <DOMFolderItem name="panels/logo" itemID="5253008c-000002eb"/>
+          <DOMFolderItem name="panels/menu" itemID="5253000e-000002df"/>
           <DOMFolderItem name="panels/notes" itemID="525306cb-0000030e"/>
           <DOMFolderItem name="panels/resources" itemID="5253001f-000002e2"/>
           <DOMFolderItem name="panels/sidebar" itemID="525306db-00000312"/>
           <DOMFolderItem name="panels/tabs" itemID="52530026-000002e3"/>
-          <DOMFolderItem name="windows" itemID="5252f6e2-000002d7"/>
+          <DOMFolderItem name="windows" itemID="5252f6e2-000002d7" isExpanded="true"/>
           <DOMFolderItem name="windows/lightbox" itemID="5252fff1-000002dc"/>
           <DOMFolderItem name="windows/prompt" itemID="5252fffe-000002dd"/>
      </folders>
      <fonts>
-          <DOMFontItem name="assets/Articulate" itemID="52545f64-000003f1" linkageExportForAS="true" linkageBaseClass="flash.text.Font" linkageClassName="Articulate" font="Articulate" size="0" id="4" sourceLastImported="1381279906" embedRanges="5"/>
           <DOMFontItem name="assets/Articulate Bold" itemID="52546002-000003f5" linkageExportForAS="true" linkageBaseClass="flash.text.Font" linkageClassName="ArticulateBold" font="Articulate-Bold" size="0" id="5" sourceLastImported="1381277258" embedRanges="5"/>
+          <DOMFontItem name="assets/Articulate" itemID="52545f64-000003f1" linkageExportForAS="true" linkageBaseClass="flash.text.Font" linkageClassName="Articulate" font="Articulate" size="0" id="4" sourceLastImported="1383090911" embedRanges="5"/>
      </fonts>
      <symbols>
+          <Include href="assets/BackgroundFill.xml" itemIcon="1" loadImmediate="false" itemID="527bfb41-00000316" lastModified="1411172418"/>
           <Include href="assets/CustomLine.xml" itemID="52432266-00000426" lastModified="1380131440"/>
           <Include href="assets/Gradient Half Rounded Rectangle.xml" loadImmediate="false" itemID="50beb1bc-000003e4" lastModified="1380065128"/>
           <Include href="assets/Gradient Rounded Rectangle.xml" loadImmediate="false" itemID="50beb0ee-00000368" lastModified="1380065117"/>
-          <Include href="assets/icons/icon_clear.xml" loadImmediate="false" itemID="497a6144-000000eb" lastModified="1353047367"/>
-          <Include href="assets/icons/icon_filter.xml" loadImmediate="false" itemID="497aa65f-00000256" lastModified="1353047367"/>
+          <Include href="assets/icons/icon_clear.xml" loadImmediate="false" itemID="497a6144-000000eb" lastModified="1383282096"/>
+          <Include href="assets/icons/icon_close.xml" loadImmediate="false" itemID="52787951-00000248" lastModified="1383627555"/>
+          <Include href="assets/icons/icon_filter.xml" loadImmediate="false" itemID="497aa65f-00000256" lastModified="1383282108"/>
           <Include href="assets/icons/icon_next.xml" loadImmediate="false" itemID="49735926-00000896" lastModified="1353047367"/>
           <Include href="assets/icons/icon_pause.xml" loadImmediate="false" itemID="497354bc-00000890" lastModified="1353047367"/>
           <Include href="assets/icons/icon_play.xml" loadImmediate="false" itemID="4989b8ef-00001e26" lastModified="1353047367"/>
@@ -55,63 +58,82 @@
           <Include href="components/buttons/ButtonBackground Over.xml" loadImmediate="false" itemID="50a572e7-00001637" lastModified="1380065073"/>
           <Include href="components/buttons/ButtonBackground Up.xml" loadImmediate="false" itemID="50a572f5-0000164c" lastModified="1380065059"/>
           <Include href="components/buttons/CloseButton.xml" loadImmediate="false" itemID="524321f4-00000421" lastModified="1381171557"/>
-          <Include href="components/buttons/ControlButtons.xml" itemID="5243220b-00000423" lastModified="1381172671"/>
-          <Include href="components/buttons/Next Button.xml" itemIcon="0" loadImmediate="false" itemID="509c572a-000002e9" lastModified="1364583550"/>
-          <Include href="components/buttons/Prev Button.xml" itemIcon="0" loadImmediate="false" itemID="509c56ce-000002cb" lastModified="1365196532"/>
-          <Include href="components/buttons/Submit Button.xml" itemIcon="0" loadImmediate="false" itemID="514a4f9c-000075b4" lastModified="1364583536"/>
-          <Include href="components/buttons/VolumeButton.xml" itemID="52432205-00000422" lastModified="1381172678"/>
+          <Include href="components/buttons/ControlButtons.xml" itemID="5243220b-00000423" lastModified="1386407576"/>
+          <Include href="components/buttons/Finish Button.xml" itemIcon="0" loadImmediate="false" itemID="528d6cea-00000282" lastModified="1385003257"/>
+          <Include href="components/buttons/Next Button.xml" itemIcon="0" loadImmediate="false" itemID="509c572a-000002e9" lastModified="1385003259"/>
+          <Include href="components/buttons/Prev Button.xml" itemIcon="0" loadImmediate="false" itemID="509c56ce-000002cb" lastModified="1385003260"/>
+          <Include href="components/buttons/Submit All Button.xml" itemIcon="0" loadImmediate="false" itemID="528d790e-000002a3" lastModified="1386407529"/>
+          <Include href="components/buttons/Submit Button.xml" itemIcon="0" loadImmediate="false" itemID="514a4f9c-000075b4" lastModified="1385003280"/>
+          <Include href="components/buttons/VolumeButton.xml" itemID="52432205-00000422" lastModified="1385535716"/>
           <Include href="components/buttons/VolumeButton Expanded background.xml" loadImmediate="false" itemID="515f1143-000002fd" lastModified="1380064985"/>
           <Include href="components/buttons/VolumeButton Expanded border.xml" loadImmediate="false" itemID="515f114e-000002fe" lastModified="1380064961"/>
           <Include href="components/buttons/VolumeSliderButton.xml" loadImmediate="false" itemID="515b86bb-000069ef" lastModified="1380064552"/>
           <Include href="components/buttons/VolumeSliderTrack.xml" loadImmediate="false" itemID="515b8391-00005de7" lastModified="1380064533"/>
-          <Include href="components/list/List.xml" itemID="52432258-00000425" lastModified="1381943419"/>
-          <Include href="components/list/ListItem.xml" itemID="52432251-00000424" lastModified="1381943275"/>
-          <Include href="components/logo/Backgroud.xml" loadImmediate="false" itemID="5253039e-00000300" lastModified="1381172126"/>
-          <Include href="components/logo/Logo.xml" itemID="5243227b-00000427" lastModified="1381171716"/>
+          <Include href="components/list/List.xml" itemID="52432258-00000425" lastModified="1383862623"/>
+          <Include href="components/list/ListItem.xml" itemID="52432251-00000424" lastModified="1382425375"/>
           <Include href="components/scrollbar/Scrollbar.xml" itemID="5243229d-0000042b" lastModified="1381942155"/>
           <Include href="components/scrollbar/ScrollDownButton.xml" itemID="5148a72e-00002ad5" lastModified="1381870690"/>
           <Include href="components/scrollbar/ScrollThumb.xml" itemID="5148a81c-00002e0f" lastModified="1381870699"/>
           <Include href="components/scrollbar/ScrollThumbGripper.xml" itemID="5148acb6-00003741" lastModified="1381874198"/>
           <Include href="components/scrollbar/ScrollThumbGrippers.xml" itemID="5149f311-00005463" lastModified="1381886270"/>
-          <Include href="components/scrollbar/ScrollTrack.xml" loadImmediate="false" itemID="51494f69-00004f7b" lastModified="1380063552"/>
+          <Include href="components/scrollbar/ScrollTrack.xml" loadImmediate="false" itemID="51494f69-00004f7b" lastModified="1383862652"/>
           <Include href="components/scrollbar/ScrollUpButton.xml" itemID="5148a53e-00002901" lastModified="1381870992"/>
           <Include href="components/seekbar/ProgressBar.xml" loadImmediate="false" itemID="50a5817a-000040b7" lastModified="1380063491"/>
           <Include href="components/seekbar/ProgressMask.xml" loadImmediate="false" itemID="5175ac75-000002ef" lastModified="1380063465"/>
           <Include href="components/seekbar/ProgressRectangle.xml" loadImmediate="false" itemID="50a2aaa7-000002c4" lastModified="1380063455"/>
-          <Include href="components/seekbar/Seekbar.xml" itemID="524322a5-0000042c" lastModified="1381942145"/>
+          <Include href="components/seekbar/Seekbar.xml" itemID="524322a5-0000042c" lastModified="1382425406"/>
           <Include href="components/text/FormattedTextField.xml" itemID="52535375-00000323" lastModified="1381872288"/>
           <Include href="components/text/ScrollingTextField.xml" itemID="52535382-00000325" lastModified="1381261220"/>
           <Include href="components/timer/Clock.xml" itemID="524322dc-00000433" lastModified="1381872282"/>
           <Include href="components/timer/MinuteSlice.xml" loadImmediate="false" itemID="525300fe-000002f3" lastModified="1381171454"/>
           <Include href="components/timer/Timer.xml" itemID="524322df-00000434" lastModified="1381942174"/>
           <Include href="panels/glossary/Glossary.xml" itemID="525302dc-000002fc" lastModified="1381942192"/>
-          <Include href="panels/menu/Menu.xml" itemID="52460b4c-00000934" lastModified="1381943931"/>
-          <Include href="panels/menu/MenuBranchNode.xml" itemID="52460b62-00000935" lastModified="1381943989"/>
-          <Include href="panels/menu/MenuNode.xml" itemID="525ee132-0000105b" lastModified="1381949754"/>
-          <Include href="panels/menu/MenuTree.xml" itemID="52460b86-00000937" lastModified="1381951424"/>
+          <Include href="panels/info/Backgroud.xml" loadImmediate="false" itemID="541cc8ef-00000eef" lastModified="1411172591"/>
+          <Include href="panels/info/BioButton.xml" itemIcon="0" loadImmediate="false" itemID="541cc8df-00000eee" lastModified="1411172575"/>
+          <Include href="panels/info/Block.xml" loadImmediate="false" itemID="5272d5bb-00000343" lastModified="1411169769"/>
+          <Include href="panels/info/Buttons.xml" loadImmediate="false" itemID="541cc8f9-00000ef0" lastModified="1411172601"/>
+          <Include href="panels/info/CloseButton.xml" itemIcon="0" loadImmediate="false" itemID="5272d1d5-00000334" lastModified="1383627014"/>
+          <Include href="panels/info/EmailButton.xml" itemIcon="0" loadImmediate="false" itemID="5272d1ce-00000333" lastModified="1383858850"/>
+          <Include href="panels/info/ImageMask.xml" loadImmediate="false" itemID="527bf6a3-0000030f" lastModified="1411169774"/>
+          <Include href="panels/info/InfoPanel.xml" itemID="52695cc3-0000036d" lastModified="1411176431"/>
+          <Include href="panels/info/InfoPanelPopup.xml" itemID="5271425e-0000030b" lastModified="1411169810"/>
+          <Include href="panels/info/LightBox.xml" loadImmediate="false" itemID="5272d5c7-00000344" lastModified="1411169816"/>
+          <Include href="panels/info/MoreInfoButton.xml" itemIcon="0" loadImmediate="false" itemID="5271e264-00000324" lastModified="1411168831"/>
+          <Include href="panels/info/VideoMask.xml" loadImmediate="false" itemID="527bfae5-00000313" lastModified="1411168847"/>
+          <Include href="panels/logo/Backgroud.xml" loadImmediate="false" itemID="5253039e-00000300" lastModified="1411173346"/>
+          <Include href="panels/logo/Logo.xml" itemID="5243227b-00000427" lastModified="1411172494"/>
+          <Include href="panels/menu/Menu.xml" itemID="52460b4c-00000934" lastModified="1385535721"/>
+          <Include href="panels/menu/MenuBranchNode.xml" itemID="52460b62-00000935" lastModified="1386371814"/>
+          <Include href="panels/menu/MenuNode.xml" itemID="525ee132-0000105b" lastModified="1386371812"/>
+          <Include href="panels/menu/MenuPanel.xml" itemID="528e8aeb-0000030b" lastModified="1385601267"/>
+          <Include href="panels/menu/MenuPopup.xml" itemID="528e8a78-000002be" lastModified="1385601135"/>
+          <Include href="panels/menu/MenuTree.xml" itemID="52460b86-00000937" lastModified="1386358272"/>
+          <Include href="panels/menu/QuizIcon.xml" loadImmediate="false" itemID="5273358a-00000246" lastModified="1383719794"/>
           <Include href="panels/notes/Notes.xml" itemID="525302e9-000002ff" lastModified="1381942214"/>
-          <Include href="panels/resources/Backgound.xml" loadImmediate="false" itemID="52530156-000002f5" lastModified="1381871261"/>
-          <Include href="panels/resources/Resources.xml" itemID="52432293-0000042a" lastModified="1381942107"/>
-          <Include href="panels/resources/ResourcesPanel.xml" itemID="525de968-00000f79" lastModified="1381886315"/>
-          <Include href="panels/sidebar/SideBar.xml" itemID="524322bc-00000431" lastModified="1381866682"/>
+          <Include href="panels/resources/Backgound.xml" loadImmediate="false" itemID="52530156-000002f5" lastModified="1385190945"/>
+          <Include href="panels/resources/Resources.xml" itemID="52432293-0000042a" lastModified="1385601307"/>
+          <Include href="panels/resources/ResourcesPanel.xml" itemID="525de968-00000f79" lastModified="1385420150"/>
+          <Include href="panels/sidebar/SideBar.xml" itemID="524322bc-00000431" lastModified="1385587290"/>
           <Include href="panels/tabs/ExitLabel.xml" itemIcon="0" loadImmediate="false" itemID="50c143d2-0000061d" lastModified="1380062917"/>
-          <Include href="panels/tabs/GlossaryTabLabel.xml" itemIcon="0" loadImmediate="false" itemID="5140ddfd-0000089f" lastModified="1380062930"/>
-          <Include href="panels/tabs/MenuTabLabel.xml" itemIcon="0" loadImmediate="false" itemID="5140de06-000008b0" lastModified="1380062943"/>
+          <Include href="panels/tabs/GlossaryTabLabel.xml" itemIcon="0" loadImmediate="false" itemID="5140ddfd-0000089f" lastModified="1385062261"/>
+          <Include href="panels/tabs/MenuTabLabel.xml" itemIcon="0" loadImmediate="false" itemID="5140de06-000008b0" lastModified="1385062258"/>
           <Include href="panels/tabs/NotesTabLabel.xml" itemIcon="0" loadImmediate="false" itemID="5140de37-000008cd" lastModified="1380062955"/>
-          <Include href="panels/tabs/PopUp Tab.xml" loadImmediate="false" itemID="50bff1ab-00000565" lastModified="1381171563"/>
-          <Include href="panels/tabs/ResourcesLabel.xml" itemIcon="0" loadImmediate="false" itemID="50c1435c-00000615" lastModified="1380062973"/>
-          <Include href="panels/tabs/Tab.xml" loadImmediate="false" itemID="50bfa0cd-000004a7" lastModified="1381192305"/>
+          <Include href="panels/tabs/PopUp Tab.xml" loadImmediate="false" itemID="50bff1ab-00000565" lastModified="1385073899"/>
+          <Include href="panels/tabs/QuestionListLabel.xml" itemIcon="0" loadImmediate="false" itemID="528e8bf6-0000031a" lastModified="1385417213"/>
+          <Include href="panels/tabs/Quetion List Tab.xml" loadImmediate="false" itemID="528e8cdb-00000335" lastModified="1385073883"/>
+          <Include href="panels/tabs/ResourcesLabel.xml" itemIcon="0" loadImmediate="false" itemID="50c1435c-00000615" lastModified="1385062282"/>
+          <Include href="panels/tabs/Tab.xml" loadImmediate="false" itemID="50bfa0cd-000004a7" lastModified="1385062393"/>
           <Include href="windows/Background.xml" itemID="524321e8-0000041f" lastModified="1381870633"/>
           <Include href="windows/lightbox/LightboxWindow.xml" itemID="5252febf-000002db" lastModified="1381181478"/>
-          <Include href="windows/prompt/PromptWindow.xml" itemID="5243228b-00000429" lastModified="1381955183"/>
-          <Include href="windows/prompt/PromptWindowBorder.xml" loadImmediate="false" itemID="514cf953-000034c9" lastModified="1380064349"/>
-          <Include href="windows/prompt/PromptWindowRectangle.xml" loadImmediate="false" itemID="514ceafe-00002c81" lastModified="1380064336"/>
-          <Include href="windows/SlideContainer.xml" itemID="524321ee-00000420" lastModified="1381171647"/>
+          <Include href="windows/prompt/PromptWindow.xml" itemID="5243228b-00000429" lastModified="1383253258"/>
+          <Include href="windows/prompt/PromptWindowBorder.xml" loadImmediate="false" itemID="514cf953-000034c9" lastModified="1383093952"/>
+          <Include href="windows/prompt/PromptWindowRectangle.xml" loadImmediate="false" itemID="514ceafe-00002c81" lastModified="1383093955"/>
+          <Include href="windows/SlideContainer.xml" itemID="524321ee-00000420" lastModified="1411519373"/>
      </symbols>
      <timelines>
           <DOMTimeline name="Scene 1">
                <layers>
-                    <DOMLayer name="Timer" color="#9933CC" locked="true" autoNamed="false" visible="false">
+                    <DOMLayer name="Timer" color="#9933CC" locked="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements>
@@ -127,11 +149,11 @@
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Title" color="#FF4F4F" locked="true" autoNamed="false" visible="false">
+                    <DOMLayer name="Title" color="#FF4F4F" locked="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements>
-                                        <DOMDynamicText name="titleField" selected="true" width="296" height="16.2" isSelectable="false">
+                                        <DOMDynamicText name="titleField" width="461.95" height="16.2" isSelectable="false">
                                              <matrix>
                                                   <Matrix tx="255" ty="22"/>
                                              </matrix>
@@ -144,11 +166,24 @@
                                                   </DOMTextRun>
                                              </textRuns>
                                         </DOMDynamicText>
+                                        <DOMDynamicText name="elapsedTimeField" width="73" height="12.75" isSelectable="false">
+                                             <matrix>
+                                                  <Matrix tx="296.95" ty="24"/>
+                                             </matrix>
+                                             <textRuns>
+                                                  <DOMTextRun>
+                                                       <characters>(00:00 / 00:00)</characters>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs aliasText="false" size="11" bitmapSize="220" face="Articulate*"/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                             </textRuns>
+                                        </DOMDynamicText>
                                    </elements>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Seek Bar" color="#4FFF4F" locked="true" autoNamed="false" visible="false">
+                    <DOMLayer name="Seek Bar" color="#4FFF4F" locked="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements>
@@ -164,7 +199,7 @@
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Volume Button" color="#4FFF4F" locked="true" autoNamed="false" visible="false">
+                    <DOMLayer name="Volume Button" color="#4FFF4F" locked="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements>
@@ -180,7 +215,7 @@
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Control Buttons" color="#9933CC" locked="true" autoNamed="false" visible="false">
+                    <DOMLayer name="Control Buttons" color="#9933CC" locked="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements>
@@ -196,11 +231,27 @@
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Resources PopUp" color="#808080" locked="true" autoNamed="false" visible="false">
+                    <DOMLayer name="Menu PopUp" color="#4FFF4F" locked="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="panels/resources/Resources" name="resourcesPopup" selected="true" centerPoint3DX="819.6" centerPoint3DY="272.8">
+                                        <DOMSymbolInstance libraryItemName="panels/menu/MenuPopup" name="menuPopup" centerPoint3DX="30.9" centerPoint3DY="41">
+                                             <matrix>
+                                                  <Matrix tx="9.9" ty="23"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="21" y="18"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Resources PopUp" color="#808080" locked="true" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="panels/resources/Resources" name="resourcesPopup" centerPoint3DX="819.6" centerPoint3DY="272.8">
                                              <matrix>
                                                   <Matrix tx="670" ty="54"/>
                                              </matrix>
@@ -212,7 +263,7 @@
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Slide Container" color="#FF800A" locked="true" autoNamed="false" visible="false">
+                    <DOMLayer name="Slide Container" color="#FF800A" locked="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements>
@@ -228,11 +279,30 @@
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
+                    <DOMLayer name="info Panel" color="#4FFF4F" locked="true" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="panels/info/InfoPanel" name="infopanel" centerPoint3DX="61.5" centerPoint3DY="181">
+                                             <matrix>
+                                                  <Matrix tx="10" ty="140.55"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="51.5" y="40.45"/>
+                                             </transformationPoint>
+                                             <filters>
+                                                  <DropShadowFilter angle="90" blurX="0" blurY="0" color="#B8B8B8" distance="1"/>
+                                             </filters>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
                     <DOMLayer name="Logo" color="#4FFF4F" locked="true" current="true" isSelected="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="components/logo/Logo" name="logo" selected="true" centerPoint3DX="120" centerPoint3DY="70">
+                                        <DOMSymbolInstance libraryItemName="panels/logo/Logo" name="logo" centerPoint3DX="120" centerPoint3DY="70">
                                              <matrix>
                                                   <Matrix a="2.13592529296875" d="1.48239135742188" tx="10" ty="10"/>
                                              </matrix>
@@ -247,7 +317,7 @@
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Side Bar" color="#9933CC" locked="true" autoNamed="false" visible="false">
+                    <DOMLayer name="Side Bar" color="#9933CC" locked="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements>
@@ -281,7 +351,11 @@
      </timelines>
      <swatchLists>
           <swatchList>
+               <swatchListInfo name="Default Swatches"/>
+
                <swatches>
+                    <swatchListInfo name="Default Swatches"/>
+
                     <SolidSwatchItem/>
                     <SolidSwatchItem/>
                     <SolidSwatchItem/>
@@ -553,7 +627,11 @@
      </swatchLists>
      <extendedSwatchLists>
           <swatchList>
+               <swatchListInfo name="Default Swatches"/>
+
                <swatches>
+                    <swatchListInfo name="Default Swatches"/>
+
                     <LinearGradientSwatchItem>
                          <GradientEntry color="#FFFFFF" ratio="0"/>
                          <GradientEntry ratio="1"/>
@@ -596,25 +674,25 @@
      </extendedSwatchLists>
      <PrinterSettings platform="macintosh"/>
      <publishHistory>
-          <PublishItem publishSize="91962" publishTime="1381955332" publishDebug="true"/>
-          <PublishItem publishSize="91969" publishTime="1381953321" publishDebug="true"/>
-          <PublishItem publishSize="91902" publishTime="1381952290" publishDebug="true"/>
-          <PublishItem publishSize="91906" publishTime="1381952283" publishDebug="true"/>
-          <PublishItem publishSize="91924" publishTime="1381952195" publishDebug="true"/>
-          <PublishItem publishSize="91991" publishTime="1381952190" publishDebug="true"/>
-          <PublishItem publishSize="92136" publishTime="1381952071" publishDebug="true"/>
-          <PublishItem publishSize="92131" publishTime="1381952066" publishDebug="true"/>
-          <PublishItem publishSize="92127" publishTime="1381951962" publishDebug="true"/>
-          <PublishItem publishSize="92128" publishTime="1381951957" publishDebug="true"/>
-          <PublishItem publishSize="92128" publishTime="1381951855" publishDebug="true"/>
-          <PublishItem publishSize="92126" publishTime="1381951849" publishDebug="true"/>
-          <PublishItem publishSize="92132" publishTime="1381951681" publishDebug="true"/>
-          <PublishItem publishSize="92131" publishTime="1381951675" publishDebug="true"/>
-          <PublishItem publishSize="92128" publishTime="1381951584" publishDebug="true"/>
-          <PublishItem publishSize="92129" publishTime="1381951579" publishDebug="true"/>
-          <PublishItem publishSize="92143" publishTime="1381951514" publishDebug="true"/>
-          <PublishItem publishSize="92142" publishTime="1381951509" publishDebug="true"/>
-          <PublishItem publishSize="487" publishTime="1381951422"/>
-          <PublishItem publishSize="487" publishTime="1381951419"/>
+          <PublishItem publishSize="86870" publishTime="1414771216"/>
+          <PublishItem publishSize="107624" publishTime="1411435474" publishDebug="true"/>
+          <PublishItem publishSize="107611" publishTime="1411435120" publishDebug="true"/>
+          <PublishItem publishSize="107603" publishTime="1411434770" publishDebug="true"/>
+          <PublishItem publishSize="107592" publishTime="1411433236" publishDebug="true"/>
+          <PublishItem publishSize="107219" publishTime="1411431552" publishDebug="true"/>
+          <PublishItem publishSize="107220" publishTime="1411176649" publishDebug="true"/>
+          <PublishItem publishSize="107219" publishTime="1411176647" publishDebug="true"/>
+          <PublishItem publishSize="107212" publishTime="1411176631" publishDebug="true"/>
+          <PublishItem publishSize="107258" publishTime="1411176458" publishDebug="true"/>
+          <PublishItem publishSize="107282" publishTime="1411176317" publishDebug="true"/>
+          <PublishItem publishSize="107291" publishTime="1411176242" publishDebug="true"/>
+          <PublishItem publishSize="107294" publishTime="1411176202" publishDebug="true"/>
+          <PublishItem publishSize="107292" publishTime="1411176118" publishDebug="true"/>
+          <PublishItem publishSize="107292" publishTime="1411176111" publishDebug="true"/>
+          <PublishItem publishSize="107298" publishTime="1411176093" publishDebug="true"/>
+          <PublishItem publishSize="107309" publishTime="1411176003" publishDebug="true"/>
+          <PublishItem publishSize="107311" publishTime="1411176000" publishDebug="true"/>
+          <PublishItem publishSize="107270" publishTime="1411175966" publishDebug="true"/>
+          <PublishItem publishSize="107274" publishTime="1411175404" publishDebug="true"/>
      </publishHistory>
 </DOMDocument>

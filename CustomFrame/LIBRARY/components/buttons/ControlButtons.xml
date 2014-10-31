@@ -1,8 +1,8 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="components/buttons/ControlButtons" itemID="5243220b-00000423" linkageExportForAS="true" linkageClassName="customframe.components.buttons.ControlButtons" lastModified="1381172671" isSpriteSubclass="true">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="components/buttons/ControlButtons" itemID="5243220b-00000423" linkageExportForAS="true" linkageClassName="customframe.components.buttons.ControlButtons" lastModified="1386407576" isSpriteSubclass="true">
   <timeline>
     <DOMTimeline name="ControlButtons">
       <layers>
-        <DOMLayer name="SubmitButton" color="#9933CC" locked="true" autoNamed="false">
+        <DOMLayer name="SubmitButton" color="#9933CC" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
@@ -18,7 +18,39 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="PreviousButton" color="#FF800A" locked="true" autoNamed="false">
+        <DOMLayer name="SubmitAllButton" color="#9933CC" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="components/buttons/Submit All Button" name="submitAllButton" symbolType="button">
+                  <matrix>
+                    <Matrix tx="-569.9"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="FinishButton" color="#FF800A" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="components/buttons/Finish Button" name="finishButton" symbolType="button">
+                  <matrix>
+                    <Matrix tx="78"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="PreviousButton" color="#FF800A" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
@@ -31,7 +63,7 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="NextButton" color="#FF4FFF" locked="true" current="true" isSelected="true" autoNamed="false">
+        <DOMLayer name="NextButton" color="#FF4FFF" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>

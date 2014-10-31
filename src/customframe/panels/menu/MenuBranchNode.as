@@ -5,7 +5,6 @@ package customframe.panels.menu
 	import flash.events.MouseEvent;
 	import flash.geom.Point;
 
-	import customframe.components.text.FormattedTextField;
 	import customframe.managers.OptionManager;
 
 	/**
@@ -17,6 +16,14 @@ package customframe.panels.menu
 	 */
 	public class MenuBranchNode extends MenuParentNode
 	{
+		private const BEHAVIOR_INSIDE:String = "inside";
+		private const BEHAVIOR_REACHED:String = "reached";
+		private const BEHAVIOR_MANUAL:String = "manual";
+		
+		private const RESTRICTION_INSIDE:String = "inside";
+		private const RESTRICTION_REACHED:String = "reached";
+		private const RESTRICTION_UNRESTRICTED:String = "unrestricted";
+		
 		public var closedIcon:Sprite;
 		public var openIcon:Sprite;
 		public var iconHitArea:Sprite;
@@ -30,6 +37,7 @@ package customframe.panels.menu
 			this.closedIcon.mouseEnabled = false;
 			this.openIcon.mouseEnabled = false;
 			UpdateIcon();
+			this.addEventListener(MenuEvent.EXPAND_NODES, ChildNode_OnExpandNodes);
 		}
 
 		override public function Redraw():void
@@ -54,11 +62,18 @@ package customframe.panels.menu
 				this.iconHitArea.addEventListener(MouseEvent.MOUSE_OUT, Icon_OnMouseOut);
 				this.iconHitArea.addEventListener(MouseEvent.MOUSE_DOWN, Icon_OnClicked);
 			}
-		}
-
-		override protected function get UnexpandedHeight():Number
-		{
-			return this.textField.y + this.textField.TextHeight + MARGIN_BOTTOM;
+			
+			var strRestrictions:String = m_oOptionManager.GetOptionAsString(OptionManager.OPTGROUP_MENUOPTIONS, OptionManager.OPTION_RESTRICTIONS);
+			
+			if (strRestrictions == "")
+			{
+				strRestrictions = RESTRICTION_UNRESTRICTED;
+			}
+			
+			if (strRestrictions != RESTRICTION_UNRESTRICTED)
+			{
+				HideIcon();
+			}
 		}
 
 		override public function set width(value:Number):void
@@ -74,7 +89,7 @@ package customframe.panels.menu
 			}
 		}
 
-		override protected function Expand():void
+		protected function Expand():void
 		{
 			m_bExpanded = true;
 
@@ -107,13 +122,19 @@ package customframe.panels.menu
 		override public function get Selected():Boolean
 		{
 			var bSelected:Boolean = false;
-
-			for each (var oChild:MenuNode in m_vecChildNodes)
+			if (m_strSlideId != "")
 			{
-				if (oChild.Selected)
+				bSelected = super.Selected
+			}
+			else
+			{
+				for each (var oChild:MenuNode in m_vecChildNodes)
 				{
-					bSelected = true;
-					break;
+					if (oChild.Selected)
+					{
+						bSelected = true;
+						break;
+					}
 				}
 			}
 			return bSelected;
@@ -121,7 +142,11 @@ package customframe.panels.menu
 
 		override public function set Selected(value:Boolean):void
 		{
-			if (m_vecChildNodes.length > 0)
+			if (m_strSlideId != "")
+			{
+				super.Selected = value;
+			}
+			else if (m_vecChildNodes.length > 0)
 			{
 				m_vecChildNodes[0].Selected = value;
 			}
@@ -133,13 +158,21 @@ package customframe.panels.menu
 			oChildNode.addEventListener(MenuEvent.COLLAPSE_NODES, ChildNode_OnCollapseNodes);
 			oChildNode.addEventListener(MenuEvent.EXPAND_NODES, ChildNode_OnExpandNodes);
 			oChildNode.addEventListener(MouseEvent.MOUSE_OVER, ChildNode_OnMouseOver);
-
+			
 			if (m_bExpanded)
 			{
 				addChild(oChildNode);
 			}
-
+			
 			return oChildNode
+		}
+		
+		public function CheckExpanded():void
+		{
+			if (!Expanded)
+			{
+				Expand();
+			}
 		}
 
 		public function get Expanded():Boolean
@@ -154,13 +187,61 @@ package customframe.panels.menu
 
 		protected function UpdateIcon():void
 		{
-			this.closedIcon.visible = !m_bExpanded;
-			this.openIcon.visible = m_bExpanded;
+			if (this.iconHitArea.visible)
+			{
+				this.closedIcon.visible = !m_bExpanded;
+				this.openIcon.visible = m_bExpanded;
+			}
+		}
+		
+		protected function HideIcon():void
+		{
+			this.iconHitArea.visible = false;
+			this.closedIcon.visible = false;
+			this.openIcon.visible = false;
+		}
+		
+		protected function ShowIcon():void
+		{
+			this.iconHitArea.visible = true;
+			UpdateIcon();
 		}
 
 		protected function ChildNode_OnExpandNodes(evt:MenuEvent):void
 		{
-			Expand();
+			var strBehavior = m_oOptionManager.GetOptionAsString(OptionManager.OPTGROUP_MENUOPTIONS, OptionManager.OPTION_BEHAVIOR);
+			var strRestrictions = m_oOptionManager.GetOptionAsString(OptionManager.OPTGROUP_MENUOPTIONS, OptionManager.OPTION_RESTRICTIONS);
+			
+			// check and possibly set behavior and restrictions
+			if (strBehavior == "")
+			{
+				strBehavior = BEHAVIOR_INSIDE;
+			}
+			
+			if (strRestrictions == "")
+			{
+				strRestrictions = RESTRICTION_UNRESTRICTED;
+			}
+			
+			if (strBehavior == BEHAVIOR_REACHED && strRestrictions == RESTRICTION_INSIDE)
+			{
+				strBehavior = BEHAVIOR_INSIDE;
+			}
+			
+			// handle icon
+			if ((strRestrictions == RESTRICTION_REACHED && evt.target.SlideId == this.SlideId) || (strRestrictions == RESTRICTION_INSIDE && evt.target.SlideId != this.SlideId))
+			{
+				ShowIcon();
+			}
+			
+			// handle auto expand 
+			if (!m_bExpanded && strBehavior != BEHAVIOR_MANUAL)
+			{
+				if ((strBehavior == BEHAVIOR_REACHED && evt.target.SlideId == this.SlideId) || (strBehavior != BEHAVIOR_MANUAL && evt.target.SlideId != this.SlideId))
+				{
+					CheckExpanded();
+				}
+			}
 		}
 
 		protected function ChildNode_OnCollapseNodes(evt:MenuEvent):void
@@ -169,6 +250,19 @@ package customframe.panels.menu
 			{
 				Collapse();
 			}
+		}
+		
+		override protected function UpdateTextField():void
+		{
+			var startIndentPos:Number = textField.x;
+			
+			super.UpdateTextField();
+			
+			startIndentPos = textField.x - startIndentPos
+			
+			this.openIcon.x += startIndentPos;
+			this.closedIcon.x += startIndentPos;
+			this.iconHitArea.x += startIndentPos;
 		}
 
 		protected function ChildNode_OnMouseOver(evt:MouseEvent):void

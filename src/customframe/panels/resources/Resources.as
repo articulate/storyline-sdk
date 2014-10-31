@@ -6,7 +6,7 @@ package customframe.panels.resources
 	import flash.net.URLRequest;
 	import flash.net.navigateToURL;
 
-	import com.articulate.wg.v2_0.*;
+	import com.articulate.wg.v3_0.*;
 
 	import customframe.components.list.ListEvent;
 
@@ -75,11 +75,37 @@ package customframe.panels.resources
 		{
 			m_xmlData.@description = strDescription;
 		}
+		
+		public function TogglePanel():void
+		{
+			if (this.panel.visible)
+			{
+				HidePanel();
+			}
+			else 
+			{
+				ShowPanel();
+			}
+		}
 
-		public function Update():void
+		private function Update():void
 		{
 			this.panel.list.RemoveAll();
 			CreateListItems();
+		}
+		
+		private function ShowPanel():void
+		{
+			this.panel.visible = true;
+			this.stage.addEventListener(MouseEvent.MOUSE_DOWN, Stage_onMouseDown);
+		}
+		
+		public function HidePanel():void
+		{
+			this.panel.visible = false;
+			this.stage.removeEventListener(MouseEvent.MOUSE_DOWN, Stage_onMouseDown);
+			this.label.removeEventListener(MouseEvent.CLICK, Stage_onMouseDown);
+			this.label.addEventListener(MouseEvent.CLICK, Label_onClick);
 		}
 
 		protected function CreateListItems():void
@@ -96,14 +122,14 @@ package customframe.panels.resources
 
 		protected function Label_onClick(evt:MouseEvent):void
 		{
-			this.panel.visible = true;
-			this.stage.addEventListener(MouseEvent.MOUSE_DOWN, Stage_onMouseDown);
+			ShowPanel();
+			this.label.removeEventListener(MouseEvent.CLICK, Label_onClick);
+			this.label.addEventListener(MouseEvent.CLICK, Stage_onMouseDown);
 		}
 
 		protected function Stage_onMouseDown(evt:MouseEvent):void
 		{
-			this.panel.visible = false;
-			this.stage.removeEventListener(MouseEvent.MOUSE_DOWN, Stage_onMouseDown);
+			HidePanel();
 		}
 
 		protected function OnMouseDown(evt:MouseEvent):void

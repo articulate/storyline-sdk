@@ -1,12 +1,12 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="components/list/List" itemID="52432258-00000425" linkageExportForAS="true" linkageClassName="customframe.components.list.List" lastModified="1381943419" lastUniqueIdentifier="2" isSpriteSubclass="true">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="components/list/List" itemID="52432258-00000425" linkageExportForAS="true" linkageClassName="customframe.components.list.List" lastModified="1383862623" lastUniqueIdentifier="2" isSpriteSubclass="true">
   <timeline>
     <DOMTimeline name="List">
       <layers>
-        <DOMLayer name="Scrollbar" color="#9933CC" locked="true" outline="true" useOutlineView="true" autoNamed="false">
+        <DOMLayer name="Scrollbar" color="#9933CC" outline="true" current="true" isSelected="true" useOutlineView="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="components/scrollbar/Scrollbar" name="scrollbar" centerPoint3DX="192.5" centerPoint3DY="100">
+                <DOMSymbolInstance libraryItemName="components/scrollbar/Scrollbar" name="scrollbar" selected="true" centerPoint3DX="192.5" centerPoint3DY="100">
                   <matrix>
                     <Matrix d="1.00004577636719" tx="185"/>
                   </matrix>
@@ -18,11 +18,11 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="Background" color="#9933CC" locked="true" current="true" isSelected="true" autoNamed="false">
+        <DOMLayer name="Background" color="#9933CC" locked="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="assets/TransparentSquare" name="background" selected="true" centerPoint3DX="110" centerPoint3DY="10">
+                <DOMSymbolInstance libraryItemName="assets/TransparentSquare" name="background" centerPoint3DX="110" centerPoint3DY="10">
                   <matrix>
                     <Matrix a="11"/>
                   </matrix>

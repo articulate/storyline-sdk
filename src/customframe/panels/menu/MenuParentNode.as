@@ -4,7 +4,7 @@ package customframe.panels.menu
 	import flash.events.MouseEvent;
 	import flash.geom.Point;
 
-	import com.articulate.wg.v2_0.*;
+	import com.articulate.wg.v3_0.*;
 
 	import customframe.Frame;
 	import customframe.managers.OptionManager;
@@ -186,7 +186,7 @@ package customframe.panels.menu
 
 		protected function UpdateChildrenSizeAndPosition():void
 		{
-			UpdateChildrenFromPosAndHeight(this.UnexpandedHeight, m_nHeight);
+			UpdateChildrenFromPosAndHeight(this.textField.y + this.textField.TextHeight + MARGIN_BOTTOM, m_nHeight);
 		}
 
 		protected function UpdateChildrenFromPosAndHeight(nYPos:Number, nExpandedHeight:Number):void
@@ -211,17 +211,13 @@ package customframe.panels.menu
 
 		protected function AdjustLayout(oNode:MenuNode = null):void
 		{
-			m_nExpandedHeight = this.UnexpandedHeight;
+			m_nExpandedHeight = (oNode != null) ? DEFAULT_NODE_HEIGHT : 0;
+			
 			for each (var oChild:MenuNode in m_vecChildNodes)
 			{
 				oChild.y = m_nExpandedHeight;
 				m_nExpandedHeight += oChild.height;
 			}
-		}
-		
-		protected function get UnexpandedHeight():Number
-		{
-			return 0;
 		}
 
 		override public function AdjustViewState():void
@@ -263,7 +259,7 @@ package customframe.panels.menu
 				m_oSlideDraws[oSlideDraw.AbsoluteId].push(oNewNode);
 			}
 			// Recalculate child positions
-			m_nExpandedHeight = this.height;
+			m_nExpandedHeight = DEFAULT_NODE_HEIGHT;
 			for each (var oChild:MenuNode in m_vecChildNodes)
 			{
 				oChild.width = m_nWidth;
@@ -272,7 +268,7 @@ package customframe.panels.menu
 
 				var nIndex:int = m_vecChildNodes.indexOf(oChild);
 				oChild.NumberString = m_strNumber + (nIndex + 1) + ".";
-				m_nExpandedHeight += oChild.height;
+				m_nExpandedHeight += DEFAULT_NODE_HEIGHT;
 			}
 
 			if (nOldChildCount != vecNodes.length)

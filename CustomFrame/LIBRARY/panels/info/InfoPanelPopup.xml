@@ -1,0 +1,109 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="panels/info/InfoPanelPopup" itemID="5271425e-0000030b" linkageExportForAS="true" linkageClassName="customframe.panels.info.InfoPanelPopup" lastModified="1411169810" lastUniqueIdentifier="1" isSpriteSubclass="true">
+  <timeline>
+    <DOMTimeline name="InfoPanelPopup">
+      <layers>
+        <DOMLayer name="bioField" color="#FF800A" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMDynamicText name="bioField" fontRenderingMode="standard" width="275" height="150.3" isSelectable="false" lineType="multiline">
+                  <matrix>
+                    <Matrix tx="33" ty="22.7"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>sdfsdfsdfsdfsdfsdfsdfsdfsdf</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" size="11" bitmapSize="220" face="Articulate-Bold" fillColor="#0000FF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="buttons" color="#FF4FFF" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="assets/icons/icon_close" name="iconClose" centerPoint3DX="335.75" centerPoint3DY="-4.25">
+                  <matrix>
+                    <Matrix tx="328" ty="-12"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="7.75" y="7.75"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="panels/info/EmailButton" name="sendEmailButton" symbolType="button">
+                  <matrix>
+                    <Matrix tx="20" ty="188.65"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="41" y="8.35"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="panels/info/CloseButton" name="closeButton" symbolType="button">
+                  <matrix>
+                    <Matrix tx="288" ty="189.65"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="16" y="8.35"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="background" color="#4FFF4F" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="panels/info/Backgroud" name="background" selected="true" centerPoint3DX="170" centerPoint3DY="112.45">
+                  <matrix>
+                    <Matrix a="3.30091857910156" d="2.77926635742188"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="51.5" y="40.45"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="lightBox" color="#808080" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="panels/info/LightBox" name="lightBox" centerPoint3DX="196" centerPoint3DY="143.95">
+                  <matrix>
+                    <Matrix tx="-114" ty="-44"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="310" y="187.95"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="block" color="#FF4FFF" outline="true" useOutlineView="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="panels/info/Block" name="block" centerPoint3DX="191" centerPoint3DY="128.95">
+                  <matrix>
+                    <Matrix tx="-204" ty="-113"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="395" y="241.95"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

@@ -1,0 +1,70 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="components/buttons/Finish Button" itemID="528d6cea-00000282" symbolType="button" lastModified="1385003257" lastUniqueIdentifier="5">
+  <timeline>
+    <DOMTimeline name="Finish Button">
+      <layers>
+        <DOMLayer name="Icon" color="#9933CC" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="4" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Label" color="#FF800A" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="4" keyMode="9728">
+              <elements>
+                <DOMStaticText width="46.15" height="15.05" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="11.8" ty="7"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>FINISH</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="center" aliasText="false" size="13" bitmapSize="260" face="Articulate Bold*" fillColor="#353535"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                  <filters>
+                    <DropShadowFilter angle="90" blurX="0" blurY="0" color="#FFFFFF" distance="1"/>
+                  </filters>
+                </DOMStaticText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Background" color="#4FFF4F" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="components/buttons/ButtonBackground Up" symbolType="graphic" loop="loop">
+                  <transformationPoint>
+                    <Point x="35.5" y="15.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="1" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="components/buttons/ButtonBackground Over" symbolType="graphic" loop="loop">
+                  <transformationPoint>
+                    <Point x="35.5" y="15.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="2" duration="2" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="components/buttons/ButtonBackground Down" symbolType="graphic" loop="loop">
+                  <transformationPoint>
+                    <Point x="35.5" y="15.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

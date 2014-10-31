@@ -32,8 +32,8 @@
                     </StrokeStyle>
                   </strokes>
                   <edges>
-                    <Edge fillStyle0="1" fillStyle1="2" strokeStyle="2" edges="!310 30|310 110!310 110|30 110!30 110|30 30!30 30|310 30"/>
                     <Edge fillStyle1="1" strokeStyle="1" edges="!330 10|330 130!330 130|10 130!10 130|10 10!10 10|330 10"/>
+                    <Edge fillStyle0="1" fillStyle1="2" strokeStyle="2" edges="!310 30|310 110!310 110|30 110!30 110|30 30!30 30|310 30"/>
                   </edges>
                 </DOMShape>
               </elements>

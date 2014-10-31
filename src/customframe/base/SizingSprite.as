@@ -1,5 +1,8 @@
 package customframe.base
 {
+	import customframe.panels.menu.Menu;
+	import customframe.panels.sidebar.Sidebar
+	
 	public class SizingSprite extends CustomSprite
 	{
 		protected var m_nWidth:Number = 0;
@@ -43,7 +46,7 @@ package customframe.base
 		override public function set height(value:Number):void
 		{
 			if (value != m_nHeight)
-			{
+			{	
 				m_nHeight = value;
 				QueueRedraw();
 			}

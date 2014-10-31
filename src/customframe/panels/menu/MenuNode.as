@@ -1,5 +1,6 @@
 package customframe.panels.menu
 {
+	import flash.display.MovieClip;
 	import flash.display.SimpleButton;
 	import flash.events.Event;
 	import flash.events.MouseEvent;
@@ -7,12 +8,14 @@ package customframe.panels.menu
 	import flash.geom.Point;
 	import flash.text.TextFormat;
 
-	import com.articulate.wg.v2_0.wgEventFrame;
-	import com.articulate.wg.v2_0.wgISlide;
+	import com.articulate.wg.v3_0.wgEventFrame;
+	import com.articulate.wg.v3_0.wgISlide;
+	import com.articulate.wg.v3_0.wgPlayerEvent;
 
 	import customframe.components.list.ItemBase;
 	import customframe.components.text.FormattedTextField;
 	import customframe.managers.OptionManager;
+	import customframe.Frame;
 
 	/**
 	 * MenuNode is the base class for the nodes in the menu tree.
@@ -27,6 +30,14 @@ package customframe.panels.menu
 		public static const AUTO_NUMBER:String = "autonumber";
 		public static const AUTO_COLLAPSE:String = "autocollapse";
 		public static const WRAP_LIST_ITEMS:String = "wraplistitems";
+		
+		public static const LINK_ACTION:String = "action";
+		public static const LINK_SLIDE:String = "slide";
+		
+		public static const STATUS_CORRECT:String = "correct";
+		public static const STATUS_INCORRECT:String = "incorrect";
+		public static const STATUS_INCOMPLETE:String = "incomplete";
+		public static const STATUS_NONE:String = "none";
 
 		public static const MARGIN_TEXT_LEFT:int = 12;
 		public static const MARGIN_TOP:int = 2;
@@ -35,9 +46,11 @@ package customframe.panels.menu
 		public static const TEXT_HEIGHT:int = 100;
 		public static const TEXT_LEADING:int = 3;
 		public static const TEXT_SIZE:int = 11;
+		public static const DEFAULT_NODE_HEIGHT = 19.65;
 
 		public var background:SimpleButton;
 		public var textField:FormattedTextField;
+		public var quizIcon:MovieClip;
 
 		protected var m_nUpTextColor:uint = 0x000000;
 		protected var m_nOverTextColor:uint = 0x000000;
@@ -51,6 +64,8 @@ package customframe.panels.menu
 		protected var m_strNumber:String = "";
 		protected var m_strSlideId:String = "";
 		protected var m_strWindowId:String = "";
+		protected var m_strLinkType:String = LINK_SLIDE;
+		protected var m_bHasChildren:Boolean = false;
 
 		protected var m_bViewed:Boolean = false;
 		protected var m_bListTypeDirty:Boolean = false;
@@ -87,6 +102,7 @@ package customframe.panels.menu
 				this.textField.height = TEXT_HEIGHT;
 				this.textField.mouseEnabled = false;
 			}
+			
 			QueueRedraw();
 		}
 
@@ -105,10 +121,22 @@ package customframe.panels.menu
 				m_strTitle = m_strTitle.replace(new RegExp(/\r/g), " ");
 				m_strTitle = m_strTitle.replace(new RegExp(/\n/g), " ");
 				m_strSlideId = m_xmlData.@slideid;
+				m_strLinkType = m_xmlData.@type;
+				m_bHasChildren = (m_xmlData.links.children().length() > 0);
+				
 				if (m_strSlideId.indexOf(PLAYER_PREFIX) == 0)
 				{
 					m_strSlideId = m_strSlideId.substr(8);
 				}
+				
+				if (m_strLinkType != LINK_ACTION)
+				{
+					var oSlide:wgISlide = Frame.CustomFrame.GetSlide(m_strSlideId);
+					if (oSlide != null && oSlide.HasInteractions) {
+						oSlide.addEventListener(wgPlayerEvent.INTERACTION_EVALUATED, UpdateQuizIcon);
+					}
+				}
+				
 				QueueRedraw();
 			}
 		}
@@ -128,12 +156,12 @@ package customframe.panels.menu
 		{
 			return m_strWindowId;
 		}
-
-		protected function Expand():void
+		
+		public function get LinkType():String
 		{
-			dispatchEvent(new MenuEvent(MenuEvent.EXPAND_NODES));
+			return m_strLinkType;
 		}
-
+		
 		protected function Collapse():void
 		{
 			dispatchEvent(new MenuEvent(MenuEvent.COLLAPSE_NODES));
@@ -146,12 +174,8 @@ package customframe.panels.menu
 				super.Selected = value;
 
 				if (!m_bViewed)
-				{
-					var oSlide:wgISlide = GetSlideById(m_strSlideId);
-					if (oSlide != null && oSlide.Viewed)
-					{
-						m_bViewed = true;
-					}
+				{	
+					m_bViewed = CheckViewed();
 				}
 
 				UpdateTextColor();
@@ -169,6 +193,34 @@ package customframe.panels.menu
 			evtFrame.Id = strSlideId;
 			dispatchEvent(evtFrame);
 			return evtFrame.ReturnData as wgISlide;
+		}
+		
+		protected function GetActionLinkViewed(strActionLinkId:String):Boolean
+		{
+			var evtFrame:wgEventFrame = new wgEventFrame(wgEventFrame.GET_ACTIONLINK_VIEWED);
+			evtFrame.Id = strActionLinkId;
+			dispatchEvent(evtFrame);
+			return evtFrame.ReturnData as Boolean;			
+		}
+		
+		public function CheckViewed():Boolean
+		{
+			var m_bViewed:Boolean;
+			
+			if (m_strLinkType == LINK_ACTION)
+			{
+				m_bViewed = GetActionLinkViewed(m_strSlideId);
+			}
+			else
+			{
+				var oSlide:wgISlide = GetSlideById(m_strSlideId);
+				if (oSlide != null && oSlide.Viewed)
+				{
+					m_bViewed = true;
+				}
+			}
+			
+			return m_bViewed;
 		}
 
 		public function AutoCollapse():void
@@ -197,6 +249,24 @@ package customframe.panels.menu
 		public function get TitleHeight():Number
 		{
 			return m_nHeight;
+		}
+		
+		public function DoNodeAction()
+		{
+			var evtFrame:wgEventFrame;
+			
+			if (LinkType != MenuNode.LINK_ACTION)
+			{
+				evtFrame = new wgEventFrame(wgEventFrame.GOTO_SLIDE);
+				evtFrame.WindowId = WindowId;
+			}
+			else
+			{
+				evtFrame = new wgEventFrame(wgEventFrame.DO_ACTION_LINK);
+			}
+			
+			evtFrame.Id = SlideId;
+			dispatchEvent(evtFrame);
 		}
 
 		override public function get height():Number
@@ -287,15 +357,8 @@ package customframe.panels.menu
 
 		public function AdjustViewState():void
 		{
-			var evtFrame:wgEventFrame = new wgEventFrame(wgEventFrame.GET_SLIDE);
-			evtFrame.Id = m_strSlideId;
-			dispatchEvent(evtFrame);
-			var oSlide:wgISlide = evtFrame.ReturnData as wgISlide;
-			if (oSlide != null)
-			{
-				m_bViewed = oSlide.Viewed;
-				UpdateTextColor();
-			}
+			m_bViewed = CheckViewed();
+			UpdateTextColor();
 		}
 
 		override protected function SetBackgroundColor(nColor:uint):void
@@ -343,6 +406,12 @@ package customframe.panels.menu
 					super.OnMouseOver(evt);
 					UpdateTextColor();
 				}
+				
+				var oCurrentSlide:wgISlide = Frame.CustomFrame.GetCurrentSlide();
+				if (oCurrentSlide.SlideLock)
+				{
+					Frame.CustomFrame.SetLockCursor(true);
+				}
 			}
 		}
 
@@ -351,24 +420,57 @@ package customframe.panels.menu
 			if (m_bHover)
 			{
 				super.OnMouseOut(evt);
+				
+				var oCurrentSlide:wgISlide = Frame.CustomFrame.GetCurrentSlide();
+				if (oCurrentSlide.SlideLock)
+				{
+					Frame.CustomFrame.SetLockCursor(false);
+				}
 			}
 		}
 
 		override protected function OnClick(evt:MouseEvent):void
 		{
-			if (this.textField != null)
+			var oCurrentSlide:wgISlide = Frame.CustomFrame.GetCurrentSlide();
+			
+			if (this.textField != null && !oCurrentSlide.SlideLock)
 			{
 				var ptMouse:Point = new Point(evt.stageX, evt.stageY);
 				ptMouse = this.textField.globalToLocal(ptMouse);
 				if (ptMouse.x >= 0 && ptMouse.x <= this.textField.width &&
 					ptMouse.y >= 0 && ptMouse.y <= this.textField.height)
 				{
-					super.OnClick(evt);
 					NotifyClicked();
 				}
 				AdjustViewState();
 			}
 			evt.stopPropagation();
+		}
+		
+		protected function UpdateQuizIcon(e:wgPlayerEvent):void
+		{	
+			if (m_strLinkType != LINK_ACTION && !m_bHasChildren)
+			{
+				quizIcon.x = this.width - quizIcon.width - MARGIN_TEXT_LEFT;
+				
+				var oSlide:wgISlide = Frame.CustomFrame.GetSlide(m_strSlideId);
+				
+				if (oSlide != null && oSlide.ShowMenuResultIcon)
+				{	
+					if (oSlide.Status == STATUS_CORRECT)
+					{
+						quizIcon.gotoAndStop(STATUS_CORRECT);
+					}
+					else if (oSlide.Status == STATUS_INCORRECT || oSlide.Status == STATUS_INCOMPLETE)
+					{	
+						quizIcon.gotoAndStop(STATUS_INCORRECT);
+					}
+					else
+					{
+						quizIcon.gotoAndStop(STATUS_NONE);
+					}
+				}
+			}
 		}
 	}
 }

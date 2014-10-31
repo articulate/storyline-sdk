@@ -7,8 +7,9 @@ package customframe.windows.lightbox
 	import flash.geom.Matrix;
 	import flash.geom.Rectangle;
 
-	import com.articulate.wg.v2_0.wgEventWindow;
-	import com.articulate.wg.v2_0.wgIWindow;
+	import com.articulate.wg.v3_0.wgEventWindow;
+	import com.articulate.wg.v3_0.wgIWindow;
+	import com.articulate.wg.v3_0.wgITimeline;
 
 	import customframe.base.SizingSprite;
 	import customframe.components.buttons.ControlButtons;
@@ -130,10 +131,7 @@ package customframe.windows.lightbox
 				m_spSlideContainer.y = BORDER_WIDTH + CONTROL_BORDER_SMALL;
 				this.slideContainer.width = m_nWidth - (BORDER_WIDTH + CONTROL_BORDER_SMALL) * 2;
 				this.slideContainer.height = m_nHeight - (BORDER_WIDTH + CONTROL_BORDER_SMALL) * 2;
-				m_rectSlide = new Rectangle(BORDER_WIDTH + CONTROL_BORDER_SMALL,
-											BORDER_WIDTH + CONTROL_BORDER_SMALL,
-											m_nWidth - BORDER_WIDTH * 2 - CONTROL_BORDER_SMALL * 2,
-											m_nHeight - BORDER_WIDTH * 2 - (CONTROL_BORDER_SMALL + CONTROL_BORDER_BOTTOM));
+				m_rectSlide = new Rectangle(BORDER_WIDTH + CONTROL_BORDER_SMALL, BORDER_WIDTH + CONTROL_BORDER_SMALL, m_nWidth - BORDER_WIDTH * 2 - CONTROL_BORDER_SMALL * 2, m_nHeight - BORDER_WIDTH * 2 - (CONTROL_BORDER_SMALL + CONTROL_BORDER_BOTTOM));
 				this.controlButtons.x = (m_rectSlide.right - this.controlButtons.width);
 				this.controlButtons.y = (m_rectSlide.bottom + BORDER_WIDTH);
 			}
@@ -145,8 +143,7 @@ package customframe.windows.lightbox
 				m_spSlideContainer.y = BORDER_WIDTH;
 				this.slideContainer.width = m_nWidth - BORDER_WIDTH * 2;
 				this.slideContainer.height = m_nHeight - BORDER_WIDTH * 2;
-				m_rectSlide = new Rectangle(BORDER_WIDTH, BORDER_WIDTH, m_nWidth - BORDER_WIDTH * 2,
-											m_nHeight - BORDER_WIDTH * 2);
+				m_rectSlide = new Rectangle(BORDER_WIDTH, BORDER_WIDTH, m_nWidth - BORDER_WIDTH * 2, m_nHeight - BORDER_WIDTH * 2);
 			}
 
 			// Create the slide mask
@@ -158,6 +155,25 @@ package customframe.windows.lightbox
 		protected function ControlEnabled(strLayout:String, strControlId:String):Boolean
 		{
 			return m_oControlManager.GetLayoutControlEnabled(strLayout, strControlId);
+		}
+		
+		public function SetWindowTimeline(oTimeline:wgITimeline):void
+		{
+		}
+		
+		public function EnableWindowControl(strControlName:String, bEnable:Boolean):void
+		{
+			m_oControlManager.EnableFrameControl(strControlName, bEnable);
+		}
+		
+		public function SetControlVisible(strControlName:String, bVisible:Boolean):void
+		{
+			m_oControlManager.SetControlVisible(strControlName, bVisible);
+		}
+		
+		public function get ScaleToFit():Boolean
+		{
+			return true;
 		}
 	}
 }

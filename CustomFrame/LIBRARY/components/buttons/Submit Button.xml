@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="components/buttons/Submit Button" itemID="514a4f9c-000075b4" symbolType="button" lastModified="1364583536" lastUniqueIdentifier="5">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="components/buttons/Submit Button" itemID="514a4f9c-000075b4" symbolType="button" lastModified="1385003280" lastUniqueIdentifier="5">
   <timeline>
     <DOMTimeline name="Submit Button">
       <layers>
@@ -6,7 +6,7 @@
           <frames>
             <DOMFrame index="0" duration="4" keyMode="9728">
               <elements>
-                <DOMStaticText width="56.2" height="15" isSelectable="false">
+                <DOMStaticText width="56.2" height="15.05" isSelectable="false">
                   <matrix>
                     <Matrix tx="5.8" ty="7"/>
                   </matrix>

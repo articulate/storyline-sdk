@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="windows/SlideContainer" itemID="524321ee-00000420" linkageExportForAS="true" linkageClassName="customframe.windows.SlideContainer" lastModified="1381171647" lastUniqueIdentifier="1">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="windows/SlideContainer" itemID="524321ee-00000420" linkageExportForAS="true" linkageClassName="customframe.windows.SlideContainer" lastModified="1411519373" lastUniqueIdentifier="1">
   <timeline>
     <DOMTimeline name="SlideContainer">
       <layers>
@@ -10,6 +10,9 @@
                   <transformationPoint>
                     <Point x="360" y="270"/>
                   </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
                 </DOMSymbolInstance>
               </elements>
             </DOMFrame>

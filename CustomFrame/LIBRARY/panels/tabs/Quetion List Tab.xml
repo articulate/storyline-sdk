@@ -1,0 +1,32 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="panels/tabs/Quetion List Tab" itemID="528e8cdb-00000335" scaleGridLeft="21" scaleGridRight="63" scaleGridTop="13.75" scaleGridBottom="41.25" lastModified="1385073883">
+  <timeline>
+    <DOMTimeline name="Quetion List Tab">
+      <layers>
+        <DOMLayer name="Background" color="#4FFF4F" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape selected="true" isFloating="true">
+                  <matrix>
+                    <Matrix a="1.40475463867188"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="42" y="27.5"/>
+                  </transformationPoint>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#F3F3F3"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle0="1" edges="!1680 120S1[1680 0 1560 0!1560 0|120 0!120 0[0 0 0 120!0 120|0 981!0 981[0 1100 120 1100!120 1100|1560 1100!1560 1100[1680 1100 1680 981!1680 981|1680 120"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

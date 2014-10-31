@@ -67,7 +67,7 @@
                     <Point x="5.2" y="50.05"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="components/timer/MinuteSlice" name="Minute10" selected="true" centerPoint3DX="-37.4" centerPoint3DY="33.6">
+                <DOMSymbolInstance libraryItemName="components/timer/MinuteSlice" name="Minute10" centerPoint3DX="-37.4" centerPoint3DY="33.6">
                   <matrix>
                     <Matrix a="0.5877685546875" b="0.80902099609375" c="-0.80902099609375" d="0.5877685546875"/>
                   </matrix>

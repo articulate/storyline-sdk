@@ -1,12 +1,28 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="panels/menu/MenuNode" itemID="525ee132-0000105b" linkageExportForAS="true" linkageClassName="customframe.panels.menu.MenuNode" lastModified="1381949754" lastUniqueIdentifier="4" isSpriteSubclass="true">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="panels/menu/MenuNode" itemID="525ee132-0000105b" linkageExportForAS="true" linkageClassName="customframe.panels.menu.MenuNode" lastModified="1386371812" lastUniqueIdentifier="4" isSpriteSubclass="true">
   <timeline>
     <DOMTimeline name="MenuNode">
       <layers>
-        <DOMLayer name="Text" color="#9933CC" locked="true" autoNamed="false">
+        <DOMLayer name="QuizIcon" color="#9933CC" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="components/text/FormattedTextField" name="textField" centerPoint3DX="120" centerPoint3DY="8">
+                <DOMSymbolInstance libraryItemName="panels/menu/QuizIcon" name="quizIcon" centerPoint3DX="183.5" centerPoint3DY="9.5">
+                  <matrix>
+                    <Matrix tx="178" ty="4"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="5.5" y="5.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Text" color="#9933CC" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="components/text/FormattedTextField" name="textField" selected="true" centerPoint3DX="120" centerPoint3DY="8">
                   <matrix>
                     <Matrix tx="10" ty="-1.55"/>
                   </matrix>
@@ -18,11 +34,11 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="Background" color="#9933CC" locked="true" current="true" isSelected="true" autoNamed="false">
+        <DOMLayer name="Background" color="#9933CC" locked="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="assets/WhiteSquare" name="background" selected="true" symbolType="button">
+                <DOMSymbolInstance libraryItemName="assets/WhiteSquare" name="background" symbolType="button">
                   <matrix>
                     <Matrix a="5" d="1.29998779296875"/>
                   </matrix>

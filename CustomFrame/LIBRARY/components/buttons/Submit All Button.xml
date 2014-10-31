@@ -1,0 +1,72 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="components/buttons/Submit All Button" itemID="528d790e-000002a3" symbolType="button" lastModified="1386407529" lastUniqueIdentifier="5">
+  <timeline>
+    <DOMTimeline name="Submit All Button">
+      <layers>
+        <DOMLayer name="Label" color="#FF800A" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="4" keyMode="9728">
+              <elements>
+                <DOMStaticText width="74.15" height="15.05" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="8.8" ty="7"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>SUBMIT ALL</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="center" aliasText="false" size="13" bitmapSize="260" face="Articulate Bold*" fillColor="#353535"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                  <filters>
+                    <DropShadowFilter angle="90" blurX="0" blurY="0" color="#FFFFFF" distance="1"/>
+                  </filters>
+                </DOMStaticText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Background" color="#4FFF4F" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="components/buttons/ButtonBackground Up" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix a="1.3145751953125"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="35.5" y="15.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="1" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="components/buttons/ButtonBackground Over" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix a="1.31428527832031"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="35.5" y="15.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="2" duration="2" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="components/buttons/ButtonBackground Down" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix a="1.31428527832031"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="35.5" y="15.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

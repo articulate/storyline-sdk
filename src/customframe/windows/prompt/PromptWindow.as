@@ -1,6 +1,7 @@
 package customframe.windows.prompt
 {
-	import com.articulate.wg.v2_0.wgIWindow;
+	import com.articulate.wg.v3_0.wgIWindow;
+	import com.articulate.wg.v3_0.wgITimeline;
 
 	import flash.display.DisplayObject;
 	import flash.display.Sprite;
@@ -95,6 +96,23 @@ package customframe.windows.prompt
 		protected function ContentArea_onChildAdded(evt:Event):void
 		{
 			QueueRedraw();
+		}
+		
+		public function SetWindowTimeline(oTimeline:wgITimeline):void
+		{
+		}
+		
+		public function EnableWindowControl(strControlName:String, bEnable:Boolean):void
+		{
+		}
+		
+		public function SetControlVisible(strControlName:String, bVisible:Boolean):void
+		{
+		}
+		
+		public function get ScaleToFit():Boolean
+		{
+			return true;
 		}
 	}
 }

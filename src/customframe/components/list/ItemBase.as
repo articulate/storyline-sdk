@@ -81,6 +81,7 @@ package customframe.components.list
 		{
 			return m_bSelected;
 		}
+		
 		public function set Selected(value:Boolean):void
 		{
 			m_bSelected = value;

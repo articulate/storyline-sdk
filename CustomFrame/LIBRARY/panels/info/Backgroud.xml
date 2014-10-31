@@ -1,0 +1,43 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="panels/info/Backgroud" itemID="541cc8ef-00000eef" scaleGridLeft="25.75" scaleGridRight="77.25" scaleGridTop="20.2" scaleGridBottom="60.75" lastModified="1411172591">
+  <timeline>
+    <DOMTimeline name="Backgroud">
+      <layers>
+        <DOMLayer name="labels" color="#9933CC" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" name="roundTop" labelType="name" keyMode="9728">
+              <Actionscript>
+                <script><![CDATA[stop();]]></script>
+              </Actionscript>
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="1" name="flatTop" labelType="name" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Shape" color="#9933CC" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="assets/BackgroundFill" selected="true" symbolType="graphic" loop="loop">
+                  <transformationPoint>
+                    <Point x="51.5" y="40.45"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="1" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="assets/BackgroundFill" selected="true" symbolType="graphic" firstFrame="1" loop="loop">
+                  <transformationPoint>
+                    <Point x="51.5" y="40.45"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

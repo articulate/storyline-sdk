@@ -44,7 +44,7 @@
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="assets/Rectangle" name="termsRectangle" selected="true" centerPoint3DX="110" centerPoint3DY="318">
+                <DOMSymbolInstance libraryItemName="assets/Rectangle" name="termsRectangle" centerPoint3DX="110" centerPoint3DY="318">
                   <matrix>
                     <Matrix ty="223"/>
                   </matrix>

@@ -7,30 +7,30 @@ package customframe.panels.menu
 	import flash.geom.Point;
 	import flash.geom.Rectangle;
 
-	import com.articulate.wg.v2_0.*;
+	import com.articulate.wg.v3_0.*;
 
 	import customframe.Frame;
 	import customframe.components.list.List;
 	import customframe.components.scrollbar.CustomScrollbar;
 	import customframe.components.scrollbar.ScrollbarEvent;
 	import customframe.managers.OptionManager;
+	import customframe.panels.sidebar.Sidebar;
 
 	/**
 	 * This is the logic for the Menu symbol in the library (/panels/menu/Menu.)
 	 *
 	 * The Menu is the outline tree in the sidebar. It controls the selection of the current slide for the
 	 * Articulate player to display. It contains a MenuTree and a CustomScrollbar.
+	 *
 	 */
 	public class Menu extends List
 	{
 		public static const RESTRICTED:String = "restricted";
-		public static const NAV_RESTRICTED_MODE:String = "nav_restricted_mode";
-		public static const LOCKED:String = "locked";
-		public static const NAV_LOCKED_MODE:String = "nav_locked_mode";
-		public static const MENU_OPTIONS:String = "menuoptions";
-		public static const FLOW:String = "flow";
 		public static const FREE:String = "free";
-
+		public static const LOCKED:String = "locked";
+		public static const NAV_RESTRICTED_MODE:String = "nav_restricted_mode";
+		public static const NAV_LOCKED_MODE:String = "nav_locked_mode";
+		
 		private const SCROLL_MARGIN:int = 5;
 		private const MARGIN_TREE:int = 3;
 
@@ -62,13 +62,14 @@ package customframe.panels.menu
 		public function set CustomFrame(value:Frame):void
 		{
 			m_oFrame = value;
-			m_oFrame.addEventListener(wgPlayerEvent.SLIDE_TRANSITION_IN, Frame_OnSlideTransitionIn);
+			m_oFrame.addEventListener(wgPlayerEvent.SLIDE_TRANSITION_IN, SlideChanged);
+			m_oFrame.addEventListener(wgPlayerEvent.ACTIONLINK_SELECTED, SlideChanged);
 			m_oFrame.addEventListener(wgPlayerEvent.RESUME_PLAYER, Frame_OnResumePlayer);
 		}
 
 		public function Update(xmlData:XML, oOptionManager:OptionManager):void
 		{
-			m_strFlow = oOptionManager.GetOptionAsString(MENU_OPTIONS, FLOW, m_strFlow);
+			m_strFlow = oOptionManager.GetOptionAsString(OptionManager.OPTGROUP_MENUOPTIONS, OptionManager.OPTION_FLOW, m_strFlow);
 			MenuTree(this.tree).OptionManager = oOptionManager;
 			SetTreeXMLData(xmlData);
 		}
@@ -91,17 +92,9 @@ package customframe.panels.menu
 			return evtFrame.ReturnData as wgISlide;
 		}
 
-		protected function GotoSlide(strSlideId:String, strWindowId:String):void
-		{
-			var evtFrame:wgEventFrame = new wgEventFrame(wgEventFrame.GOTO_SLIDE);
-			evtFrame.Id = strSlideId;
-			evtFrame.WindowId = strWindowId;
-			dispatchEvent(evtFrame);
-		}
-
 		override public function Redraw():void
 		{
-			super.Redraw()
+			super.Redraw();
 			UpdateChildren();
 		}
 
@@ -111,7 +104,7 @@ package customframe.panels.menu
 			this.height = nMainHeight;
 			this.y = nTabHeight;
 		}
-
+		
 		protected function UpdateChildren():void
 		{
 			if (!m_bIgnoreExpand)
@@ -120,7 +113,6 @@ package customframe.panels.menu
 				this.scrollbar.y = 0;
 				this.scrollbar.height = m_nHeight;
 				this.scrollbar.ContentHeight = this.tree.ExpandedHeight + SCROLL_MARGIN;
-
 				var nWidth:int = 0;
 				if (this.scrollbar.ContentHeight > m_nHeight)
 				{
@@ -132,7 +124,7 @@ package customframe.panels.menu
 					nWidth = m_nWidth - MARGIN_TREE - this.tree.x - 1;
 					this.scrollbar.visible = false;
 				}
-
+				
 				this.tree.width = nWidth;
 				this.tree.scrollRect = new Rectangle(0, this.scrollbar.Position, nWidth, this.scrollbar.height - SCROLL_MARGIN);
 			}
@@ -143,9 +135,20 @@ package customframe.panels.menu
 			this.tree.AdjustViewState();
 		}
 
-		protected function Frame_OnSlideTransitionIn(evt:MenuEvent):void
+		protected function SlideChanged(evt:wgPlayerEvent):void
 		{
-			if (!this.tree.SelectSlideById(evt.Node.Id))
+			var strId:String;
+			
+			if (evt.type == wgPlayerEvent.ACTIONLINK_SELECTED)
+			{
+				strId = evt.Data;
+			}
+			else
+			{
+				strId = evt.Slide.AbsoluteId;
+			}
+			
+			if (!this.tree.SelectSlideById(strId))
 			{
 				if (m_oSelectedNode != null)
 				{
@@ -179,15 +182,11 @@ package customframe.panels.menu
 					{
 						if (m_strFlow == RESTRICTED)
 						{
-							var oSlide:wgISlide = GetSlideById(oNode.SlideId);
-							if (oSlide != null)
+							bContinue = oNode.CheckViewed();
+							
+							if (!bContinue)
 							{
-								bContinue = oSlide.Viewed;
-
-								if (!bContinue)
-								{
-									m_oFrame.TriggerCustomEvent(NAV_RESTRICTED_MODE);
-								}
+								m_oFrame.TriggerCustomEvent(NAV_RESTRICTED_MODE);
 							}
 						}
 
@@ -204,7 +203,6 @@ package customframe.panels.menu
 						{
 							m_bIgnoreExpand = true;
 							m_oSelectedNode.Selected = false;
-							m_oSelectedNode.AutoCollapse();
 							m_bIgnoreExpand = false;
 						}
 
@@ -213,25 +211,22 @@ package customframe.panels.menu
 
 						if (evt.NotifyFrame)
 						{
-							GotoSlide(m_oSelectedNode.SlideId, m_oSelectedNode.WindowId);
+							oNode.DoNodeAction();
 						}
 					}
 
 					ScrollToSelectedNode();
+					
+					if (this.parent.parent is MenuPopup)
+					{
+						MenuPopup(this.parent.parent).HidePanel();
+					}
 				}
 				else if (oNode is MenuBranchNode)
 				{
 					MenuBranchNode(oNode).ToggleExpanded();
 				}
 			}
-		}
-
-		protected function GetSlideById(strSlideId:String):wgISlide
-		{
-			var evtFrame:wgEventFrame = new wgEventFrame(wgEventFrame.GET_SLIDE);
-			evtFrame.Id = strSlideId;
-			dispatchEvent(evtFrame);
-			return evtFrame.ReturnData as wgISlide;
 		}
 
 		protected function ScrollToSelectedNode():void

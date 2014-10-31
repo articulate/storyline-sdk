@@ -1,0 +1,64 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="panels/menu/MenuPopup" itemID="528e8a78-000002be" linkageExportForAS="true" linkageClassName="customframe.panels.menu.MenuPopup" lastModified="1385601135" isSpriteSubclass="true">
+  <timeline>
+    <DOMTimeline name="MenuPopup">
+      <layers>
+        <DOMLayer name="Menu Label Button" color="#4FFF4F" locked="true" autoNamed="false" visible="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="panels/tabs/QuestionListLabel" name="label" selected="true" symbolType="button">
+                  <matrix>
+                    <Matrix tx="-5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="36.75" y="15"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Menu Label Text" color="#9933CC" locked="true" autoNamed="false" visible="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMDynamicText name="labelText" selected="true" width="84" height="15.05" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="5" ty="7.4"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="-2" y="7.5"/>
+                  </transformationPoint>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Question List</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" size="11" bitmapSize="220" face="Articulate*"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Panel" color="#FF4FFF" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="panels/menu/MenuPanel" name="panel" selected="true" centerPoint3DX="142.1" centerPoint3DY="45.4">
+                  <matrix>
+                    <Matrix ty="25.4"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="141.85" y="20.25"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

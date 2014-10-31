@@ -1,6 +1,6 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="components/buttons/VolumeButton" itemID="52432205-00000422" linkageExportForAS="true" linkageClassName="customframe.components.buttons.VolumeButton" lastModified="1381172678" lastUniqueIdentifier="22">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="components/buttons/VolumeButton" itemID="52432205-00000422" linkageExportForAS="true" linkageClassName="customframe.components.buttons.VolumeButton" lastModified="1385535716" lastUniqueIdentifier="22">
   <timeline>
-    <DOMTimeline name="VolumeButton" currentFrame="2">
+    <DOMTimeline name="VolumeButton">
       <layers>
         <DOMLayer name="Labels" color="#FF800A" autoNamed="false">
           <frames>
@@ -37,7 +37,7 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="Icon Max" color="#808080" locked="true" current="true" isSelected="true" autoNamed="false">
+        <DOMLayer name="Icon Max" color="#808080" autoNamed="false">
           <frames>
             <DOMFrame index="0" duration="3" keyMode="9728">
               <elements>
@@ -56,7 +56,7 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="Icon High" color="#4FFFFF" locked="true" autoNamed="false">
+        <DOMLayer name="Icon High" color="#4FFFFF" autoNamed="false">
           <frames>
             <DOMFrame index="0" duration="3" keyMode="9728">
               <elements>
@@ -75,7 +75,7 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="Icon Low" color="#FF4FFF" locked="true" autoNamed="false">
+        <DOMLayer name="Icon Low" color="#FF4FFF" autoNamed="false">
           <frames>
             <DOMFrame index="0" duration="3" keyMode="9728">
               <elements>
@@ -94,7 +94,7 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="Icon Min" color="#9933CC" locked="true" autoNamed="false">
+        <DOMLayer name="Icon Min" color="#9933CC" autoNamed="false">
           <frames>
             <DOMFrame index="0" duration="3" keyMode="9728">
               <elements>
@@ -113,7 +113,7 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="Slider Button" color="#4FFF4F" locked="true" autoNamed="false">
+        <DOMLayer name="Slider Button" color="#4FFF4F" autoNamed="false">
           <frames>
             <DOMFrame index="0" duration="3" keyMode="9728">
               <elements>
@@ -129,7 +129,7 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="Slider Track" color="#FF4F4F" locked="true" autoNamed="false">
+        <DOMLayer name="Slider Track" color="#FF4F4F" autoNamed="false">
           <frames>
             <DOMFrame index="0" duration="3" keyMode="9728">
               <elements>
@@ -145,7 +145,7 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="Extended Background" color="#9933CC" locked="true" autoNamed="false">
+        <DOMLayer name="Extended Background" color="#9933CC" autoNamed="false">
           <frames>
             <DOMFrame index="0" duration="2" keyMode="9728">
               <elements/>
@@ -182,7 +182,7 @@
                     <Point x="15.05" y="50.3"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="components/buttons/VolumeButton Expanded background" centerPoint3DX="14.9" centerPoint3DY="-20.3">
+                <DOMSymbolInstance libraryItemName="components/buttons/VolumeButton Expanded background" selected="true" centerPoint3DX="14.9" centerPoint3DY="-20.3">
                   <matrix>
                     <Matrix tx="-0.15" ty="-70.6"/>
                   </matrix>
@@ -194,7 +194,7 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="Background" color="#4FFF4F" locked="true" autoNamed="false">
+        <DOMLayer name="Background" color="#4FFF4F" current="true" isSelected="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" duration="2" keyMode="9728">
               <elements>
@@ -210,7 +210,7 @@
             </DOMFrame>
             <DOMFrame index="2" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="components/buttons/ButtonBackground Over" name="BackgroundUp" centerPoint3DX="15" centerPoint3DY="15">
+                <DOMSymbolInstance libraryItemName="components/buttons/ButtonBackground Over" name="backgroundUp" centerPoint3DX="15" centerPoint3DY="15">
                   <matrix>
                     <Matrix a="0.428756713867188"/>
                   </matrix>

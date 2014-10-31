@@ -1,12 +1,12 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="panels/menu/Menu" itemID="52460b4c-00000934" linkageExportForAS="true" linkageClassName="customframe.panels.menu.Menu" lastModified="1381943931" lastUniqueIdentifier="5" isSpriteSubclass="true">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="panels/menu/Menu" itemID="52460b4c-00000934" linkageExportForAS="true" linkageClassName="customframe.panels.menu.Menu" lastModified="1385535721" lastUniqueIdentifier="5" isSpriteSubclass="true">
   <timeline>
     <DOMTimeline name="Menu">
       <layers>
-        <DOMLayer name="Tree" color="#9933CC" locked="true" autoNamed="false">
+        <DOMLayer name="Tree" color="#9933CC" current="true" isSelected="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="panels/menu/MenuTree" name="tree" centerPoint3DX="15" centerPoint3DY="8.25">
+                <DOMSymbolInstance libraryItemName="panels/menu/MenuTree" name="tree" selected="true" centerPoint3DX="15" centerPoint3DY="8.25">
                   <matrix>
                     <Matrix tx="13" ty="4.75"/>
                   </matrix>
@@ -18,7 +18,7 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="Scrollbar" color="#9933CC" locked="true" outline="true" useOutlineView="true" autoNamed="false">
+        <DOMLayer name="Scrollbar" color="#9933CC" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
@@ -34,11 +34,11 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="Background" color="#9933CC" locked="true" current="true" isSelected="true" autoNamed="false">
+        <DOMLayer name="Background" color="#9933CC" locked="true" autoNamed="false" visible="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="assets/TransparentSquare" name="background" selected="true" centerPoint3DX="110" centerPoint3DY="10">
+                <DOMSymbolInstance libraryItemName="assets/TransparentSquare" name="background" centerPoint3DX="110" centerPoint3DY="10">
                   <matrix>
                     <Matrix a="11"/>
                   </matrix>

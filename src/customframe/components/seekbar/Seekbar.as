@@ -1,12 +1,17 @@
 package customframe.components.seekbar
 {
 	import flash.display.Sprite;
-	import flash.events.*;
+	import flash.events.Event;
+	import flash.events.MouseEvent;
 	import flash.geom.ColorTransform;
 	import flash.text.TextField;
+	
+	import customframe.Frame;
 
-	import com.articulate.wg.v2_0.wgISlide;
-	import com.articulate.wg.v2_0.wgPlayerEvent;
+	import com.articulate.wg.v3_0.wgISlide;
+	import com.articulate.wg.v3_0.wgITimeline;
+	import com.articulate.wg.v3_0.wgEventFrame;
+	import com.articulate.wg.v3_0.wgEventTimeline;
 
 	/**
 	 * This is the logic for the Seekbar symbol in the library (/components/seekbar/Seekbar.)
@@ -31,6 +36,7 @@ package customframe.components.seekbar
 		public var progressRectangle:Sprite;
 		public var timeField:TextField;
 
+		private var m_oTimeline:wgITimeline = null;
 		private var m_oCurrentSlide:wgISlide = null;
 		private var m_nLastTime:int = -1;
 		private var m_bPlaying:Boolean = false;
@@ -64,40 +70,56 @@ package customframe.components.seekbar
 			this.background.width = value;
 		}
 
-		public function set PlayPauseButtonEnabled(value:Boolean):void
+		public function set Timeline(value:wgITimeline):void
 		{
-			m_bPlayPauseButtonEnabled = this.playPauseHitArea.mouseEnabled = value;
-			UpdateControls();
-		}
-
-		public function set ReplayButtonEnabled(value:Boolean):void
-		{
-			m_bReplayButtonEnabled = this.replayHitArea.mouseEnabled = value;
-			UpdateControls();
-		}
-
-		public function get CurrentSlide():wgISlide
-		{
-			return m_oCurrentSlide;
-		}
-
-		public function set CurrentSlide(value:wgISlide):void
-		{
-			if (m_oCurrentSlide != null)
-			{
-				m_oCurrentSlide.removeEventListener(wgPlayerEvent.SLIDE_UPDATE_TIMELINE, UpdateSlideStatus);
-			}
-
-			m_oCurrentSlide = value;
-			m_oCurrentSlide.addEventListener(wgPlayerEvent.SLIDE_UPDATE_TIMELINE, UpdateSlideStatus);
-			UpdateSlideStatus();
-
+			m_oTimeline = value;
+			m_oTimeline.addEventListener(wgEventTimeline.UPDATE_TIMELINE, UpdateTimelineStatus);
+			m_oTimeline.addEventListener(wgEventTimeline.TIMELINE_CHANGED, OnTimelineChanged);
+			
+			UpdateTimelineStatus();
+			
 			if (!m_bChildrenInited)
 			{
 				InitChildren();
 			}
 		}
+		
+		protected function InitChildren():void
+		{
+			this.playIcon.mouseEnabled = false;
+			this.pauseIcon.mouseEnabled = false;
+			this.playPauseHitArea.buttonMode = true;
+			this.playPauseHitArea.useHandCursor = true;
+			this.playPauseHitArea.addEventListener(MouseEvent.MOUSE_DOWN, PlayPauseHitArea_onClick);
+			this.playPauseHitArea.addEventListener(MouseEvent.ROLL_OVER, PlayPauseHitArea_onRollOver);
+			this.playPauseHitArea.addEventListener(MouseEvent.ROLL_OUT, PlayPauseHitArea_onRollOut);
 
+			this.replayIcon.mouseEnabled = false;
+			this.replayHitArea.buttonMode = true;
+			this.replayHitArea.useHandCursor = true;
+			this.replayHitArea.addEventListener(MouseEvent.MOUSE_DOWN, ReplayHitArea_onClick);
+			this.replayHitArea.addEventListener(MouseEvent.ROLL_OVER, ReplayHitArea_onRollOver);
+			this.replayHitArea.addEventListener(MouseEvent.ROLL_OUT, ReplayHitArea_onRollOut);
+			
+			this.progressBar.addEventListener(MouseEvent.MOUSE_DOWN, ProgressBar_onMouseDown);
+			this.progressBar.addEventListener(MouseEvent.MOUSE_OVER, ProgressBar_onMouseOver);
+			this.progressBar.addEventListener(MouseEvent.MOUSE_OUT, ProgressBar_onMouseOut);
+			
+			m_bChildrenInited = true;
+		}
+		
+		public function set PlayPauseButtonEnabled(value:Boolean):void
+		{
+			m_bPlayPauseButtonEnabled = this.playPauseHitArea.mouseEnabled = value;
+			UpdateControls();
+		}
+		
+		public function set ReplayButtonEnabled(value:Boolean):void
+		{
+			m_bReplayButtonEnabled = this.replayHitArea.mouseEnabled = value;
+			UpdateControls();
+		}
+		
 		protected function UpdateControls():void
 		{
 			this.playIcon.visible = m_bPlayPauseButtonEnabled && !m_bPlaying;
@@ -131,118 +153,62 @@ package customframe.components.seekbar
 			}
 		}
 
-		protected function InitChildren():void
+		protected function UpdateTime(evt:Event):void
 		{
-			this.playIcon.mouseEnabled = false;
-			this.pauseIcon.mouseEnabled = false;
-			this.playPauseHitArea.buttonMode = true;
-			this.playPauseHitArea.useHandCursor = true;
-			this.playPauseHitArea.addEventListener(MouseEvent.MOUSE_DOWN, PlayPauseHitArea_onClick);
-			this.playPauseHitArea.addEventListener(MouseEvent.ROLL_OVER, PlayPauseHitArea_onRollOver);
-			this.playPauseHitArea.addEventListener(MouseEvent.ROLL_OUT, PlayPauseHitArea_onRollOut);
-
-			this.replayIcon.mouseEnabled = false;
-			this.replayHitArea.buttonMode = true;
-			this.replayHitArea.useHandCursor = true;
-			this.replayHitArea.addEventListener(MouseEvent.MOUSE_DOWN, ReplayHitArea_onClick);
-			this.replayHitArea.addEventListener(MouseEvent.ROLL_OVER, ReplayHitArea_onRollOver);
-			this.replayHitArea.addEventListener(MouseEvent.ROLL_OUT, ReplayHitArea_onRollOut);
-			this.progressBar.addEventListener(MouseEvent.MOUSE_DOWN, ProgressBar_onMouseDown);
-
-			addEventListener(Event.ENTER_FRAME, OnEnterFrame);
-			m_bChildrenInited = true;
+			var nDuration:Number = m_oTimeline.Duration;
+			var nCurTime:Number = m_oTimeline.PlayHeadTime;
+			var nPercentPosition = Math.min(nCurTime / nDuration, 1);
+			this.progressMask.width = m_nProgressBarWidth * nPercentPosition;
+			this.timeField.text = nCurTime + " / " + nDuration;
+		}
+		
+		protected function OnTimelineChanged(evt:Event):void
+		{
+			UpdateTimelineStatus();
 		}
 
-		public function UpdateSlideStatus(evt:Event = null):void
+		protected function UpdateTimelineStatus(evt:Event = null):void
 		{
-			if (m_oCurrentSlide.TimelinePlaying != m_bPlaying)
+			if (m_oTimeline.TimelinePlaying)
 			{
-				if (m_oCurrentSlide.TimelinePlaying)
+				if (!m_bPlaying)
 				{
-					addEventListener(Event.ENTER_FRAME, OnEnterFrame);
+					m_bPlaying = true;
+					addEventListener(Event.ENTER_FRAME, UpdateTime);
 				}
-				else
+			}
+			else
+			{
+				if (m_bPlaying)
 				{
-					removeEventListener(Event.ENTER_FRAME, OnEnterFrame);
+					m_bPlaying = false;
+					removeEventListener(Event.ENTER_FRAME, UpdateTime);
 				}
 			}
 
-			m_bPlaying = m_oCurrentSlide.TimelinePlaying;
+			UpdateTime(null);
 			UpdateControls();
-			UpdateTime();
 		}
-
-		protected function ProgressBar_onMouseDown(event:MouseEvent):void
+		
+		public function TogglePlayPause():void
 		{
-			m_nLastTime = -1;
-			m_bSeekPlaying = m_oCurrentSlide.TimelinePlaying;
-			m_bSeekAnimationsPlaying = m_oCurrentSlide.AnimationsPlaying;
-
-			if (m_bSeekAnimationsPlaying)
+			if (m_bPlaying)
 			{
-				m_oCurrentSlide.PauseSlideAnimations();
+				m_oTimeline.PauseAnimations();
+				dispatchEvent(new wgEventFrame(wgEventFrame.PAUSE));
 			}
-
-			this.stage.addEventListener(MouseEvent.MOUSE_UP, ProgressBar_onMouseUp);
-			this.stage.addEventListener(MouseEvent.MOUSE_MOVE, ProgressBar_onMouseMove);
-			ProgressBar_onMouseMove(null);
-		}
-
-		protected function ProgressBar_onMouseMove(event:MouseEvent):void
-		{
-			var nPosition:int = m_oCurrentSlide.Duration *
-								(this.progressBar.mouseX * this.progressBar.scaleX / this.progressBar.width);
-
-			if (m_nLastTime != nPosition)
+			else
 			{
-				m_nLastTime = nPosition;
-				m_oCurrentSlide.SeekSlide(nPosition);
-				UpdateTime();
+				m_oTimeline.PlayAnimations();
+				dispatchEvent(new wgEventFrame(wgEventFrame.RESUME));
 			}
-		}
-
-		protected function ProgressBar_onMouseUp(event:MouseEvent):void
-		{
-			this.stage.removeEventListener(MouseEvent.MOUSE_UP, ProgressBar_onMouseUp);
-			this.stage.removeEventListener(MouseEvent.MOUSE_MOVE, ProgressBar_onMouseMove);
-
-			if (m_bSeekPlaying)
-			{
-				m_oCurrentSlide.PlayTimeline();
-			}
-		}
-
-		protected function OnEnterFrame(event:Event):void
-		{
-			UpdateTime();
-		}
-
-		protected function UpdateTime():void
-		{
-			if (m_oCurrentSlide!= null)
-			{
-				var nDuration:Number = m_oCurrentSlide.Duration;
-				var nCurTime:Number = m_oCurrentSlide.PlayHeadTime;
-				var nPercentPosition = Math.min(nCurTime / nDuration, 1);
-				this.progressMask.width = m_nProgressBarWidth * nPercentPosition;
-				this.timeField.text = nCurTime + " / " + nDuration;
-			}
+			UpdateTimelineStatus();
 		}
 
 		private function PlayPauseHitArea_onClick(event:MouseEvent):void
 		{
 			event.stopImmediatePropagation();
-
-			if (m_bPlaying)
-			{
-				m_oCurrentSlide.PauseSlideAnimations();
-			}
-			else
-			{
-				m_oCurrentSlide.PlaySlideAnimations();
-			}
-
-			UpdateSlideStatus();
+			TogglePlayPause();
 		}
 
 		private function PlayPauseHitArea_onRollOver(event:MouseEvent):void
@@ -261,7 +227,7 @@ package customframe.components.seekbar
 
 		protected function ReplayHitArea_onClick(evt:MouseEvent)
 		{
-			m_oCurrentSlide.ReplaySlide();
+			m_oTimeline.ReplayTimeline();
 		}
 
 		private function ReplayHitArea_onRollOver(event:MouseEvent):void
@@ -274,6 +240,64 @@ package customframe.components.seekbar
 		{
 			event.stopImmediatePropagation();
 			this.replayIcon.transform.colorTransform = DEFAULT_TRANSFORM;
+		}
+		
+		protected function  ProgressBar_onMouseOver(evt:Event)
+		{
+			var oSlide:wgISlide = Frame.CustomFrame.GetCurrentSlide();
+			if (oSlide.SlideLock)
+			{
+				Frame.CustomFrame.SetLockCursor(true);
+			}
+		}
+		
+		protected function  ProgressBar_onMouseOut(evt:Event)
+		{	
+			var oSlide:wgISlide = Frame.CustomFrame.GetCurrentSlide();
+			if (oSlide.SlideLock)
+			{
+				Frame.CustomFrame.SetLockCursor(false);
+			}
+		}
+
+		protected function ProgressBar_onMouseDown(event:MouseEvent):void
+		{
+			m_nLastTime = -1;
+			m_bSeekPlaying = m_oTimeline.TimelinePlaying;;
+			m_bSeekAnimationsPlaying = m_oTimeline.AnimationsPlaying;
+
+			if (m_bSeekAnimationsPlaying)
+			{
+				m_oTimeline.PauseAnimations();
+			}
+			this.stage.addEventListener(MouseEvent.MOUSE_UP, ProgressBar_onMouseUp);
+			this.stage.addEventListener(MouseEvent.MOUSE_MOVE, ProgressBar_onMouseMove);
+			ProgressBar_onMouseMove(null);
+		}
+
+		protected function ProgressBar_onMouseMove(event:MouseEvent):void
+		{
+			var oSlide:wgISlide = Frame.CustomFrame.GetCurrentSlide();
+			if (!oSlide.SlideLock)
+			{
+				var nPosition:int = m_oTimeline.Duration * (this.progressBar.mouseX * this.progressBar.scaleX / this.progressBar.width);
+				if (m_nLastTime != nPosition)
+				{
+					m_nLastTime = nPosition;
+					m_oTimeline.SeekTimeline(nPosition);
+					UpdateTime(null);
+				}
+			}
+		}
+
+		protected function ProgressBar_onMouseUp(event:MouseEvent):void
+		{
+			this.stage.removeEventListener(MouseEvent.MOUSE_UP, ProgressBar_onMouseUp);
+			this.stage.removeEventListener(MouseEvent.MOUSE_MOVE, ProgressBar_onMouseMove);
+			if (m_bSeekPlaying)
+			{
+				m_oTimeline.PlayTimeline();
+			}
 		}
 	}
 }

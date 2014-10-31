@@ -1,0 +1,27 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="panels/tabs/QuestionListLabel" itemID="528e8bf6-0000031a" symbolType="button" lastModified="1385417213" lastUniqueIdentifier="1">
+  <timeline>
+    <DOMTimeline name="QuestionListLabel" currentFrame="3">
+      <layers>
+        <DOMLayer name="Background" color="#4FFF4F" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="3" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="3" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="panels/tabs/Tab" selected="true" centerPoint3DX="51" centerPoint3DY="15">
+                  <matrix>
+                    <Matrix a="1.17051696777344" tx="8"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="15"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

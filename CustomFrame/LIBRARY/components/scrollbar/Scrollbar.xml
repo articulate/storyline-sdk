@@ -6,7 +6,7 @@
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="components/scrollbar/ScrollTrack" name="track" centerPoint3DX="7.5" centerPoint3DY="100">
+                <DOMSymbolInstance libraryItemName="components/scrollbar/ScrollTrack" name="track" selected="true" centerPoint3DX="7.5" centerPoint3DY="100">
                   <transformationPoint>
                     <Point x="7.5" y="100"/>
                   </transformationPoint>

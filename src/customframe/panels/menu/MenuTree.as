@@ -24,7 +24,7 @@ package customframe.panels.menu
 		{
 			return 0;
 		}
-
+		
 		public function get ExpandedHeight():Number
 		{
 			return m_nExpandedHeight;

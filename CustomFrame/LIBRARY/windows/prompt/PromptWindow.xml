@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="windows/prompt/PromptWindow" itemID="5243228b-00000429" linkageExportForAS="true" linkageClassName="customframe.windows.prompt.PromptWindow" scaleGridLeft="80" scaleGridRight="240" scaleGridTop="55" scaleGridBottom="126.75" lastModified="1381951442" lastUniqueIdentifier="4">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="windows/prompt/PromptWindow" itemID="5243228b-00000429" linkageExportForAS="true" linkageClassName="customframe.windows.prompt.PromptWindow" scaleGridLeft="80" scaleGridRight="240" scaleGridTop="55" scaleGridBottom="126.75" lastModified="1383253258" lastUniqueIdentifier="4" isSpriteSubclass="true">
   <timeline>
     <DOMTimeline name="PromptWindow">
       <layers>

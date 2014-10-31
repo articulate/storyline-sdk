@@ -1,8 +1,8 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="panels/tabs/PopUp Tab" itemID="50bff1ab-00000565" scaleGridLeft="21" scaleGridRight="63" scaleGridTop="13.75" scaleGridBottom="41.25" lastModified="1381171563">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="panels/tabs/PopUp Tab" itemID="50bff1ab-00000565" scaleGridLeft="21" scaleGridRight="63" scaleGridTop="13.75" scaleGridBottom="41.25" lastModified="1385073899">
   <timeline>
     <DOMTimeline name="PopUp Tab">
       <layers>
-        <DOMLayer name="Background" color="#4FFF4F" locked="true" current="true" isSelected="true" autoNamed="false">
+        <DOMLayer name="Background" color="#4FFF4F" current="true" isSelected="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
@@ -13,7 +13,7 @@
                     </FillStyle>
                   </fills>
                   <edges>
-                    <Edge fillStyle0="1" edges="!1680 120S1[1680 0 1560 0!1560 0|120 0!120 0[0 0 0 120!0 120|0 981!0 981[0 1100 120 1100!120 1100|1560 1100!1560 1100[1680 1100 1680 981!1680 981|1680 120"/>
+                    <Edge fillStyle0="1" edges="!1719 120[1719 0 1597 0!1597 0|123 0!123 0[0 0 0 120!0 120|0 981!0 981[0 1100 123 1100!123 1100|1597 1100!1597 1100[1719 1100 1719 981!1719 981|1719 120"/>
                   </edges>
                 </DOMShape>
               </elements>

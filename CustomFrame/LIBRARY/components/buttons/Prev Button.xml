@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="components/buttons/Prev Button" itemID="509c56ce-000002cb" symbolType="button" lastModified="1365196532" lastUniqueIdentifier="2">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="components/buttons/Prev Button" itemID="509c56ce-000002cb" symbolType="button" lastModified="1385003260" lastUniqueIdentifier="2">
   <timeline>
     <DOMTimeline name="Prev Button">
       <layers>
@@ -25,7 +25,7 @@
           <frames>
             <DOMFrame index="0" duration="4" keyMode="9728">
               <elements>
-                <DOMStaticText width="36" height="15" isSelectable="false">
+                <DOMStaticText width="36" height="15.05" isSelectable="false">
                   <matrix>
                     <Matrix tx="21.8" ty="7"/>
                   </matrix>
@@ -49,7 +49,7 @@
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="components/buttons/ButtonBackground Up" selected="true" symbolType="graphic" loop="loop">
+                <DOMSymbolInstance libraryItemName="components/buttons/ButtonBackground Up" symbolType="graphic" loop="loop">
                   <transformationPoint>
                     <Point x="35.5" y="15.5"/>
                   </transformationPoint>

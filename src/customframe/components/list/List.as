@@ -7,6 +7,7 @@ package customframe.components.list
 	import customframe.base.SizingSprite;
 	import customframe.components.scrollbar.CustomScrollbar;
 	import customframe.components.scrollbar.ScrollbarEvent;
+	import customframe.panels.sidebar.Sidebar;
 
 	/**
 	 * This is the logic for the List symbol in the library (/components/list/List.)
@@ -38,7 +39,6 @@ package customframe.components.list
 		override public function Redraw():void
 		{
 			var nWidth:int = m_nWidth;
-
 			if (this.scrollbar.ContentHeight > m_nHeight)
 			{
 				this.scrollbar.x = m_nWidth - this.scrollbar.width;

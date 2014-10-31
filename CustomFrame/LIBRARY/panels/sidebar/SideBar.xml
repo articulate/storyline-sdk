@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="panels/sidebar/SideBar" itemID="524322bc-00000431" linkageExportForAS="true" linkageClassName="customframe.panels.sidebar.Sidebar" scaleGridLeft="55" scaleGridRight="206" scaleGridTop="28" scaleGridBottom="32" lastModified="1381866682" lastUniqueIdentifier="21" isSpriteSubclass="true">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="panels/sidebar/SideBar" itemID="524322bc-00000431" linkageExportForAS="true" linkageClassName="customframe.panels.sidebar.Sidebar" scaleGridLeft="55" scaleGridRight="206" scaleGridTop="28" scaleGridBottom="32" lastModified="1385587290" lastUniqueIdentifier="21" isSpriteSubclass="true">
   <timeline>
     <DOMTimeline name="SideBar">
       <layers>
@@ -7,7 +7,7 @@
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="panels/tabs/NotesTabLabel" name="notesTabLabel" selected="true" symbolType="button">
+                <DOMSymbolInstance libraryItemName="panels/tabs/NotesTabLabel" name="notesTabLabel" symbolType="button">
                   <matrix>
                     <Matrix tx="146"/>
                   </matrix>
@@ -19,11 +19,11 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="Notes Tab" color="#4FFFFF" parentLayerIndex="0" current="true" isSelected="true" autoNamed="false">
+        <DOMLayer name="Notes Tab" color="#4FFFFF" parentLayerIndex="0" locked="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="panels/tabs/Tab" name="notesTab" selected="true" centerPoint3DX="183" centerPoint3DY="15" isVisible="false">
+                <DOMSymbolInstance libraryItemName="panels/tabs/Tab" name="notesTab" centerPoint3DX="183" centerPoint3DY="15" isVisible="false">
                   <matrix>
                     <Matrix a="1.00680541992188" tx="146"/>
                   </matrix>
@@ -96,11 +96,11 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="Menu" color="#4FFFFF" locked="true" autoNamed="false">
+        <DOMLayer name="Menu" color="#4FFFFF" current="true" isSelected="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="panels/menu/Menu" name="menu" centerPoint3DX="137.5" centerPoint3DY="6.3">
+                <DOMSymbolInstance libraryItemName="panels/menu/Menu" name="menu" selected="true" centerPoint3DX="137.5" centerPoint3DY="6.3">
                   <transformationPoint>
                     <Point x="137.75" y="47.5"/>
                   </transformationPoint>
@@ -126,7 +126,7 @@
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="panels/notes/Notes" name="notes" centerPoint3DX="114.5" centerPoint3DY="333">
+                <DOMSymbolInstance libraryItemName="panels/notes/Notes" name="notes" selected="true" centerPoint3DX="114.5" centerPoint3DY="333">
                   <transformationPoint>
                     <Point x="114.5" y="333"/>
                   </transformationPoint>

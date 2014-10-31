@@ -1,8 +1,8 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="components/seekbar/Seekbar" itemID="524322a5-0000042c" linkageExportForAS="true" linkageClassName="customframe.components.seekbar.Seekbar" lastModified="1381942145" lastUniqueIdentifier="12" isSpriteSubclass="true">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="components/seekbar/Seekbar" itemID="524322a5-0000042c" linkageExportForAS="true" linkageClassName="customframe.components.seekbar.Seekbar" lastModified="1382425406" lastUniqueIdentifier="12" isSpriteSubclass="true">
   <timeline>
     <DOMTimeline name="Seekbar">
       <layers>
-        <DOMLayer name="Pause Icon" color="#FF4FFF" locked="true" autoNamed="false">
+        <DOMLayer name="Pause Icon" color="#FF4FFF" current="true" isSelected="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
@@ -21,7 +21,7 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="Play  Icon" color="#FF800A" locked="true" autoNamed="false">
+        <DOMLayer name="Play  Icon" color="#FF800A" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
@@ -40,7 +40,7 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="PlayPause Hit Area" color="#FF4F4F" locked="true" autoNamed="false">
+        <DOMLayer name="PlayPause Hit Area" color="#FF4F4F" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
@@ -59,7 +59,7 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="Replay Icon" color="#4FFFFF" locked="true" autoNamed="false">
+        <DOMLayer name="Replay Icon" color="#4FFFFF" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
@@ -78,7 +78,7 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="Replay Hit Area" color="#4FFF4F" locked="true" autoNamed="false">
+        <DOMLayer name="Replay Hit Area" color="#4FFF4F" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
@@ -97,11 +97,11 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="Time" color="#9933CC" locked="true" autoNamed="false">
+        <DOMLayer name="Time" color="#9933CC" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMDynamicText name="timeField" selected="true" width="130" height="16.2" isSelectable="false">
+                <DOMDynamicText name="timeField" width="130" height="16.2" isSelectable="false">
                   <matrix>
                     <Matrix tx="59.05" ty="5.8"/>
                   </matrix>
@@ -118,7 +118,7 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="Mask" color="#4F80FF" locked="true" autoNamed="false" layerType="mask">
+        <DOMLayer name="Mask" color="#4F80FF" autoNamed="false" layerType="mask">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
@@ -134,7 +134,7 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="Progress Rectangle" color="#808080" parentLayerIndex="6" locked="true" autoNamed="false">
+        <DOMLayer name="Progress Rectangle" color="#808080" parentLayerIndex="6" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
@@ -153,7 +153,7 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="Progress Bar" color="#9933CC" locked="true" autoNamed="false">
+        <DOMLayer name="Progress Bar" color="#9933CC" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
@@ -169,11 +169,11 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="Background" color="#FF800A" locked="true" current="true" isSelected="true" autoNamed="false">
+        <DOMLayer name="Background" color="#FF800A" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="components/buttons/ButtonBackground Up" name="background" selected="true" centerPoint3DX="253.6" centerPoint3DY="15.5">
+                <DOMSymbolInstance libraryItemName="components/buttons/ButtonBackground Up" name="background" centerPoint3DX="253.6" centerPoint3DY="15.5">
                   <matrix>
                     <Matrix a="7.14312744140625"/>
                   </matrix>

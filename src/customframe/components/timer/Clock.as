@@ -2,7 +2,7 @@ package customframe.components.timer
 {
 	import flash.display.Sprite;
 
-	import com.articulate.wg.v2_0.wgITimer;
+	import com.articulate.wg.v3_0.wgITimer;
 
 	import customframe.base.CustomSprite;
 

@@ -1,8 +1,8 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="components/scrollbar/ScrollTrack" itemID="51494f69-00004f7b" lastModified="1380063552">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="components/scrollbar/ScrollTrack" itemID="51494f69-00004f7b" lastModified="1383862652">
   <timeline>
     <DOMTimeline name="ScrollTrack">
       <layers>
-        <DOMLayer name="Shape" color="#4FFF4F" locked="true" current="true" isSelected="true" autoNamed="false">
+        <DOMLayer name="Shape" color="#4FFF4F" current="true" isSelected="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
@@ -13,7 +13,7 @@
                     </FillStyle>
                   </fills>
                   <edges>
-                    <Edge fillStyle1="1" edges="!300 20|0 20!0 20|0 0!0 0|300 0!300 0|300 20"/>
+                    <Edge fillStyle1="1" edges="!300 20S2|0 20!0 20|0 0!0 0|300 0!300 0|300 20"/>
                   </edges>
                 </DOMShape>
               </elements>
